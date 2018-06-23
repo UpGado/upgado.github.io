@@ -20,5 +20,9 @@ Here is sample data that I collected from [Starmarket's website](https://shop.st
 
 Great. We got all this data. Now the interesting part: what do we do with it? 🤔 As all sentient beings, we want to maximize utility and minimizing expenditure. We know that utility is maximized if we consume exactly the right amount of calories in just the right nutrient proportion, 100%. We lose utility when we consume either more or less than the right amount. Using these two assumptions, we can express utility as a mathematical function of what the user consumes daily:
 
+$$ U(m) = - \sum_{n=1}^{num. nutrients} \mid percent(m, i) - 100 \mid $$
+
+where $ m $ is a meal (a bundle of food products), $ n $ is a nutrient among the ones we chose to consider, $ percent $ is a function that takes a meal and a nutrient and outputs the percent of a that nutrient that the meal contains. The way we defined $ U $ treats the maximum utility as $ 0 $ , and anything worse as just a negative number. Of course, $ U $ could be defined in other ways, but I let's keep it simple.
+
 
 <!-- {% include figure.html file="https://scontent.fnyc1-1.fna.fbcdn.net/v/t1.0-9/35972709_1964749230244402_345047270149849088_o.jpg?_nc_cat=0&oh=68c2f15de526a094e605d36c7bc3f8a7&oe=5BEB3B2F" description="Cool Figure 1: a decree by the mighty king" %} -->
