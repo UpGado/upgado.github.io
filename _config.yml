@@ -15,5 +15,7 @@ show_excerpts: false
 
 plugins:
     - jekyll-remote-theme
+    - jekyll-seo-tag
+    - jemoji
 
 remote_theme: jekyll/minima
