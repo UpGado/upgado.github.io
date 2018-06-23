@@ -5,11 +5,13 @@ permalink: /about/
 ---
 
 ### Life Manifesto
-I strive to be the best person I can be, which means I have to make the best decisions, waste the least time, and learn the most! My academic interests are specific and varied. You could say that they are ‘two sides,’ but I like to think that they are both connected.
+I strive to be the best person I can be, which means I have to make the best decisions, waste the least time, and learn the most. I believe in rationality and utilitarianism as the optimal means to approach life. As all rational beings, I try to maximize utility and minimize expenditure. I believe that open-mindedness is key to human survival. I do listen and engage with all opinions, however unpopular. I am not perfect nor am I a perfectionist, but I do constantly optimize.
 
 ### Academic Interests
-* Artificial Intelligence: It might very well be the next milestone in Human history. Why would I not want to be a part of this amazing field? I like buillding Robots. I also spend some of my time learning about Deep Learning and solving challenges I make for myself. As of the Summer of 2018, I am working on a [cool project](https://github.com/UpGado/tufts-very-smart-robots) in the Autonomous Intelligent Robotics (AIR) lab at Tufts University.
-* Biomedical Engineering: which is an amazing, inter-disciplinary field. and It could definitely benefit from advances in Computer Science! Think algorithms that outperform experienced doctors, robots that can do surgeries, and finally about percision medicine! Given the relatively higher barrier of entry into such fields, I have only recently began to get involved. I really love Biophotonics. I am conducting a project at the [Georgakoudi lab](http://engineering.tufts.edu/bme/georgakoudi/). I am excited to see how my CS I am also interested in Psychology and Economics and started reading up.
+* Artificial Intelligence: It might very well be the next milestone in Human history. Why would I not want to be a part of this amazing field? I have experience with programming many robots. I self-taught Deep Learning using free online resources, keeping up with new innovations, and having fun with independent projects. As of the Summer of 2018, I am working towards a publication in the Autonomous Intelligent Robotics (AIR) lab at Tufts University.
+* Biomedical Engineering: which is an amazing, interdisciplinary field that can benefit immensely from recent advances in Computer Science! People who combine programming experience (let alone AI experience) with BME are scarce. There is a gap there that will be filled with smart people and I will be one of them. Currently, I am learning so much about optics by working as a research assistant at the [Georgakoudi lab](http://engineering.tufts.edu/bme/georgakoudi/).
+
+I am also interested in Psychology and Economics, but these are just time-fillers for now.
 
 ### Hobbys
-In my free time, I like to drink coffee, meet interesting people, read interesting blogs, or sing in a high-pitched voice.
+I have lots of fun. I like to drink coffee, meet interesting people, or both. I like mountain biking and got bruises that can attest to that. If you live near me, you might be lucky to hear me singing in a mostly high-pitched voices. I play video games sometimes. I go on dates a lot..
