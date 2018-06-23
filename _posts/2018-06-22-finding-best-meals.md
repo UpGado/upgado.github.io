@@ -18,7 +18,7 @@ The last definition we have to make is a food product that you can buy. For each
 Here is sample data that I collected from [Starmarket's website](https://shop.starmarket.com/store/star-markets/storefront):
 
 
-Great. We got all this data. Now the interesting part: what do we do with it? 🤔 As all sentient beings, we want to maximize utility and minimizing expenditure. We know that utility is maximized if we consume exactly the right amount of calories in just the right nutrient proportion, 100%. We lose utility when we consume either more or less than the right amount. Using these two assumptions, we can express utility as a mathematical function:
+Great. We got all this data. Now the interesting part: what do we do with it? 🤔 As all sentient beings, we want to maximize utility and minimizing expenditure. We know that utility is maximized if we consume exactly the right amount of calories in just the right nutrient proportion, 100%. We lose utility when we consume either more or less than the right amount. Using these two assumptions, we can express utility as a mathematical function of what the user consumes daily:
 
 
 <!-- {% include figure.html file="https://scontent.fnyc1-1.fna.fbcdn.net/v/t1.0-9/35972709_1964749230244402_345047270149849088_o.jpg?_nc_cat=0&oh=68c2f15de526a094e605d36c7bc3f8a7&oe=5BEB3B2F" description="Cool Figure 1: a decree by the mighty king" %} -->
