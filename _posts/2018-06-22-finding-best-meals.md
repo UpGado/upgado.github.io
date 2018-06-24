@@ -22,7 +22,7 @@ Great. We got all this data. Now the interesting part: what do we do with it? ðŸ
 
 $$ U(m) = - \sum_{n=1}^{num. nutrients} \mid percent(m, i) - 100 \mid $$
 
-where $ m $ is a meal (a bundle of food products), $ n $ is a nutrient among the ones we chose to consider, $ percent $ is a function that takes a meal and a nutrient and outputs the percent of a that nutrient that the meal contains. The way we defined $ U $ treats the maximum utility as $ 0 $ , and anything worse as just a negative number. Of course, $ U $ could be defined in other ways, but I let's keep it simple.
+where $ m $ is the daily meal (a bundle of food products), $ n $ is a nutrient among the ones we chose to consider, $ percent $ is a function that takes a meal and a nutrient and outputs the daily percent of a that nutrient that the meal contains. The way we defined $ U $ treats the maximum utility as $ 0 $ , and anything worse as just a negative number. Of course, $ U $ could be defined in other ways, but I let's keep it simple. Here is what U looks like:
 
 
-<!-- {% include figure.html file="https://scontent.fnyc1-1.fna.fbcdn.net/v/t1.0-9/35972709_1964749230244402_345047270149849088_o.jpg?_nc_cat=0&oh=68c2f15de526a094e605d36c7bc3f8a7&oe=5BEB3B2F" description="Cool Figure 1: a decree by the mighty king" %} -->
+{% include figure.html file="/imgs/meal-1.png" description="Figure 1: Utility function of two nutrients" %}
