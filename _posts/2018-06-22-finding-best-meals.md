@@ -17,6 +17,12 @@ The last definition we have to make is a food product that you can buy. For each
 
 Here is sample data that I collected from [Starmarket's website](https://shop.starmarket.com/store/star-markets/storefront):
 
+| Name                                                | Fat % | Carbs % | Protein % | Number of servings | Price |
+|-----------------------------------------------------|-------|---------|-----------|--------------------|-------|
+| Hass avocado                                        | 32    | 4       | 5.3       | 1                  | $2    |
+| Old El Paso Flour Tortilla Shells                   | 5     | 9       | 5.3       | 5                  | $2.89 |
+| Signature Kitchen Diced Tomatoes With Green Chilies | 0     | 2       | 1.78      | 3.5                | $1.19 |
+| Black beans (from Stop&Shop)                        | 0     | 7       | 14.3      | 3.5                | $.5   |
 
 Great. We got all this data. Now the interesting part: what do we do with it? 🤔 As all sentient beings, we want to maximize utility and minimizing expenditure. We know that utility is maximized if we consume exactly the right amount of calories in just the right nutrient proportion, 100%. We lose utility when we consume either more or less than the right amount. Using these two assumptions, we can express utility as a mathematical function of what the user consumes daily:
 
