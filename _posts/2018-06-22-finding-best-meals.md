@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Finding the Best Deal on Food using MATLAB"
+title:  "Finding the Best Deal on Food using Data Science"
 date:   2018-06-22 23:00:00
 published: true
 ---
@@ -28,7 +28,7 @@ Great. We got all this data. Now the interesting part: what do we do with it? ðŸ
 
 $$ U(m) = - \sum_{n=1}^{num. nutrients} \mid percent(m, i) - 100 \mid $$
 
-where $ m $ is the daily meal (a bundle of food products), $ n $ is a nutrient among the ones we chose to consider, $ percent $ is a function that takes a meal and a nutrient and outputs the daily percent of a that nutrient that the meal contains. The way we defined $ U $ treats the maximum utility as $ 0 $ , and anything worse as just a negative number. Of course, $ U $ could be defined in other ways, but I let's keep it simple. Here is what U looks like:
+where $ m $ is the daily meal (a bundle of food products), $ n $ is a nutrient among the ones we chose to consider, $ percent $ is a function that takes a meal and a nutrient and outputs the daily percent of a that nutrient that the meal contains. The way we defined $ U $ treats the maximum utility as $ 0 $ , and anything worse as just a negative number. Of course, $ U $ could be defined in other ways, but I let's keep it simple. Here is what $ U $ looks like:
 
 
 {% include figure.html file="/imgs/meal-1.png" description="Figure 1: Utility function of two nutrients" %}
@@ -36,3 +36,13 @@ where $ m $ is the daily meal (a bundle of food products), $ n $ is a nutrient a
 Now, we turn our attention to the daily expenditure function, $ E $. The price of a meal is the sum of the individual prices of its components (duh). This could be expressed mathematically as:
 
 $$ E(m) = \sum_{i=1}^{num. components} price(i) * count(i) $$
+
+Now, we can firmly assert our problem as: given a table of product information, we want to find a bundle of products that has as small $ E $ as possible and as maximized $ U $ as possible. It is not exactly an easy job, but the optimal solution could be approximated. I bet you can think of some way to find a decent appeoximation. Maybe just look at each nutrient and pick the product with the highest amount of that nutrient per dollar. You will more likely end up with a meal that is better than a random pick. It might even be the best meal possible, given the standards that we defined so far.
+
+Well. Since we have come so far, why wouldn't we try to do better? In fact, can we do a perfect job? Can we really find that meal and be sure that it is the best meal given our choices? We can! and in fact, the algorithm for that is so easy to code: **Brute Force** (CS students: I see you laughing right now. Everybody else: don't worry I got you ðŸ¤  ). Brute force means that we look at each and every single meal possible (within our budget), calculate its respective $ U $ and $ E $ and then just find that one that gave us the best result.
+
+But let's wait a second just to mention one important limitation of this approach: it scales very badly. If we consider a little scenario: our stores only sells 5 products. Also, we can only buy 4 units of a product at max. How many meal choices can we make? Well. Once we walk by a product, we decide to buy either 0, 1, 2, 3, or 4 of it. And we make 5 of such decisions (one for each product). We end up with $ 5^5=3125 $ choices! Not too bad. A computer from the 2000s or even an older one can definitely do this. But let's see what happens to the number of choices if we increase the number of products:
+
+{% include figure.html file="/imgs/meal-2.png" description="Figure 2: I wish I could call this a slide, but unfortunately it's more like a steep mountain for us" %}
+
+The number of cases gets higher faster and faster. So, we really can't use brute force for a big number of products unless we want to wait for eternity before picking a meal! For our case though, it is perfectly okay to use brute force. Let's go ahead and see how long it takes for different numbers of products.
