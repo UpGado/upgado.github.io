@@ -45,4 +45,4 @@ But let's wait a second just to mention one important limitation of this approac
 
 {% include figure.html file="/imgs/meal-2.png" description="Figure 2: I wish I could call this a slide, but unfortunately it's more like a steep mountain for us" %}
 
-The number of cases gets higher faster and faster. So, we really can't use brute force for a big number of products unless we want to wait for eternity before picking a meal! For our case though, it is perfectly okay to use brute force. Let's go ahead and see how long it takes for different numbers of products.
+The number of cases gets higher faster and faster. So, we really can't use brute force for a big number of products unless we want to wait for eternity before picking a meal! For our case though, it is perfectly okay, even badass, to use brute force. Let's go ahead and see how long it takes for different numbers of products.
