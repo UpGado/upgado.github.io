@@ -7,11 +7,9 @@
   if (getURLParameter('babeitsme') == 1) {
   	console.log('ayt come in Ahmed!');
   } else {
-  	tag = "<script async src=\"https:\/\/www.googletagmanager.com\/gtag\/js?id=UA-121255316-1\"><\/script>";
-  	document.write(tag);
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-121255316-1');
+  	var _gaq=[["_setAccount","UA-121255316-2"],["_trackPageview"]];
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+	g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+	s.parentNode.insertBefore(g,s)}(document,"script"));
   }
 </script>
