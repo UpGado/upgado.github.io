@@ -8,11 +8,9 @@
   if (getURLParameter('babeitsme') == 1) {
   	console.log('ayt come in Ahmed!');
   } else {
-  	console.log('who are u, stranger?');
+  	window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-121255316-1');
   }
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-121255316-1');
 </script>
