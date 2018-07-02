@@ -28,6 +28,7 @@ def readfile(path):
                             float(row[4]),
                             float(row[5]))
             products.append(product)
+    labels = labels[1:-2] # remove non-nutritional info
     return products, labels
 
 def utility(rows):
