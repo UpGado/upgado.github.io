@@ -5,10 +5,10 @@ import pdb
 class Product(object):
     def __init__(self, name, fat, carbs, protein, servings, price):
         self.name = name
-        self.fat = fat
-        self.carbs = carbs
-        self.protein = protein
         self.servings = servings
+        self.fat = fat * servings
+        self.carbs = carbs * servings
+        self.protein = protein * servings
         self.price = price
 
     def to_vector(self):
