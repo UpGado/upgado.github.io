@@ -67,3 +67,5 @@ Of course, the idea of eating 20 loaves of tortilla shells is .. not very popula
 In the end, I am happy that you have read so far 😍. If you enjoyed reading, please share my website among your friends! I plan to continue writing articles in the future. If you have a topic you would like me to cover, I would be happy to hear it 😋.
 
 See you soon!
+
+{% include mailchimp.html source="meal-1" %}
