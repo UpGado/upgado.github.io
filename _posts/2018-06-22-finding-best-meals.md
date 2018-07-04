@@ -50,17 +50,19 @@ The number of cases gets higher faster and faster. So, we really can't use brute
 Here is what it thinks of a $4 / day meal:
 
 ```bash
-$ python3 food.py
-Input your max daily budget in dollars:
+python3 food.py
+What is your max daily budget in dollars?
 >>4
+What is your desired daily calorie intake?
+>>2000
 31 cases to consider, okay!
 Ayt Miss. Here is your $3.89 meal:
     - Old El Paso Flour Tortilla Shells: 1.0 units
     - Black beans: 2.0 units
-It gives you 25 fatpercent 94 carbspercent 127 proteinpercent
+It gives you 25 % fat 94 % carbs 127 % protein of your daily intake
 ```
 
-Of course, the idea of eating 20 loaves of tortilla shells is .. not very popular 😃. In fact, the program so far misses several factors that humans normally take into account when choosing their food. These factors include the "satiety index", or just how filly different foods are. It could also use data to understand how much of one food is okay for a human to eat per meal. For example, while beans are generally great, eating too much of them could cause digestive problems. How much? We need more data. Generally speaking, more data $ = $ smarter program. I bet that you, the reader, can think of one more "datum" that can be considered when choosing meals. 
+Of course, the idea of eating 20 loaves of tortilla shells is .. not very popular 😃. In fact, the program so far misses several factors that humans normally take into account when choosing their food. These factors include the "satiety index", or just how filly different foods are. It could also use data to understand how much of one food is okay for a human to eat per meal. For example, while beans are generally great, eating too much of them could cause digestive problems. How much? We need more data. Generally speaking, more data $ = $ smarter program. I bet that you, the reader, can think of one more "datum" that can be considered when choosing meals and will this program smarter.
 
 In the end, I am happy that you have read so far 😍. If you enjoyed reading, please share my website among your friends! I plan to continue writing articles in the future. If you have a topic you would like me to cover, I would be happy to hear it 😋.
 

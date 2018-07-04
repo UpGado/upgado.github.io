@@ -5,7 +5,7 @@ from data import utility
 from collections import defaultdict
 import pdb
 
-def brute_force(products, labels, budget):
+def brute_force(products, labels, budget, desiredpercent):
     numproducts = len(products)
     prices = [p.price for p in products]
     def combine(i,j):
@@ -42,7 +42,7 @@ def brute_force(products, labels, budget):
         result = np.matmul(cases, m)
         # calculate utility
         nutrients = result[:,0:4]
-        utils = utility(nutrients)
+        utils = utility(nutrients, desiredpercent)
 
         prices = result[:,4]
         return utils, prices
@@ -64,15 +64,20 @@ def brute_force(products, labels, budget):
     nutrients = np.matmul(bestcase, v)[0:3]
     msg = 'It gives you'
     for i in range(len(nutrients)):
-        msg = '%s %.0f %s' % (msg, nutrients[i], labels[i])
+        msg = '%s %.0f %% %s' % (msg, nutrients[i], labels[i])
+    msg = msg + ' of your daily intake'
     print(msg)
 
 if __name__ == '__main__':
     # read product data
     products, labels = data.readfile('datasets/starmarket.csv')
-    budget = input('Input your max daily budget in dollars:\n>>')
+    budget = input('What is your max daily budget in dollars?\n>>')
     budget = float(budget)
 
+    calories =input('What is your desired daily calorie intake?\n>>')
+    calories = float(calories)
+
+    desiredpercent = (calories / 2000) * 100
     # BRUTE FORCE POWER
-    brute_force(products, labels, budget)
+    brute_force(products, labels, budget, desiredpercent)
 

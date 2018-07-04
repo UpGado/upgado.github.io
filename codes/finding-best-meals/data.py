@@ -31,9 +31,9 @@ def readfile(path):
     labels = labels[1:-2] # remove non-nutritional info
     return products, labels
 
-def utility(rows):
+def utility(rows, desiredpercent):
     # calculates utility as in Eqn.1 in the article
     # rows: a matrix whose columns is daily percentages of nutrients eaten.
-    perfectrow = [100] * rows.shape[1]
+    perfectrow = [desiredpercent] * rows.shape[1]
     result = -np.absolute(rows - perfectrow)
     return np.sum(result, axis=1)
