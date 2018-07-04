@@ -64,12 +64,12 @@ def brute_force(products, labels, budget):
     nutrients = np.matmul(bestcase, v)[0:3]
     msg = 'It gives you'
     for i in range(len(nutrients)):
-        msg = '{} {} {}'.format(msg, nutrients[i], labels[i])
+        msg = '%s %.0f %s' % (msg, nutrients[i], labels[i])
     print(msg)
 
 if __name__ == '__main__':
     # read product data
-    products, labels = data.readfile('datasets/prices.csv')
+    products, labels = data.readfile('datasets/starmarket.csv')
     budget = input('Input your max daily budget in dollars:\n>>')
     budget = float(budget)
 
