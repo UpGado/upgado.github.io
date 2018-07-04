@@ -45,7 +45,7 @@ But let's wait a second just to mention one important limitation of this approac
 
 {% include figure.html file="/imgs/meal-2.png" description="Figure 2: I wish I could call this a slide, but unfortunately it's more like a steep mountain for us" %}
 
-The number of cases gets higher faster and faster. So, we really can't use brute force for a big number of products unless we want to wait for eternity before picking a meal! For our case though, it is perfectly okay, even badass I think, to use brute force 😈. The program is now all figured out! just need to put it into code, which I did. If you'd like to test it (or better yet improve it), you can find it [here](www.google.com).
+The number of cases gets higher faster and faster. So, we really can't use brute force for a big number of products unless we want to wait for eternity before picking a meal! For our case though, it is perfectly okay, even badass I think, to use brute force 😈. The program is now all figured out! just need to put it into code, which I did. If you'd like to test it (or better yet improve it), you can find it [here](https://github.com/UpGado/finding-best-meal).
 
 Here is what it thinks of a $4 / day meal:
 
