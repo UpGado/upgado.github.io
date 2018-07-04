@@ -45,11 +45,12 @@ But let's wait a second just to mention one important limitation of this approac
 
 {% include figure.html file="/imgs/meal-2.png" description="Figure 2: I wish I could call this a slide, but unfortunately it's more like a steep mountain for us" %}
 
-###### of course, the number of cases above is just a rough estimate. The real number of cases depends on the price of each individual item. If you are not satisfied by a brute-force solution, stay tuned for a subsequent article that will show an algorithm that figures this out elegantly! 😇
 
 The number of cases gets higher faster and faster. So, we really can't use brute force for a big number of products unless we want to wait for eternity before picking a meal! For our case though, it is perfectly okay, even badass I think, to use brute force 😈. The program is now all figured out! just need to put it into code, which I did. If you'd like to test it (or better yet improve it), you can find it [here](https://github.com/UpGado/finding-best-meal).
 
-Here is what it thinks of a $4 / day meal:
+(of course, brute force is just the "quick and dirty" solution. The real number of cases depends on the price of each individual item. If you are not satisfied by a brute-force solution, stay tuned for a subsequent article that will show an algorithm that figures this out elegantly! 😇 )
+
+For now, here is what it thinks of a $4 / day meal:
 
 ```bash
 $ python3 food.py
@@ -64,7 +65,7 @@ Ayt Miss. Here is your $3.89 meal:
 It gives you 25% fat 94% carbs 127% protein of your daily intake
 ```
 
-Of course, the idea of eating 20 loaves of tortilla shells is .. not very popular 😃. In fact, the program so far misses several factors that humans normally take into account when choosing their food. These factors include the "satiety index", or just how filly different foods are. It could also use data to understand how much of one food is okay for a human to eat per meal. For example, while beans are generally great, eating too much of them could cause digestive problems. How much? We need more data. Generally speaking, more data $ = $ smarter program. I bet that you, the reader, can think of one more "datum" that can be considered when choosing meals and will this program smarter.
+Of course, there is one big limitation here: The idea of eating 20 loaves of tortilla shells is .. not very popular 😃. In fact, the program so far misses several factors that humans normally take into account when choosing their food. These factors include the "satiety index", or just how filly different foods are. It could also use data to understand how much of one food is okay for a human to eat per meal. For example, while beans are generally great, eating too much of them could cause digestive problems. How much? We need more data. Generally speaking, more data $ = $ smarter program. I bet that you, the reader, can think of one more "datum" that can be considered when choosing meals and will this program smarter.
 
 In the end, I am happy that you have read so far 😍. If you enjoyed reading, please share my website among your friends! I plan to continue writing articles in the future. If you have a topic you would like me to cover, I would be happy to hear it 😋.
 
