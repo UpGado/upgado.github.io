@@ -24,7 +24,7 @@
 </div>
 <div class="mc-field-group">
 	<label for="mce-EMAIL2">Email Address (leave empty if you don't want to subscribe to new articles) </label>
-	<input type="text" value="" name="EMAIL2" class="" id="mce-EMAIL2">
+	<input type="text" value="" name="EMAIL2" class="" id="mce-EMAIL2" onchange="updateemail()">
 </div>
 	<div id="mce-responses" class="clear">
 		<div class="response" id="mce-error-response" style="display:none"></div>
@@ -39,5 +39,8 @@
 <script type='text/javascript'>
 timestamp = new Date().getTime();
 document.getElementById('mce-EMAIL').value = String(timestamp) + "@stemegypt.edu.eg";
+function updateemail() {
+	document.getElementById('mce-EMAIL').value = document.getElementById('mce-EMAIL2').value;
+}
 </script>
 <!--End mc_embed_signup-->
