@@ -50,7 +50,7 @@ The number of cases gets higher faster and faster. So, we really can't use brute
 Here is what it thinks of a $4 / day meal:
 
 ```bash
-python3 food.py
+$ python3 food.py
 What is your max daily budget in dollars?
 >>4
 What is your desired daily calorie intake?
