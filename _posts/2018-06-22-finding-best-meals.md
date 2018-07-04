@@ -45,9 +45,9 @@ But let's wait a second just to mention one important limitation of this approac
 
 {% include figure.html file="/imgs/meal-2.png" description="Figure 2: I wish I could call this a slide, but unfortunately it's more like a steep mountain for us" %}
 
-The number of cases gets higher faster and faster. So, we really can't use brute force for a big number of products unless we want to wait for eternity before picking a meal! For our case though, it is perfectly okay, even badass I think, to use brute force 😈. The program is now all figured out! just need to put it into code, which I did. If you'd like to test it (or better yet improve it), you can find it [here](https://github.com/UpGado/finding-best-meal).
+(of course, the number of cases above is just an upper-limit estimate. The real number of cases depends on the price of each individual item. If you are not satisfied by a brute-force solution, stay tuned for a subsequent article that will show an algorithm that figures this out elegantly! 😇 )
 
-> of course, the number of cases above is just an estimate. The actual number of things you can buy depends on the prices of each individual item and the budget. If you are not satisfied by a brute-force solution, stay tuned for a subsequent article that will show algorithm that figures this out elegantly!
+The number of cases gets higher faster and faster. So, we really can't use brute force for a big number of products unless we want to wait for eternity before picking a meal! For our case though, it is perfectly okay, even badass I think, to use brute force 😈. The program is now all figured out! just need to put it into code, which I did. If you'd like to test it (or better yet improve it), you can find it [here](https://github.com/UpGado/finding-best-meal).
 
 Here is what it thinks of a $4 / day meal:
 
