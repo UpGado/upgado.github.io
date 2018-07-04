@@ -51,8 +51,16 @@ Here is what it thinks of a $4 / day meal:
 
 {% include figure.html file="/imgs/meal-3.png" description="Figure 3: A meal" %}
 
+```bash
+$ python3 food.python3
+Input your max daily budge in dollars:
+>> 4
+35 cases to consider, okay!
+Ayt Miss. Here is your $4.0 meal:
+```
+
 Of course, the idea of eating 20 loaves of tortilla shells is .. not very popular 😃. In fact, the program so far misses several factors that humans normally take into account when choosing their food. These factors include the "satiety index", or just how filly different foods are. It could also use data to understand how much of one food is okay for a human to eat per meal. For example, while beans are generally great, eating too much of them could cause digestive problems. How much? We need more data. Generally speaking, more data $ = $ smarter program. I bet that you, the reader, can think of one more "datum" that can be considered when choosing meals. 
 
-In the end, I am happy that you have read so far 😍. If you enjoyed reading, please share my website among your friends! I plan to continue writing articles in the future. If you have a topic you would like me to cover, I would be happy to hear it 😋. My email is [ahmedehabg@gmail.com](mailto:ahmedehabg@gmail.com) 
+In the end, I am happy that you have read so far 😍. If you enjoyed reading, please share my website among your friends! I plan to continue writing articles in the future. If you have a topic you would like me to cover, I would be happy to hear it 😋.
 
 See you soon!
