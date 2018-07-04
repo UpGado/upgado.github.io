@@ -59,7 +59,7 @@ What is your desired daily calorie intake?
 Ayt Miss. Here is your $3.89 meal:
     - Old El Paso Flour Tortilla Shells: 1.0 units
     - Black beans: 2.0 units
-It gives you 25 % fat 94 % carbs 127 % protein of your daily intake
+It gives you 25% fat 94% carbs 127% protein of your daily intake
 ```
 
 Of course, the idea of eating 20 loaves of tortilla shells is .. not very popular 😃. In fact, the program so far misses several factors that humans normally take into account when choosing their food. These factors include the "satiety index", or just how filly different foods are. It could also use data to understand how much of one food is okay for a human to eat per meal. For example, while beans are generally great, eating too much of them could cause digestive problems. How much? We need more data. Generally speaking, more data $ = $ smarter program. I bet that you, the reader, can think of one more "datum" that can be considered when choosing meals and will this program smarter.
