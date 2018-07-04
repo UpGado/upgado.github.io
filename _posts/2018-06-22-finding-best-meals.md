@@ -68,4 +68,4 @@ In the end, I am happy that you have read so far 😍. If you enjoyed reading, p
 
 See you soon!
 
-{% include mailchimp.html source="meal-1" %}
+{% include mailchimp.html source="meal1" %}
