@@ -64,7 +64,7 @@ def brute_force(products, labels, budget, desiredpercent):
     nutrients = np.matmul(bestcase, v)[0:3]
     msg = 'It gives you'
     for i in range(len(nutrients)):
-        msg = '%s %.0f %% %s' % (msg, nutrients[i], labels[i])
+        msg = '%s %.0f%% %s' % (msg, nutrients[i], labels[i])
     msg = msg + ' of your daily intake'
     print(msg)
 
