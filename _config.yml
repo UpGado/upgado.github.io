@@ -18,5 +18,6 @@ plugins:
     - jekyll-seo-tag
     - jemoji
     - jekyll-sitemap
+    - jekyll-time-to-read
 
 remote_theme: jekyll/minima
