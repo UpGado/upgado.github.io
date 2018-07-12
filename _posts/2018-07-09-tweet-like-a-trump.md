@@ -15,11 +15,11 @@ Neural nets are a bit like *magic*. Let's consider the following example: you ha
 
 {% include figure.html file="/imgs/nn-1.png" description="Figure 1: A magic digit-classifier function" %}
 
-Now, we split this function into more and more functions. It is still magic, but a composite of many magic functions instead of just one.
+Next, we split this function into more and more functions. It is still magic, but a composite of many magic functions instead of just one.
 
 
 {% include figure.html file="/imgs/nn-2.png" description="Figure 2: A composite, magic digit-classifier function" %}
 
-
+Now, we make a few changes. Our functions become real. They become numerical (i.e: they take in some numbers and output one -and only one- number). We also start denoting them using circles.
 
 {% include mailchimp.html source="nn1" %}
