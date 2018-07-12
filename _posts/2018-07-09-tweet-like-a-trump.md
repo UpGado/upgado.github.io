@@ -26,7 +26,8 @@ Now, we make a an important change: Our functions become real. They become numer
 
 At this point, we start referring to our whole structure as a **neural net**. Each small function is now called a neuron, referring to a super-duper abstraction of what a biological neuron does. But it's okay. It's just a name. 😌
 
-Now the important question: how do we get this neural network to classify digits? We teach it. We show it what a 1 looks like, what a 2 looks like and so on. This is referred to as the *training step* and it is not necessarily an easy problem. Many people devout their lives to studying different "training algorithms" for neural nets. Luckily for us, we don't need to 😃 In most cases, these algorithms are freely available, yay.
+Now the important question: how do we get this neural network to classify digits? We teach it. We show it what a 1 looks like, what a 2 looks like and so on. This is referred to as the *training step* and it is not necessarily an easy problem. Many people devout their lives to studying different "training algorithms" for neural nets. Luckily for us, we don't need to. We'll just use their stuff 😃.
 
+## Tweet like Trump
 
 {% include mailchimp.html source="nn1" %}
