@@ -20,6 +20,10 @@ Next, we split this function into more and more functions. It is still magic, bu
 
 {% include figure.html file="/imgs/nn-2.png" description="Figure 2: A composite, magic digit-classifier function" %}
 
-Now, we make a few changes. Our functions become real. They become numerical (i.e: they take in some numbers and output one -and only one- number). We also start denoting them using circles.
+Now, we make a an important change: Our functions become real. They become numeric (i.e: they take in some numbers and output one -and only one- number). We also start denoting them using circles.
+
+{% include figure.html file="/imgs/nn-3.png" description="Figure 3: A composite, REAL digit-classifier function" %}
+
+At this point, we start referring to our function as a **neural net**. Each small function (circles in the diagram) is now called a neuron. 
 
 {% include mailchimp.html source="nn1" %}
