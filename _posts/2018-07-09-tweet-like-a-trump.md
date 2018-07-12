@@ -6,7 +6,7 @@ published: true
 draft: true
 ---
 
-> as the audience pointed out, posts from now on will be shorter. Enjoy. 😋
+> as of now, posts will be shorter. Enjoy. 😋
 
 Neural nets. You might have heard of them being celebrated in the media lately. They are the reason many computer programs that can now understand images, drive a car around or even synthetize music. While they do have the word "neuron" in them, they are only vaguely inspired by the human brain. So don't be scared, you don't need to know biology in order to understand how they work. Here, we explain how neural nets work and apply them to a cool example.
 
@@ -14,6 +14,12 @@ Neural nets. You might have heard of them being celebrated in the media lately. 
 Neural nets are a bit like *magic*. Let's consider the following example: you have an image of a handwritten digit. You can hypothesize a magic mathematical function that can take this image and then tell you what digit it thinks it is.
 
 {% include figure.html file="/imgs/nn-1.png" description="Figure 1: A magic digit-classifier function" %}
+
+Now, we split this function into more and more functions. It is still magic, but a composite of many magic functions instead of just one.
+
+
+{% include figure.html file="/imgs/nn-2.png" description="Figure 2: A composite, magic digit-classifier function" %}
+
 
 
 {% include mailchimp.html source="nn1" %}
