@@ -6,12 +6,14 @@ published: true
 draft: true
 ---
 
-Neural nets. You might have heard of them being celebrated in the media lately. Neural networks are the reason many computer programs that can now understand images, drive a car around or even synthetize music. While they do have the word "neuron" in them, they are only vaguely inspired by the human brain. So don't be scared, you don't need to know biology in order to understand how they work. 
+> as the audience pointed out, posts from now on will be shorter. Enjoy. 😋
+
+Neural nets. You might have heard of them being celebrated in the media lately. They are the reason many computer programs that can now understand images, drive a car around or even synthetize music. While they do have the word "neuron" in them, they are only vaguely inspired by the human brain. So don't be scared, you don't need to know biology in order to understand how they work. Here, we explain how neural nets work and apply them to a cool example.
 
 
-Here is how I think of neural nets: *magic*. Let's consider the following problem: you have an image of a handwritten digit, $0-9$. You also have a magic mathematical function that you can feed this image and then it tells you what digit it thinks it is.
+Neural nets are a bit like *magic*. Let's consider the following example: you have an image of a handwritten digit. You can hypothesize a magic mathematical function that can take this image and then tell you what digit it thinks it is.
 
-
+{% include figure.html file="/imgs/nn-1.png" description="Figure 1: A magic digit-classifier function" %}
 
 
 {% include mailchimp.html source="nn1" %}
