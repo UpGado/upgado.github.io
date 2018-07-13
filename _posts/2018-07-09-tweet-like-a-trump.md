@@ -29,7 +29,7 @@ Now, we make a an important change: Our functions become real. They become numer
 
 At this point, we start referring to our whole structure as a **neural net**. Each small function is now called a neuron, referring to a super-duper abstraction of what a biological neuron does. But it's okay. It's just a name 😌.
 
-Now the important question: how do we get this neural network (bunch of functions working together) to classify digits? We teach it. We show it what a 1 looks like, what a 2 looks like and so on. This is referred to as the *training* and it is not necessarily an easy problem. Many people devout their lives to studying different training algorithms for neural nets. Luckily for us, we don't need to; We'll just use their stuff 😃. Now that we have an idea of what a neural network is, let's apply it to a cool example: a neural net that can learn how President Trump tweets!
+Now the important question: how do we get this neural network (bunch of functions working together) to classify digits? **We teach it** 🤯. Training means that we show it what a 1 looks like, what a 2 looks like and so on. This is referred to as the *training* and it is not necessarily an easy problem. Many people devout their lives to studying different training algorithms for neural nets. Luckily for us, we don't need to; We'll just use their stuff 😃. Now that we have an idea of what a neural network is, let's apply it to a cool example: a neural net that can learn how President Trump tweets!
 
 ## Tweets like Trump
 
