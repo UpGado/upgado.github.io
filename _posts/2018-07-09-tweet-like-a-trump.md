@@ -5,7 +5,6 @@ date:   2018-07-09 14:00:00
 published: true
 draft: true
 ---
-> as of now, posts will be shorter. Enjoy. 😋
 
 Here, I show what a neural network is, and how we can use one to make a program that can generate Trump tweets 🤓
 
@@ -29,7 +28,9 @@ Now, we make a an important change: Our functions become real. They become numer
 
 At this point, we start referring to our whole structure as a **neural net**. Each small function is now called a neuron, referring to a super-duper abstraction of what a biological neuron does. But it's okay. It's just a name 😌.
 
-Now the important question: how do we get this neural network (bunch of functions working together) to classify digits? **We teach it** 🤯. Training means that we show it what a 1 looks like, what a 2 looks like and so on. This is referred to as the *training* and it is not necessarily an easy problem. Many people devout their lives to studying different training algorithms for neural nets. Luckily for us, we don't need to; We'll just use their stuff 😃. Now that we have an idea of what a neural network is, let's apply it to a cool example: a neural net that can learn how President Trump tweets!
+The important question: how do we get this neural network (bunch of functions working together) to classify digits? **We teach it** 🤯. To do so, we need many, many examples (aka a **dataset**) of handwritten digit images. Then, we "show" the neural network those images and "tell" it to create and develop its understanding of what digits look like. "Telling the neural net" is part of the magic I referred to earlier. But interestingly, as hard as it may sound, it is actually possible using simple Calculus rules. I won't get to the details; most people use readymade functions to train their neural networks. It's the power (and necessity) of abstraction 😜.
+
+Now that we have an idea of what a neural network is, let's apply it to a cool example: a neural net that can learn how President Trump tweets!
 
 ## Tweets like Trump
 
