@@ -6,7 +6,7 @@ published: true
 draft: true
 ---
 
-Here, I {{ content | reading_time_as_i }} show what a neural network is, and how we can use one to make a program that can generate Trump tweets 🤓
+Here, we learn what a neural network is, and how we can use one to make a program that can generate Trump tweets 🤓
 
 ## What is a neural net?
 
