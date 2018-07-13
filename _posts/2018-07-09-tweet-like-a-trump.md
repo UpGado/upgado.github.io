@@ -3,7 +3,7 @@ layout: post
 title:  "Teaching a neural net to tweet like Trump"
 date:   2018-07-09 14:00:00
 published: true
-draft: true
+draft: false
 ---
 
 Here, we learn what a neural network is, and how we can use one to make a program that can generate Trump tweets 🤓
