@@ -18,6 +18,8 @@ layout: default
 
   <div class="post-content e-content" itemprop="articleBody">
       {{ content }}
+
+      {% include mailchimp.html source={{page.title} %}
   </div>
 
   {%- if site.disqus.shortname -%}
