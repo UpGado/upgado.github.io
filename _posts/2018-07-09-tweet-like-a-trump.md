@@ -36,7 +36,7 @@ Now the important question: how do we get this neural network (bunch of function
 Now that we have an idea of what a neural network is, let's apply it to a cool example: a neural net that can learn how President Trump tweets! 😃 We use a flavor of neural nets called a Recurrent Neural Network (RNN).
 The main feature of RNNs is that they are stateful (aka, they have a memory). You can imagine that, if you engage in some kind of speech, what word you say depends on what the previous word is. Otherwise, speech wouldn't make sense. 
 
->> If you wish to further understand what RNNs are, here is an [ode about RNNs](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) by Andrew Karpathy, the director of AI at Tesla.
+> If you wish to further understand what RNNs are, here is an [ode](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) about RNNs by Andrew Karpathy, the director of AI at Tesla.
 
 
 
