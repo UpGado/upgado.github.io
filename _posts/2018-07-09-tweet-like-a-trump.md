@@ -29,15 +29,29 @@ Now, we make a an important change: Our functions become real. They become numer
 
 At this point, we start referring to our whole structure as a **neural net**. Each small function is now called a neuron, referring to a super-duper abstraction of what a biological neuron does. But it's okay. It's just a name 😌.
 
-Now the important question: how do we get this neural network (bunch of functions working together) to classify digits? We teach it. We show it what a 1 looks like, what a 2 looks like and so on. This is referred to as the *training* and it is not necessarily an easy problem. Many people devout their lives to studying different training algorithms for neural nets. Luckily for us, we don't need to. We'll just use their stuff 😃.
+Now the important question: how do we get this neural network (bunch of functions working together) to classify digits? We teach it. We show it what a 1 looks like, what a 2 looks like and so on. This is referred to as the *training* and it is not necessarily an easy problem. Many people devout their lives to studying different training algorithms for neural nets. Luckily for us, we don't need to; We'll just use their stuff 😃. Now that we have an idea of what a neural network is, let's apply it to a cool example: a neural net that can learn how President Trump tweets!
 
 ## Tweets like Trump
 
-Now that we have an idea of what a neural network is, let's apply it to a cool example: a neural net that can learn how President Trump tweets! 😃 We use a flavor of neural nets called a Recurrent Neural Network (RNN).
-The main feature of RNNs is that they are stateful (aka, they have a memory). You can imagine that, if you engage in some kind of speech, what word you say depends on what the previous word is. Otherwise, speech wouldn't make sense. 
+We use a flavor of neural nets called a Recurrent Neural Network (RNN). The main feature of RNNs is that they are stateful (aka, they have a memory). You can imagine that, if you engage in some kind of speech, you need memory. Otherwise, speech wouldn't make sense.
 
-> If you wish to further understand what RNNs are, here is an [ode](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) about RNNs by Andrew Karpathy, the director of AI at Tesla.
+(If you wish to further understand what RNNs are, here is a simple but long [post](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) about RNNs by Andrew Karpathy, the director of AI at Tesla.)
 
+Like we do for a digit-classifier, we need data to train the neural network. Donald Trump's tweets are widely [available](https://data.world/datacrunch/every-donald-trump-tweet) on the internet (apparently, many people are studying his tweets 🤠). Once we obtain the tweets, we use them to train the neural network. For the sake of simplicity, I won't include code here, but it is available if you contact me.
 
+Here is some sample results:
+```
+@magilennares I his puther stalted he cant waiting for the pathetic last night. In what when we will mees a more saying opponice today! #ImWithYou #MAGA
+#MakeAmericaGreatAgain https://t.co/T51raFaabJTha
+```
+```
+Mexico the show! #AmericaFirst #AmericaFirst #Trump2016 https://t.co/sTaCTRnIMA""@Trump2016Menines: @realDonaldTrump I am going to the real one in all of insiches on at things, hearts for honestide for you!
+```
+
+In my opinion, this is both fast and pretty cool 😃. We notice a couple of interesting results. The neural net learns to produce syntactically correct URLs, even though they point to nowhere. They also learn to use hashtags almost perfectly. One reason for this might be that hashtags show up more consistently than other words. This is a main drawback of neural nets: any biases in the training data will show up in the neural network behaviour. In our case, it is a non-consequential trouble. But in other cases, neural nets can acquire all the detrimental biases of humanity, including racism, sexism and others.
+
+All in all, neural networks are a big deal. They come with their caveats, as we have seen. But, when used wisely, they can achieve awesome feats. 
+
+Peace out.
 
 {% include mailchimp.html source="nn1" %}
