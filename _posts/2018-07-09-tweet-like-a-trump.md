@@ -54,4 +54,7 @@ All in all, neural networks are a big deal. They come with their caveats, as we 
 
 Peace out.
 
+{% include figure.html file="/imgs/nn-4.png" description="Figure 4: A picture with Andrej Karpathy, the director of AI at Tesla (a cool guy. he is probably friends with Elon Musk). I just thought that the picture is relevant. 😅🌝" %}
+
+
 {% include mailchimp.html source="nn1" %}
