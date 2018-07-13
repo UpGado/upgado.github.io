@@ -48,7 +48,7 @@ Here is some sample results:
 Mexico the show! #AmericaFirst #AmericaFirst #Trump2016 https://t.co/sTaCTRnIMA""@Trump2016Menines: @realDonaldTrump I am going to the real one in all of insiches on at things, hearts for honestide for you!
 ```
 
-In my opinion, this is both fast and pretty cool 😃. We notice a couple of interesting results. The neural net learns to produce syntactically correct URLs, even though they point to nowhere. They also learn to use hashtags almost perfectly. One reason for this might be that hashtags show up more consistently than other words. This reflects one main drawback of neural nets: any biases in the training data will show up in the neural network behaviour. In our case, it is a small, non-consequential issue. But in other cases, neural nets can acquire all the detrimental biases of humanity, including racism, sexism and other bad stuff.
+In my opinion, this is both fast and pretty cool 😃. We notice a couple of interesting results. The neural net learns to produce syntactically correct URLs, even though they point to nowhere. They also learn to use hashtags almost perfectly. One reason for this might be that hashtags show up more consistently than other words. This reflects one main drawback of neural nets: any biases in the training data will show up in the neural network behaviour. In our case, it is a small, non-consequential issue. But in other cases, neural nets can acquire all the detrimental biases of humanity, including racism, sexism and other bad stuff. ☹️
 
 All in all, neural networks are a big deal. They come with their caveats, as we have seen. But, when used wisely, they can achieve awesome feats. Stay hopeful and excited.
 
