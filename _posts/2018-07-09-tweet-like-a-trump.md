@@ -35,7 +35,7 @@ Now the important question: how do we get this neural network (bunch of function
 
 We use a flavor of neural nets called a Recurrent Neural Network (RNN). The main feature of RNNs is that they are stateful (aka, they have a memory). You can imagine that, if you engage in some kind of speech, you need memory. Otherwise, speech wouldn't make sense.
 
-(If you wish to further understand what RNNs are, here is a simple but long [post](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) about RNNs by Andrew Karpathy, the director of AI at Tesla.)
+(If you wish to further understand what RNNs are, here is a simple but long [post](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) about RNNs by Andrej Karpathy, the director of AI at Tesla.)
 
 Like we do for a digit-classifier, we need data to train the neural network. Donald Trump's tweets are widely [available](https://data.world/datacrunch/every-donald-trump-tweet) on the internet (apparently, many people are studying his tweets 🤠). Once we obtain the tweets, we use them to train the neural network. For the sake of simplicity, I won't include code here, but it is available if you contact me.
 
@@ -45,16 +45,16 @@ Here is some sample results:
 #MakeAmericaGreatAgain https://t.co/T51raFaabJTha
 ```
 ```
-Mexico the show! #AmericaFirst #AmericaFirst #Trump2016 https://t.co/sTaCTRnIMA""@Trump2016Menines: @realDonaldTrump I am going to the real one in all of insiches on at things, hearts for honestide for you!
+Mexico the show! #AmericaFirst #Trump2016 https://t.co/sTaCTRnIMA""@Trump2016Menines: @realDonaldTrump I am going to the real one in all of insiches on at things, hearts for honestide for you!
 ```
 
 In my opinion, this is both fast and pretty cool 😃. We notice a couple of interesting results. The neural net learns to produce syntactically correct URLs, even though they point to nowhere. They also learn to use hashtags almost perfectly. One reason for this might be that hashtags show up more consistently than other words. This reflects one main drawback of neural nets: any biases in the training data will show up in the neural network behaviour. In our case, it is a small, non-consequential issue. But in other cases, neural nets can acquire all the detrimental biases of humanity, including racism, sexism and other bad stuff. ☹️
 
-All in all, neural networks are a big deal. They come with their caveats, as we have seen. But, when used wisely, they can achieve awesome feats. Stay hopeful and excited.
+All in all, neural networks are a big deal. They come with their caveats, as we have seen. But, when used wisely, they can achieve awesome feats. So stay hopeful and excited, friends 😉.
 
 Peace out.
 
-{% include figure.html file="/imgs/nn-4.png" description="Figure 4: A picture with Andrej Karpathy, the director of AI at Tesla (he is probably friends with Elon Musk). I just thought that the picture is relevant. 😅🌝" %}
+{% include figure.html file="/imgs/nn-4.png" description="Figure 4: A picture with Andrej Karpathy, the director of AI at Tesla (he is probably friends with Elon Musk). I just thought that the picture is relevant. 🌝" %}
 
 
 {% include mailchimp.html source="nn1" %}
