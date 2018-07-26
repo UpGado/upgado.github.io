@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Finding the Best Deal on Food using Data Science"
+title:  "Finding the best deal on food using data science"
 date:   2018-06-22 23:00:00
 published: true
 ---
