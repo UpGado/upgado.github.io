@@ -22,7 +22,8 @@ At this point, please don't get disheartened. Reality does sometimes seem too ha
 What I propose as the real elixir for life is **following your *triggers***, whatever it takes to drive us forward. Those triggers won't be simple, and they won't necessarily revolve around one academic subject or sport. As a fact of the matter, our triggers will seem to change over time. On some days, you might feel that your ego that drives you forward. On other days, it might be the exact opposite. However, I propose that there are a set of triggers that do not change. These triggers truly represent who we are as individuals. The sooner you find them and act to satisfy them, the more driven you will be in the long term, and the better you will feel when circumstances change. 
 
 As an ending note, I would like to mention one quote that I find inspiring:
-> With great responsiblity comes great power
+> With great responsiblity comes great power - The subtle art of not giving a f-ck.
+
 The more we take responsibility for improving our lives, the more power we feel over them and the faster and easier we can improve. If you find yourself blaming circumstances, you didn't find your triggers yet.
 
 {% include mailchimp.html source="passion1" %}
