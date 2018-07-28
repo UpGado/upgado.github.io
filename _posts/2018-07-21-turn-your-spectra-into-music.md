@@ -16,6 +16,8 @@ Well.. this one is definitely one of the simpler ones. Spectra can look much mor
 
 {% include figure.html file="/imgs/spc2.png" description="Figure 2: Absorption spectra of some weird complex human tissue" %}
 
+Ever wonder what these spectra would sound like? Well.. at least I did. The goal is simple: make a sound that is representative of the characteristics and important features of spectra. Luckily, I live with TWO homies who study music. But honestly, let's see what I can make now. Maybe I'll solicit their help for making the sound to resemble "good" music.
+
 
 
 {% include mailchimp.html source="spc1" %}
