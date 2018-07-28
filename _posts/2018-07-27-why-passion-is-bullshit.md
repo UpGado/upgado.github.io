@@ -19,5 +19,10 @@ One Google search yields the answer: "Passion is something (Singing, Dancing, Pr
 ## Well, G what is the alternative?
 
 At this point, please don't get disheartened. Reality does sometimes seem too harsh, but it never hurts to learn it. The sooner you get rid of the idea of a passion, the better you will be able to cope with life changes, and the less you entitled you will feel -- all-together good things. 
-What I propose as the real elixir for life is **following your *triggers***, whatever it takes to drive us forward. Those triggers won't be simple, and they won't necessarily revolve around one academic subject or sport. As a fact of the matter, our triggers will seem to change over time. On some days, you might feel that your ego that drives you forward. On other days, it might be the exact opposite. However, I propose that there are a set of triggers that do not change. These triggers truly represent who we are as individuals. The sooner you find them and act to serve them, the more satisfaction you will feel in the long term. 
+What I propose as the real elixir for life is **following your *triggers***, whatever it takes to drive us forward. Those triggers won't be simple, and they won't necessarily revolve around one academic subject or sport. As a fact of the matter, our triggers will seem to change over time. On some days, you might feel that your ego that drives you forward. On other days, it might be the exact opposite. However, I propose that there are a set of triggers that do not change. These triggers truly represent who we are as individuals. The sooner you find them and act to satisfy them, the more driven you will be in the long term, and the better you will feel when circumstances change. 
+
+As an ending note, I would like to mention one quote that I find inspiring:
+> With great responsiblity comes great power
+The more we take responsibility for improving our lives, the more power we feel over them and the faster and easier we can improve. If you find yourself blaming circumstances, you didn't find your triggers yet.
+
 {% include mailchimp.html source="passion1" %}
