@@ -6,8 +6,10 @@ published: true
 draft: true
 ---
 
-[caution: what follows is mainly my opinion, which may or may not be held by my employer. I just don't know so don't assume anything. No, I don't lead a cult.]
+[caution: what follows is mainly my opinion and does not necessarily represent my employer. So don't assume anything. No, I don't lead a cult.]
 
+{% include figure.html file="http://www.success.com/sites/default/files/12_5.jpg" description="Figure 1: Find your passion bullshit" %}
 
+Passion is a word that is thrown around a lot. In a way or another, many people present it as the elixir of 
 
 {% include mailchimp.html source="passion1" %}
