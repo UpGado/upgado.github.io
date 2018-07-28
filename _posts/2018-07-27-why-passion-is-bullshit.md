@@ -24,6 +24,6 @@ What I propose as the real elixir for life is **following your *triggers***, wha
 As an ending note, I would like to mention one quote that I find inspiring:
 > With great responsiblity comes great power - The subtle art of not giving a f-ck.
 
-The more we take responsibility for improving our lives, the more power we feel over them and the faster and easier we can improve. If you find yourself blaming circumstances, you didn't find your triggers yet.
+The more we take responsibility for improving our lives, the more power we exert over them and the faster and easier we can improve. If you find yourself blaming circumstances and complaining about not finding your passion yet, you might have better luck buying into the trigger-theory.
 
 {% include mailchimp.html source="passion1" %}
