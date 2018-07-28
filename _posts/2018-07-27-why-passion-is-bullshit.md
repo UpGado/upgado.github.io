@@ -6,5 +6,8 @@ published: true
 draft: true
 ---
 
+[caution: what follows is mainly my opinion, which may or may not be held by my employer. I just don't know so don't assume anything. No, I don't lead a cult.]
+
+
 
 {% include mailchimp.html source="passion1" %}
