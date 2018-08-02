@@ -22,6 +22,8 @@ I propose that switch to a more tangible realm: the theory of triggers. Triggers
 
 Those triggers won't necessarily be simple to find, and they certainly won't revolve around just one academic subject or a sport. The good news is: to find them, all you need to do is look around, analyze your current conditions and be aware of what it takes to make you happy and productive. It does take some effort to teach yourself to do so regularly. But the payoff is worth it. These triggers are what truly represents who we are as individuals. The sooner you find them and act to satisfy them, the more driven you will be in the long term.
 
+{% include figure.html file="/imgs/passion-1.png" description="" %}
+
 ---
 
 
