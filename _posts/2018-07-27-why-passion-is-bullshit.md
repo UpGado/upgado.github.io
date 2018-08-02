@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Why the idea of a one passion is bullshit"
-date:   2018-07-27 21:21:31
+date:   2018-08-02 04:17:50
 published: true
-draft: true
+draft: false
 ---
 
 Passion is a word that is thrown around a lot. In one way or another, people present it as the elixir of life satisfaction or even ultimate life happiness. But really is it? I believe that the idea of a passion is a lie and that it is actually dangerous to believe in it. Passion is an illusion that drives us away from our true potential and leaves us clueless when circumstances change.
