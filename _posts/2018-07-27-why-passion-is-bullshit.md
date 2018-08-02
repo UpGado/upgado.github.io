@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why the idea of a one passion is bullshit"
+title:  "Why the idea of a passion is bullshit"
 date:   2018-08-02 04:17:50
 published: true
 draft: false
