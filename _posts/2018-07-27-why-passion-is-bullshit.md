@@ -6,24 +6,24 @@ published: true
 draft: true
 ---
 
-Passion is a word that is thrown around a lot. In a way or another, many people present it as the elixir of life satisfaction or even ultimate life happiness. But really is it? In this post I show why passion is a lie and why nonetheless we are tempted to buy into it. I will also show the real alternative to what passion is supposed to provide.
+Passion is a word that is thrown around a lot. In one way or another, people present it as the elixir of life satisfaction or even ultimate life happiness. But really is it? I believe that the idea of a passion is a lie and that it is actually dangerous to believe in it. Passion is an illusion that drives us away from our true potential and leaves us clueless when circumstances change.
 
-[caution: what follows is mainly my opinion and does not necessarily represent my employer. So don't assume anything. No, I don't lead a cult.]
+**[caution: what follows is mainly my opinion and does not necessarily represent my employer. 🙄]**
 
-{% include figure.html file="http://www.success.com/sites/default/files/12_5.jpg" description="Figure 1: Sample find your passion bullshit" %} 
+## Why you will never find your passion
 
-## WTH is passion anyway?
+When people talk about passion, they almost always mentioned "that one thing" that somehow will absorb your attention while giving you happiness along the way. In fact, psychologists refer to this state as "flow" and it is both real and good. However, it is wrong to think that flow will (flow 😋) from a specific set of activities. It is just a simplistic assumption. You might very well enjoy some aciviity - say coding. You go and "write code" whenever you got spare time. Heck you even skip your classes to stay at your dorm and work on fun projects. However, don't be fooled my friend. Chances are that current circumstances prime you to enjoy that activity, just like a professor can make you like a subject that you detested before and another professor can do the reverse. I don't think there is such thing as helping someone "find their passion"; it is more like they provide you with an environment that allows you to enjoy learning that subject or doing that activity. The key is *taking circumstances into account.*
 
-One Google search yields the answer: "Passion is something (Singing, Dancing, Programming, Running, writing, etc.) that you never get bored of and love doing. It is something that you do, not just looking out for monetary returns or benefits." This definition, and many others, have a major shortcoming: they over simplify to a dangerous level. For example, you might enjoy programming so much that you just feel happy and at peace when your code works. But ask yourself: under what circumstances are you willing to keep programming? What if the computer you are using suddenly is slow? Or more realistically, you get a boss who micro-manages all your code: telling you what technologies to use and how and where to learn them. This reality check serves to show us circumstances that we take for granted. While the idea of a passion might seem too real that it is somehow ingrained in who you are, it is important to realize passions last as long as circumstances do.
+Ask yourself: under what circumstances are you willing to happily and joyfully keep doing that you deem as your passion? I have come to learn recently that circumstances do matter. As your environment, boss, resources, etc. change, the activities that bring you to flow will change as well. So, it is important not to fixate on one or really any set of "passions" that you might think you have.
 
-## Well, G what is the alternative?
+## Well G, what is the alternative?
 
-At this point, please don't get disheartened. Reality does sometimes seem too harsh, but it never hurts to learn it. The sooner you get rid of the idea of a passion, the better you will be able to cope with life changes, and the less you entitled you will feel -- all-together good things. 
-What I propose as the real elixir for life is **following your *triggers***, whatever it takes to drive us forward. Those triggers won't be simple, and they won't necessarily revolve around one academic subject or sport. As a fact of the matter, our triggers will seem to change over time. On some days, you might feel that your ego that drives you forward. On other days, it might be the exact opposite. However, I propose that there are a set of triggers that do not change. These triggers truly represent who we are as individuals. The sooner you find them and act to satisfy them, the more driven you will be in the long term, and the better you will feel when circumstances change. 
+I propose that switch to a more tangible realm: the theory of triggers. Triggers are simply the things that get you going. Look back to a time when you were so focused on the task at hand that nothing else seemed to matter except for achieving your goal. Now think about the elements that together formed this experience. What was there that kept you going, other than the nature of the task itself? For some people, it might be something as simple as being challenged by your manager and wanting to prove themselves. For others, it could be a mixture of interest, monetary motivation, or the prospect of a promotion. These triggers, however simple or complex they might be, are what keep you in the state of flow. You should always seek to replicate them if you want to live a productive life.
 
-As an ending note, I would like to mention one quote that I find inspiring:
-> With great responsiblity comes great power - The subtle art of not giving a f-ck.
+Those triggers won't necessarily be simple to find, and they certainly won't revolve around just one academic subject or a sport. The good news is: to find them, all you need to do is look around, analyze your current conditions and be aware of what it takes to make you happy and productive. It does take some effort to teach yourself to do so regularly. But the payoff is worth it. These triggers are what truly represents who we are as individuals. The sooner you find them and act to satisfy them, the more driven you will be in the long term.
 
-The more we take responsibility for improving our lives, the more power we exert over them and the faster and easier we can improve. If you find yourself blaming circumstances and complaining about not finding your passion yet, you might have better luck buying into the triggers-theory.
+---
+
+
 
 {% include mailchimp.html source="passion1" %}
