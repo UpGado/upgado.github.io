@@ -26,6 +26,4 @@ Those triggers won't necessarily be simple to find, and they certainly won't rev
 
 ---
 
-
-
 {% include mailchimp.html source="passion1" %}
