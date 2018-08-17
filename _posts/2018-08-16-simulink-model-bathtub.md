@@ -38,7 +38,7 @@ I think the diagram is mostly self-explanatory, so I won't repeat information ju
 
 Next, we model the two processes through which the parts interact. Firstly, The water tap provides the bathtub with water at a specific rate. To determine this rate, we assume that the water tap works in a linear fashion: the water output varies linearly with the output knob rotation. Moreover, we assume that the maximum water output depends on the temperature the tap is set to (i.e: the tap has provide different amounts of "hot" and "cold" water). If this mixing happens in a linear fashion (which it should because it's just a valve), the maximum water output rate at the current temperature can be calculated by linear interpolation, which is the complex-looking part of the otherwise-simple formula:
 
-$$ WO(t) = P.O(t) * [ (1 - P.TC(t)) * (P.HO) + (P.TC) * (P.CO)] $$
+$$ P.WO(t) = P.O(t) * [ (1 - P.TC(t)) * (P.HO) + (P.TC) * (P.CO)] $$
 
 Second is the water drain problem, which is quite simple if we consider the bathtub as an open system. Total mass is conserved and total energy of the water is conserved. When an amount of water drains out of the bathtub, its gravitational potential energy is converted into kinetic energy.
 
@@ -54,9 +54,13 @@ Interestingly, the velocity of the water leaving the bathtub is independent of t
 
 $$ D.WO = D.A * sqrt(2gh) $$
 
-Finally, we multiply this value by the position of the drain knob, which effectively reduces the area of the drain:
+Then, we multiply this value by the position of the drain knob, which effectively reduces the area of the drain:
 
 $$ D.WO = D.O * D.A * sqrt(2gh) $$
+
+Finally, we use these two water volume rates to calculate the volume of the water in the bathtub. This is done by integrating the difference between the two values by time:
+
+$$ B.V = \int_{t=0}^{t} P.WO(t) - D.WO(t) dt + C $$
 
 
 # "Coding" in Simulink
