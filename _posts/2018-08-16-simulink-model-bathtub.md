@@ -12,6 +12,7 @@ This summer I had a new, relaxing hobby. I lie in the bathtub for hours with my 
 # Bathtub as a system
 
 ** Defining goals **
+
 The first and foremost step for defining a model is to determine its goals as concisely as possible. From my experience working on diverse projects, goals are valuable because they help you avoid any kind of existential crisis while working on a project. Therefore, when defining goals it is important to state what you're really after, the essence and true value of your product. The more concise and focused the goals are, the more smooth your experience will be developing a project. Moreover, when you get faced with design choices (and you will), goals can serve as guidelines that aid decision-making.
 
 The goals of this project are:
@@ -23,6 +24,7 @@ The goals of this project are:
 	- Keep water level at a specified desired level.
 
 ** A diagram **
+
 I started by drawing a diagram that shows the key parts of the bathtub system, the important variables that describe their state and their behaviour, and the processes through which they interact.
 
 
