@@ -30,7 +30,7 @@ I started by drawing a diagram that shows the key parts of the bathtub system, t
 
 I think the diagram is mostly self-explanatory, so I won't repeat information just for the sake of time. It is worth mentioning that the above variables are not the only ones: there are importants constants such as the physical dimensions of the bathtub, the water output rate of the tap, and the water drain rate. These numbers are indispensable for getting a good accuracy for the model, so I made sure to measure them as accurately as possible. Here is a comprehensive list of the variables for this model:
 
-{% include figure.html file="/imgs/simulink-2.png" description="Figure 2: Variables of the system" width = "50%" %}
+{% include figure.html file="/imgs/simulink-2.png" description="Figure 2: Variables of the system" width = "40%" %}
 
 
 
