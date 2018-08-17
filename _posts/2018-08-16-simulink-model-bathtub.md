@@ -43,8 +43,11 @@ $$ WO(t) = P.O(t) * [ (1 - P.TC(t)) * (P.HO) + (P.TC) * (P.CO)] $$
 Second is the water drain problem, which is quite simple if we consider the bathtub as an open system. Total mass is conserved and total energy of the water is conserved. When an amount of water drains out of the bathtub, its gravitational potential energy is converted into kinetic energy.
 
 $$ GPE = KE $$
+
 $$ mgh = 0.5mv^2 $$
+
 $$ 2gh = v^2 $$
+
 $$ v = sqrt(2gh) $$
 
 # "Coding" in Simulink
