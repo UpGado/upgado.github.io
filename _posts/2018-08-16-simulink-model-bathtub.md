@@ -10,7 +10,9 @@ draft: true
 This summer I had a new, relaxing hobby. I lie in the bathtub for hours with my eyes closed. To relax, I don't think about anything: complete silence in my mind. Well, still my senses were working, and they were telling me that the water is getting colder. I wondered if there is something that could be done about it? It's a classic bathtub and there is no fancy heating elements, just a water tap with adjustable temperature and a valve to drain the water out. The problem was quite interesting for my curious mind and I thought it'd be fun to solve it. Here, I show my thought process and how I ended up making an accurate, well-behaved simulation for a bathtub.
 
 # Bathtub as a system
-The first and foremost step for defining a model is to determine its goals as concisely as possible. From my experience working on diverse projects, goals are valuable because they help you avoid any kind of existential crisis while working on a project. Therefore, when defining goals it is important to state what you're really after, the essence and true value of your product. The more concise and focused the goals are, the more smooth your experience will be developing a project. Moreover, when faced with design choices, goals can serve as guidelines that aid decision-making.
+
+## Defining Goals
+The first and foremost step for defining a model is to determine its goals as concisely as possible. From my experience working on diverse projects, goals are valuable because they help you avoid any kind of existential crisis while working on a project. Therefore, when defining goals it is important to state what you're really after, the essence and true value of your product. The more concise and focused the goals are, the more smooth your experience will be developing a project. Moreover, when you get faced with design choices (and you will), goals can serve as guidelines that aid decision-making.
 
 The goals of this project are:
 
@@ -20,6 +22,10 @@ The goals of this project are:
 	- Maximize water freshness.
 	- Keep water level at a desired level.
 
+## A diagram
+I started by drawing a diagram that exemplifies the key players in the bathtub system and how they work together.
+
+{% include figure.html file="/imgs/simulink-1.png" description="Figure 1: Diagram of the system" %}
 
 # "Coding" in Simulink
 First, I chose Simulink as the platform to define and simulate this system. I chose it mainly because I wanted to learn to use it. It also fits nicely with Matlab, which I use on a daily basis. So, it is kind of an arbitary choice. If there is another software you recommend me to use, let me know!
