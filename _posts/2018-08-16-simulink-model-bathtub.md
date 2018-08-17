@@ -34,7 +34,7 @@ I think the diagram is mostly self-explanatory, so I won't repeat information ju
 
 Next, we model the processes through which the key parts interact. The water tap provides the bathtub with water at a specific rate. To determine this rate, we assume that the water tap works in a linear fashion: the water output varies linearly with the output knob rotation. Moreover, we assume that the maximum water output depends on the temperature the tap is set to (i.e: the tap has provide different amounts of "hot" and "cold" water). If this mixing happens in a linear fashion (which it should because it's just a valve), the water output rate $ WO $ can be mathematically determined as:
 
-$$ WO (m3/sec) = output knob * [ (1 - temperature knob) * (hot water output) + (temperature knob) * (cold water output)] $$
+$$ WO(t) = P.O(t) * [ (1 - P.TC(t)) * (P.HO) + (P.TC) * (P.CO)] $$
 
 # "Coding" in Simulink
 First, I chose Simulink as the platform to define and simulate this system. I chose it mainly because I wanted to learn to use it. It also fits nicely with Matlab, which I use on a daily basis. So, it is kind of an arbitary choice. If there is another software you recommend me to use, let me know!
