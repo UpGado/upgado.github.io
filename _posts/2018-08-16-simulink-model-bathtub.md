@@ -70,4 +70,7 @@ I chose Simulink as the platform to define and simulate this system. I chose it 
 Simulink uses graphical block-based programming, which I used to hate judging from experience with LabVIEW. However, I have come to realize how powerful this technique is when developing complicated systems, where the connections between individual blocks are more important than what the individual blocks do. I went ahead and added three subsystems: the water tap, the bathtub, and the water drain. I implemented the equations above by connecting the right blocks together. This part was a bit lame because you can't enter Maths expressions directly; instead you have to build these expressions from the most basic Maths functions. Thankfully, integration was already a prebuilt block.
 
 The following is the final product:
+
+{% include figure.html file="/imgs/simulink-3.png" description="Figure 3: Simulink system model" %}
+
 {% include mailchimp.html source="simulink1" %}
