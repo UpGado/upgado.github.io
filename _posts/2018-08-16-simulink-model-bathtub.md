@@ -18,9 +18,9 @@ The goals of this project are:
 
 - Define an accurate, well-behaving model for the relevant features of a bathtub. (this gets tackled in this post)
 - Use the model to test and develop a strategy to:
-	- Keep temperature of the water as close as possible to a desired value.
+	- Keep temperature of the water as close as possible to a specified desired value.
 	- Maximize water freshness.
-	- Keep water level at a desired level.
+	- Keep water level at a specified desired level.
 
 ** A diagram **
 I started by drawing a diagram that shows the key parts of the bathtub system, the important variables that describe their state and their behaviour, and the processes through which they interact.
@@ -28,11 +28,13 @@ I started by drawing a diagram that shows the key parts of the bathtub system, t
 
 {% include figure.html file="/imgs/simulink-1.png" description="Figure 1: Diagram of the system" %}
 
-I think the diagram is mostly self-explanatory, so I won't repeat information just for the sake of time. It is worth mentioning that the above variables are not the only ones: there are importants constants such as the physical dimensions of the bathtub, the water output rate of the tap, and the water drain rate. These numbers are indispensable for getting a good accuracy for the model, so I made sure to measure them as accurately as possible. Here is a comprehensive list of the variables for this model:
+I think the diagram is mostly self-explanatory, so I won't repeat information just for the sake of time. It is worth mentioning that the knob positions are represented as numbers lying between 0 and 1. For example, an output knob that is open all the way is represented as 1, and a knob that is completely closed is 0. For the temperature knob, "hot" is 0 and "cold" is 1. As we will see, this simplifies the maths considerably later. Also not mentioned in the diagram are important constants that represent the system such as the physical dimensions of the bathtub, the water output rate of the tap, and the water drain rate. These numbers are indispensable for getting a good accuracy for the model, so I made sure to measure them as accurately as possible. Here is a comprehensive list of the variables and constants relevant for this model:
 
 {% include figure.html file="/imgs/simulink-2.png" description="Figure 2: Variables of the system" width = "40%" %}
 
+Next, we model the processes through which the key parts interact. The water tap provides the bathtub with water at a specific rate. To determine this rate, we assume that the water tap works in a linear fashion: the water output varies linearly with the output knob rotation. Moreover, we assume that the maximum water output depends on the temperature the tap is set to (i.e: the tap has provide different amounts of "hot" and "cold" water). If this mixing happens in a linear fashion (which it should because it's just a valve), the water output rate $ WO $ can be mathematically determined as:
 
+$$ WO (m3/sec) = output knob * [ (1 - temperature knob) * (hot water output) + (temperature knob) * (cold water output)] $$
 
 # "Coding" in Simulink
 First, I chose Simulink as the platform to define and simulate this system. I chose it mainly because I wanted to learn to use it. It also fits nicely with Matlab, which I use on a daily basis. So, it is kind of an arbitary choice. If there is another software you recommend me to use, let me know!
