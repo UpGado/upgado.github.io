@@ -34,7 +34,7 @@ I think the diagram is mostly self-explanatory, so I won't repeat information ju
 
 {% include figure.html file="/imgs/simulink-2.png" description="Figure 2: Variables of the system" width = "40%" %}
 
-Next, we model the processes through which the key parts interact. The water tap provides the bathtub with water at a specific rate. To determine this rate, we assume that the water tap works in a linear fashion: the water output varies linearly with the output knob rotation. Moreover, we assume that the maximum water output depends on the temperature the tap is set to (i.e: the tap has provide different amounts of "hot" and "cold" water). If this mixing happens in a linear fashion (which it should because it's just a valve), the water output rate $ WO $ can be mathematically determined as:
+Next, we model the processes through which the key parts interact. The water tap provides the bathtub with water at a specific rate. To determine this rate, we assume that the water tap works in a linear fashion: the water output varies linearly with the output knob rotation. Moreover, we assume that the maximum water output depends on the temperature the tap is set to (i.e: the tap has provide different amounts of "hot" and "cold" water). If this mixing happens in a linear fashion (which it should because it's just a valve), the maximum water output rate at the current temperature can be calculated by linear interpolation. $ WO $ can then be mathematically determined as:
 
 $$ WO(t) = P.O(t) * [ (1 - P.TC(t)) * (P.HO) + (P.TC) * (P.CO)] $$
 
