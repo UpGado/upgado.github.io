@@ -36,10 +36,16 @@ I think the diagram is mostly self-explanatory, so I won't repeat information ju
 
 ** Maths and Physics **
 
-Next, we model the processes through which the key parts interact. The water tap provides the bathtub with water at a specific rate. To determine this rate, we assume that the water tap works in a linear fashion: the water output varies linearly with the output knob rotation. Moreover, we assume that the maximum water output depends on the temperature the tap is set to (i.e: the tap has provide different amounts of "hot" and "cold" water). If this mixing happens in a linear fashion (which it should because it's just a valve), the maximum water output rate at the current temperature can be calculated by linear interpolation, which is the complex-looking part of the otherwise-simple formula:
+Next, we model the two processes through which the parts interact. Firstly, The water tap provides the bathtub with water at a specific rate. To determine this rate, we assume that the water tap works in a linear fashion: the water output varies linearly with the output knob rotation. Moreover, we assume that the maximum water output depends on the temperature the tap is set to (i.e: the tap has provide different amounts of "hot" and "cold" water). If this mixing happens in a linear fashion (which it should because it's just a valve), the maximum water output rate at the current temperature can be calculated by linear interpolation, which is the complex-looking part of the otherwise-simple formula:
 
 $$ WO(t) = P.O(t) * [ (1 - P.TC(t)) * (P.HO) + (P.TC) * (P.CO)] $$
 
+Second is the water drain problem, which is quite simple if we consider the bathtub as an open system. Total mass is conserved and total energy of the water is conserved. When an amount of water drains out of the bathtub, its gravitational potential energy is converted into kinetic energy.
+
+$$ GPE = KE $$
+$$ mgh = 0.5mv^2 $$
+$$ 2gh = v^2 $$
+$$ v = sqrt(2gh) $$
 
 # "Coding" in Simulink
 First, I chose Simulink as the platform to define and simulate this system. I chose it mainly because I wanted to learn to use it. It also fits nicely with Matlab, which I use on a daily basis. So, it is kind of an arbitary choice. If there is another software you recommend me to use, let me know!
