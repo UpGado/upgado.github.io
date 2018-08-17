@@ -62,9 +62,12 @@ Finally, we use these two water volume rates to calculate the volume of the wate
 
 $$ B.V = \int_{t=0}^{t} P.WO(t) - D.WO(t)dt $$
 
+Now, we have all the equations that describe the system and allow us to calculate the volume of water in the bathtub based on the water tap and water drain behaviours, even if they change over time. Additional equations were used to calculate the temperature of the water, but they won't be included here for time's sake.
 
 # "Coding" in Simulink
-I chose Simulink as the platform to define and simulate this system. I chose it mainly because I wanted to learn to use it. It also fits nicely with Matlab, which I use on a daily basis. So, it is kind of an arbitary choice. If there is another software you recommend me to use, let me know!
+I chose Simulink as the platform to define and simulate this system. I chose it mainly because I wanted to learn to use it. It also fits nicely with Matlab, which I use on a daily basis. If there is an alternative software you recommend me to use, let me know!
 
+Simulink uses graphical block-based programming, which I used to hate judging from experience with LabVIEW. However, I have come to realize how powerful this technique is when developing complicated systems, where the connections between individual blocks are more important than what the individual blocks do. I went ahead and added three subsystems: the water tap, the bathtub, and the water drain. I implemented the equations above by connecting the right blocks together. This part was a bit lame because you can't enter Maths expressions directly; instead you have to build these expressions from the most basic Maths functions. Thankfully, integration was already a prebuilt block.
 
+The following is the final product:
 {% include mailchimp.html source="simulink1" %}
