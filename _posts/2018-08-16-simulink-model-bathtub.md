@@ -11,7 +11,7 @@ This summer I had a new, relaxing hobby. I lie in the bathtub for hours with my 
 
 # Bathtub as a system
 
-## Defining Goals
+** Defining goals **
 The first and foremost step for defining a model is to determine its goals as concisely as possible. From my experience working on diverse projects, goals are valuable because they help you avoid any kind of existential crisis while working on a project. Therefore, when defining goals it is important to state what you're really after, the essence and true value of your product. The more concise and focused the goals are, the more smooth your experience will be developing a project. Moreover, when you get faced with design choices (and you will), goals can serve as guidelines that aid decision-making.
 
 The goals of this project are:
@@ -22,7 +22,7 @@ The goals of this project are:
 	- Maximize water freshness.
 	- Keep water level at a desired level.
 
-## A diagram
+** A diagram **
 I started by drawing a diagram that shows the key parts of the bathtub system, the important variables that describe their state and their behaviour, and the processes through which they interact.
 
 
@@ -31,8 +31,6 @@ I started by drawing a diagram that shows the key parts of the bathtub system, t
 I think the diagram is mostly self-explanatory, so I won't repeat information just for the sake of time. It is worth mentioning that the above variables are not the only ones: there are importants constants such as the physical dimensions of the bathtub, the water output rate of the tap, and the water drain rate. These numbers are indispensable for getting a good accuracy for the model, so I made sure to measure them as accurately as possible. Here is a comprehensive list of the variables for this model:
 
 {% include figure.html file="/imgs/simulink-2.png" description="Figure 2: Variables of the system" %}
-
-
 
 
 
