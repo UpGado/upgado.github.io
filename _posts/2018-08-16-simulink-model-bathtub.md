@@ -50,8 +50,17 @@ $$ 2gh = v^2 $$
 
 $$ v = sqrt(2gh) $$
 
+Interestingly, the velocity of the water leaving the bathtub is independent of the size of the water drain. Moreover, using this velocity, we can calculate the rate at which water leaves the container by taking the product of the velocity of water (m/s) and the cross sectional area of the drain (m2):
+
+$$ D.WO = D.A * sqrt(2gh) $$
+
+Finally, we multiply this value by the position of the drain knob, which effectively reduces the area of the drain:
+
+$$ D.WO = D.O * D.A * sqrt(2gh) $$
+
+
 # "Coding" in Simulink
-First, I chose Simulink as the platform to define and simulate this system. I chose it mainly because I wanted to learn to use it. It also fits nicely with Matlab, which I use on a daily basis. So, it is kind of an arbitary choice. If there is another software you recommend me to use, let me know!
+I chose Simulink as the platform to define and simulate this system. I chose it mainly because I wanted to learn to use it. It also fits nicely with Matlab, which I use on a daily basis. So, it is kind of an arbitary choice. If there is another software you recommend me to use, let me know!
 
 
 {% include mailchimp.html source="simulink1" %}
