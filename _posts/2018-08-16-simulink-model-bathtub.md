@@ -71,6 +71,6 @@ Simulink uses graphical block-based programming, which I used to hate judging fr
 
 The following is the final product:
 
-{% include figure.html file="/imgs/simulink-4.png" description="Figure 3: Simulink system model" %}
+{% include figure.html file="/imgs/simulink-4.png" description="Figure 3: Simulink system model" width="80%"%}
 
 {% include mailchimp.html source="simulink1" %}
