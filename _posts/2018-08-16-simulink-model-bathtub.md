@@ -60,7 +60,7 @@ $$ D.WO = D.O * D.A * sqrt(2gh) $$
 
 Finally, we use these two water volume rates to calculate the volume of the water in the bathtub. This is done by integrating the difference between the two values by time:
 
-$$ B.V = \int_{t=0}^{t} P.WO(t) - D.WO(t)  dt $$
+$$ B.V = \int_{t=0}^{t} P.WO(t) - D.WO(t)dt $$
 
 
 # "Coding" in Simulink
