@@ -73,7 +73,11 @@ Here is a high-level view of the system model:
 
 {% include figure.html file="/imgs/simulink-4.png" description="Figure 3: Simulink system model" width="80%"%}
 
-One nice thing about Simulink is its "scopes", which allow you to track how a value changes over time. For example you might ask, if you open the water tap all the way and also the water drain all the way, how does the water volume change? Does it increase? and if it does, how so? With Simulink, just set the knobs to the right number, run the simulation, and you get your answer in a graph like this:
+One nice thing about Simulink is its "scopes", which allow you to track how a value changes over time. For example you might ask, if you open the water tap all the way and also the water drain all the way, how does the water volume change? Does it increase? and if it does, how so? With Simulink, just set the knobs to the right number, run the simulation, and you get your answer in a graph like this one:
+
+# Next steps
+
+Currently, the model is built, all relevant features are quantified and most importantly: it behaves as expected and was tested to be accurate. Next, I will try to devise a strategy that achieves the goals mentioned above. I am not really sure if that is something that could be automated in some way, or if I really need to design the strategy from scratch. Anyway, I believe we'll soon know  how it will go! Stay tuned.
 
 {% include figure.html file="/imgs/simulink-5.png" description="Figure 4: Graph of water volume vs time. X-axis is time in seconds. Y-axis is percentage of bathtub filled." width="40%"%}
 
