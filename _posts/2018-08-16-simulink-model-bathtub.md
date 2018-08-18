@@ -73,6 +73,8 @@ Here is a high-level view of the system model:
 
 {% include figure.html file="/imgs/simulink-4.png" description="Figure 3: Simulink system model" width="80%"%}
 
-One nice thing about Simulink is its "scopes", which allow you to track how a value changes over time. For example you might ask, if you open the water tap at half and also the water drain at half, how does the water volume change? Does it increase? and if it does, how so? With Simulink, just set the knobs to the right number, run the simulation, and boom: you get your answer:
+One nice thing about Simulink is its "scopes", which allow you to track how a value changes over time. For example you might ask, if you open the water tap all the way and also the water drain all the way, how does the water volume change? Does it increase? and if it does, how so? With Simulink, just set the knobs to the right number, run the simulation, and you get your answer in a graph like this:
+
+{% include figure.html file="/imgs/simulink-5.png" description="Figure 4: Graph of water volume vs time. X-axis is time in seconds. Y-axis is percentage of bathtub filled." width="80%"%}
 
 {% include mailchimp.html source="simulink1" %}
