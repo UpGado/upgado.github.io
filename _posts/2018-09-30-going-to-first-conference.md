@@ -16,7 +16,9 @@ One week before the deadline to applying to this conference, I had collected pro
 
 Fast forward to two nights before the deadline. It is 4 in the morning and I just spent about 3 hours collecting what I hoped to be the final decent data that I can use for my conference submission. Guess what? I realize that the data I collected was all misleading. Due to bad experimental design, all the signals I have been measuring were "polluted" with unwanted signal. Even worse, there was no soft fix for this. I had to find another way, another experiment design and even another instrument to collect data, all in less than 24 hours. 
 
-I stepped aside for a moment and asked myself a few questions. Do I really need to grind in order to apply to this conference? Of course, even if I worked non-stop till the deadline, there was no guarantee that I will collect good data. In fact, there was very little chance. Moreover, I understood that I was already exceeding the usual pace of work, and that my PI and colleageus were already satisfied with my work, and wouldn't think less of me if I chose to go home, come back at 9am and work in a more relaxed manner. However, I also reminded myself that  I have nothing to lose and only something to gain. How can this go wrong? I chose to grind. Enter the most intense 24 hours of my life (so far).
+I stepped aside for a moment and asked myself a few questions. Do I really need to grind in order to apply to this conference? Of course, even if I worked non-stop till the deadline, there was no guarantee that I will collect good data. In fact, there was very little chance. Moreover, I understood that I was already exceeding the usual pace of work, and that my PI and colleageus were already satisfied with my work, and wouldn't think less of me if I chose to go home, come back at 9am and work in a more relaxed manner. However, I also reminded myself that  I have nothing to lose and only something to gain. If there is no risk involved, why would I not try? I chose to grind. 
+
+# Enter the most intense 24 hours of my work life (so far).
 
 
 
