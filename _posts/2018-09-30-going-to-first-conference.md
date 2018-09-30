@@ -18,8 +18,9 @@ Fast forward to two nights before the deadline. It is 4 in the morning and I jus
 
 I stepped aside for a moment and asked myself a few questions. Do I really need to grind in order to apply to this conference? Of course, even if I worked non-stop till the deadline, there was no guarantee that I will collect good data. In fact, there was very little chance. Moreover, I understood that I was already exceeding the usual pace of work, and that my PI and colleageus were already satisfied with my work, and wouldn't think less of me if I chose to go home, come back at 9am and work in a more relaxed manner. However, I also reminded myself that  I have nothing to lose and only something to gain. If there is no risk involved, why would I not try? I chose to grind. 
 
-*Enter the most intense 24 hours of my work life (so far).*
+**Enter the most intense 24 hours of my work life (so far).**
 
+I set a timer with the amount of hours, minutes, and seconds left till the deadline. I vowed to myself that I will not waste *a single second*. I will entirely commit any time I have left to getting the right data. 
 
 
 {% include mailchimp.html source="simulink1" %}
