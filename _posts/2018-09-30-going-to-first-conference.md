@@ -3,7 +3,7 @@ layout: post
 title:  "I got accepted to my first conference"
 date:   2018-09-30 20:00:00
 published: true
-draft: true
+draft: false
 ---
 
 At the time of writing this, I stand two weeks away from travelling to attend my academic conference ever. One month ago, I was dying to get accepted. I didn't think I stood a chance, and I still think it is a miracle: a miracle of hard-work, resilience, and determination. Here is the story!
@@ -26,5 +26,7 @@ I set a timer that shows the amount of hours, minutes, and seconds left till the
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 After many iterations, I managed to collect the perfect dataset that I have been meaning to collect. This happened exactly 40 minutes before the deadline, which was at midnight. This meant that I had exactly 40 minutes to look at the data, vet it, and if deemed reliable, analyze it, and finally, write up an abstract to submit for the conference. It all seemed impossible to be able to do all of that in such small time. But I went for it anyway; again, there is nothing to lose, only things to gain. Miraculously, the world finally rewarded me: the data looked great, the analysis proved robust to a level even beyond my expectations. All the pieces fit together, and I finally submitted the abstract. One month later, another miracle happened: it got accepted 😌
+
+*[please excuse any brevity or misspellings in this post, it is 3am 😆 If anything is unclear, contact me. I'd be happy to clarify!]*
 
 {% include mailchimp.html source="conference1" %}
