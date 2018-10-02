@@ -22,7 +22,7 @@ I stepped aside for a moment and asked myself a few questions. Do I really need 
 
 I set a timer with the amount of hours, minutes, and seconds left till the deadline. I vowed to myself that I will not waste *a single second*. I will commit any time I have left to getting the right data and writing the best conference submission that I can in that time. I was already on just 3 hours of sleep for two days, and more cups of coffee that I can remember. I was already in beast mode, so there was nothing to change about how I behaved. I just had to maintain that state for the next 24 hours, which required a clear mind and even more coffee and Coke. Thankfully, there was time that had to be wasted: such as waiting for responses to an email, or waiting for a machine to finish data collection. This occasional waiting allowed much-needed relaxation to take place. Since there was no way I could use that time to help my conference submission, I decided to read. At the time, I was in the middle of Harvard's Business School's must-reads. Ironically, one of the articles I read during that time was precisely about me at that time: employees so overwhelmed with work that they refuse to sleep or go about their normal life. In fact, I engaged with this article so much that I tweeted about it (and I hardly tweet anything!).
 
-{% include figure.html file="/imgs/conference-1.png" description="" %}
+{% include figure.html file="/imgs/conference-1.png" description="" width="50%" %}
 
 
 {% include mailchimp.html source="simulink1" %}
