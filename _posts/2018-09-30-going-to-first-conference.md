@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "I got accepted to my first conference"
+title:  "I am going to my first academic conference ever"
 date:   2018-09-30 20:00:00
 published: true
 draft: false
