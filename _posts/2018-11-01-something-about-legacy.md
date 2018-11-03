@@ -6,8 +6,7 @@ published: true
 draft: true
 ---
 
-In the winter break of Freshman year, I started working at [Tufts CEEO](http://ceeo.tufts.edu/) in Prof. Ethan Danahy's lab. It was the start of a wonderful work experience, and that is partially I wanted to write this post: to reflect (but not nostalgize!) the experience. The other reason, is a wonderful feeling that I felt yesterday when I visited Ethan's class (EN1 for those of you at Tufts). It was a completely new feeling, a mixture of pride and a sense of achievement, and a sense of "impact", like hey my life mattered! Keep reading, I bet you will learn something too!
-
+Lask week, I visited one event that gave me a dose of feelings that I never got the chance to experience before: feelings of legacy and impact. The event was part of a class at Tufts University called "Intro to Robotics", which is a class for the Freshman that introduces them to practicing engineering in the context of robotics. Two years ago, when I was a freshman, I was in their shoes, working with those LEGO Mindstorms robots and using LabView to program them. It was a tedious process for multiple reasons: graphical programming didn't always make sense; the robots had to be connected physically via USB, and importantly: it was a pain in the A#S to get and get two robots to communicate. Now? It a piece of cake to program these robots. It is a breeze to make them communicate and even control each other. It is much easier and the projects the students made became much more interesting.
 
 
 {% include mailchimp.html source="life1" %}
