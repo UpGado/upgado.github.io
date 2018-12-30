@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Maximizing life: More more more!"
+title:  "Work culture matters"
 date:   2018-12-30 09:25:24
 published: true
 draft: true
 ---
 
-Hey
+
 
 {% include mailchimp.html source="culture1" %}
