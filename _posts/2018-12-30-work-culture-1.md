@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Work culture matters"
+title:  "Work culture is important"
 date:   2018-12-30 09:25:24
 published: true
 draft: true
