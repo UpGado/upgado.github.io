@@ -24,9 +24,9 @@ Jim seemed to love bike-shedding. What makes matters worse, he decides to bike-s
 
 ### The PI is just as bad
 
-At this point, I realized that Jim is a big trouble to deal with. I would rather tell him to mind his own section of the project and stop interfering with my work, and he  did get the message. Enter the second problem, the PI. Another condescending person, who is just as fond of bike-shedding as Jim. Hey PI, you are manager of people. You better know how to manage people. Instead, you are creating a lab where members try to minionize others into following them blindly with no questions asked. Unsurprisingly, at best, you create a superstar, and a few minions writing meaningless code.
+At this point, I realized that Jim is a big trouble to deal with. I would rather tell him to mind his own section of the project and stop interfering with my work, and he  did get the message. Enter the second problem, the PI. Another condescending person, who is just as fond of bike-shedding as Jim. Hey PI, you are manager of people. You better know how to manage people. Instead, you are creating a lab where members try to minionize others into following them blindly with no questions asked. Unsurprisingly, at best, you create one superstar, and  several minions writing meaningless code.
 
-I am not about being a minion. I am about being a productive, creative team member who cares about fellow team members learning and satisfaction just as mine. At the very least, I would rather be in a lab where people understand the importance of a good work culture.
+I am not about being a minion. I am about being a productive, creative team member who cares about fellow team members' learning and satisfaction just as mine. At the very least, I would rather be in a lab where people understand the importance of a good work culture.
 
 At the end, even after Jim leaving, I quit without notice. The air was too bad and it was clear to me that bad work culture is at fault. Looking back, I realize I learned quite a lot in both technical knowledge and in experience, and now I have come to understand work culture as a very important factor in any institution.
 
