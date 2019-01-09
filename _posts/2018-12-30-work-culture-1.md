@@ -18,8 +18,8 @@ But I was wrong. Jim is actually *so* bad that I can't deal with him. It is not 
 
 ### Bike-shedding Jim
 
-Anybody who creates software knows that there are *a million ways* to write a software that achieves the same result. Not to blow myself up, but through my experience in programming, I realized that *most* of design decisions are trivial and don't really matter! What names should you use for your function? There are probably a bunch of names that are equally readable, and provide the same level of clarity. Just pick any -freakin- one of them and move on to a design decision that *actually matters*. The behaviour of overthinking trivial decision has been a very well-known killer of productivity in software industry that it got known as "bike-shedding". (You can Read more how that term originated [here](http://bikeshed.com/))
+Anybody who creates software knows that there are *a million ways* to write a software that achieves the same result. Not to blow myself up, but through my experience in programming, I realized that *most* of design decisions are trivial and don't really matter! What names should you use for your function? There are probably a bunch of names that are equally readable, and provide the same level of clarity. Just pick any -freakin- one of them and move on to a design decision that *actually matters*. The behaviour of overthinking trivial decision has been a very well-known killer of productivity in software industry that it got known as "bike-shedding". (You can Read more how that term originated [here](http://bikeshed.com/)).
 
-Jim is an extreme bike-shedder. 
+Jim seemed to love bike-shedding. What makes matters worse, he decides to bike-shed my own work. I wish it was productive discussions, but it wasn't. "How should we represent this numerical data?"" Well, there are a few ways and they all provide the same information. Jim doesn't like that, and proceeds to tell me to switch to another method, for no apparent reason. 
 
 {% include mailchimp.html source="culture1" %}
