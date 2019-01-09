@@ -22,8 +22,12 @@ Anybody who creates software knows that there are *a million ways* to write a so
 
 Jim seemed to love bike-shedding. What makes matters worse, he decides to bike-shed my own work. I was working on my own "section" of the project, but I was happy to have someone discuss my code, because (I thought) I was likely to learn something from him. I wish they were productive discussions, but they absolutely weren't. "How should we represent this numerical data?"" "Well, there are a few ways and they all provide the same information and just about as equally elegant. I just chose this one". Jim doesn't like that, and proceeds to tell me to switch to another method, giving some trivial reason. I would rather discuss something more meaningful..
 
-### The PI doesn't really understand
+### The PI is just as bad
 
-At this point, I realized that Jim is a big trouble to deal with. I would rather tell him to mind his own section of the project and stop interfering with my work, and I think he got the message. Enter the second problem, the PI. 
+At this point, I realized that Jim is a big trouble to deal with. I would rather tell him to mind his own section of the project and stop interfering with my work, and I he  did get the message. Enter the second problem, the PI. Another condescending person, who is just as fond of bike-shedding as Jim. Hey PI, you are manager of people. You better know how to manage people. Instead, you are creating a lab where members try to minionize others into following them blindly with no questions asked. Unsurprisingly, at best, you create a superstar, and a few minions writing meaningless code. 
+
+I am not about being a minion. I am about being a productive, creative team member who cares about fellow team members learning and satisfaction just as mine. At the very least, I would rather be in a lab where people understand the importance of a good work culture. 
+
+At the end, even after Jim leaving, I quit without notice. The air was too bad and it was clear to me who is at fault. Nevertheless, I learned quite a lot in both technical knowledge and in experience with people. 
 
 {% include mailchimp.html source="culture1" %}
