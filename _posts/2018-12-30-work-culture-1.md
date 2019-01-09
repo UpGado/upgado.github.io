@@ -14,8 +14,12 @@ First was me: very excited to begin work in a computer science lab, and very hyp
 
 So I meet Jim. He is an old, bearded dude who talks and acts in a socially awkward way. I was happy. That is *actually* fine: I like spending time with "weird people", partially because I think they are funny and cute, and also because, around them, I don't feel pressure to act in any certain way. I was thinking: Jim probably has problems interacting with many people, but not with me, because I just know how to interact with socially-awkaward people, and it takes a lot more weirdness than normal to "throw me off". 
 
-But I was wrong. Jim is actually *that* bad. He is also mean to people. He is **bad**. First, Jim is condescending.
+But I was wrong. Jim is actually *so* bad that I can't deal with him. It is not just that we don't have chemistry and should limit unnecessary contact; he actually goes out of his way to make matters worse. Like mean, condescending responses is his thing. But we all met those kinds of people. I actually want to talk about other behaviour that are more subtle yet very toxic for performance.
 
+### Bike-shedding Jim
 
+Anybody who creates software knows that there are *a million ways* to write a software that achieves the same result. Not to blow myself up, but through my experience in programming, I realized that *most* of design decisions are trivial and don't really matter! What names should you use for your function? There are probably a bunch of names that are equally readable, and provide the same level of clarity. Just pick any -freakin- one of them and move on to a design decision that *actually matters*. The behaviour of overthinking trivial decision has been a very well-known killer of productivity in software industry that it got known as "bike-shedding". (You can Read more how that term originated [here](http://bikeshed.com/))
+
+Jim is an extreme bike-shedder. 
 
 {% include mailchimp.html source="culture1" %}
