@@ -28,7 +28,7 @@ At this point, I realized that Jim is a big trouble to deal with. I would rather
 
 I am not about being a minion. I am about being a productive, creative team member who cares about fellow team members learning and satisfaction just as mine. At the very least, I would rather be in a lab where people understand the importance of a good work culture. 
 
-At the end, even after Jim leaving, I quit without notice. The air was too bad and it was clear to me that bad work culture is at fault. Looking back, I realize I learned quite a lot in both technical knowledge and in experience, and now I urge everyone to contemplate their work culture 
+At the end, even after Jim leaving, I quit without notice. The air was too bad and it was clear to me that bad work culture is at fault. Looking back, I realize I learned quite a lot in both technical knowledge and in experience, and now I have come to understand work culture as a very important factor in any institution.
 
 Thanks for reading! 
 
