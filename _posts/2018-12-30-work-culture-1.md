@@ -12,6 +12,9 @@ First was me: very excited to begin work in a computer science lab, and very hyp
 
 ### First encounter with Jim
 
+So I meet Jim. He is an old, bearded dude who talks and acts in a socially awkward way. I was happy. That is *actually* fine: I like spending time with "weird people", partially because I think they are funny and cute, and also because, around them, I don't feel pressure to act in any certain way. I was thinking: Jim probably has problems interacting with many people, but not with me, because I just know how to interact with socially-awkaward people, and it takes a lot more weirdness than normal to "throw me off". 
+
+But I was wrong. Jim is actually *that* bad. He is also mean to people. He is **bad**. First, Jim is condescending.
 
 
 
