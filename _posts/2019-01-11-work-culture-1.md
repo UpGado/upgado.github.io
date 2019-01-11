@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My story with a place with a bad work culture"
-date:   2018-12-30 09:25:24
+date:   2019-01-11 05:43:24
 published: true
 draft: false
 ---
