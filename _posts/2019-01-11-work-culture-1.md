@@ -5,6 +5,7 @@ date:   2019-01-11 05:43:24
 published: true
 draft: false
 ---
+*Note*: this post is a rant. But it's an important one.
 
 Last summer, I started working on a research project at a computer science lab at Tufts University. Unfortunately, I had a severe clash with the work culture at that lab. After just one month, I ended up quitting, with very little after-thought. I was confident that this work culture is toxic, and I thought that it had some serious issues that need to be fixed for actual innovation to happen. The following is an account of what happened: interactions with the lab leader (who was my boss), and more importantly, interactions with a co-worker, who could be the most terrible teammate I will ever have. I am mostly an inwards-blaming person; nonetheless, I feel confident pointing the blame fully at those people for messing up. Yes, it was that bad. Read for a recount of a subset of cringe-worthy interactions with the lab people.
 
