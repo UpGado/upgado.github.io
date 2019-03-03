@@ -66,7 +66,8 @@ def clean_line(line):
     cleaned = ''
     add_a_space = False
     for char in line:
-        if ('a' <= char <= 'z' or 'A' <= char <= 'Z' or '0' <= char <= '9'):
+        if ('a' <= char <= 'z' or 'A' <= char <= 'Z' or '0' <= char <= '9' or
+            char == '_'):
             if add_a_space:
                 cleaned += ' '
                 add_a_space = False
