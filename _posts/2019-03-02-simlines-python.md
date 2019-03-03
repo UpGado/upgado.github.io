@@ -14,6 +14,12 @@ Luckily, on one abomination of a day, where I just spent ten hours on a lab repo
 
 # Python really makes things easy, at a cost
 
+It took me 15 minutes to write Simlines in Python while in bed past 2am with an exhausted mind. Compared to writing in C, this is a piece of cake! No headaches, no pen and paper, no memory free, no Hanson (oh yeah). This is 15 minutes in Python, compared to 10 hours in C ! Wow..
+
+Well that is only part of the story; I won't do C justice unless I tell you that the Simlines C program was literally ten times faster than the Python one.
+
+# Code
+
 Here is Simlines implemented in Python:
 
 ```python
