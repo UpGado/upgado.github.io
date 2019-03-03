@@ -3,7 +3,7 @@ layout: post
 title:  "Comp40 Simlines implemented in Python"
 date:   2019-03-02 11:57:47
 published: true
-draft: true
+draft: false
 ---
 
 For those of you who had of the experience of being a Tufts CS student, Comp 40 is a class that is hard to forget. This is the class where Tufts CS student learn to code in C, which is a very unforgiving, needy, and grumpy language. But somehow, it's fun! In Comp40, students work on weekly assignments, which are usually full-blown, command-line program that achieve something that is *actually* useful. One such program, called Simlines, is a program that detects similar lines in an arbitrary number of files. Most solutions to this problem involve reading files line by line and indexing them in some sort of a data structure. My partner, Roberto, and I spent at least 10 hours to write 280 lines of C code to achieve that task.
@@ -16,7 +16,7 @@ Luckily, on one abomination of a day, where I spent ten hours on a Biomedical En
 
 It took me 15 minutes to write Simlines in Python while in bed past 2am with an exhausted mind. Compared to writing in C, this is a piece of cake! No headaches, no pen and paper, no memory free, and no Hanson (oh yeah). This is 15 minutes in Python, compared to 10 hours in C ! Wow..
 
-Well that is only part of the story; I won't do C justice unless I tell you that the Simlines C program was literally ten times faster than the Python one. Since, Python is an interpreted language, it is impossible for it to be faster than a compiled language such as C, at least in a simple I/O program such as Simlines. Anyhow, this one experience taught me that programming "comp sci programs" in Python is actually easier than it seemed. What is scary, in fact, is that you can do it with almost no preparation or prior thought, as opposed to hours of thinking and writing diagrams if you are writing in a low-level such as C or C++. Therefore, I do intend to write Comp40 assignments in Python as the semester progresses. I think it is gonna be a fun learning experience!
+Well that is only part of the story; I won't do C justice unless I tell you that the Simlines C program was literally ten times faster than the Python one. Since Python is an interpreted language, it is impossible for it to be faster than a compiled language such as C, at least in a simple I/O program such as Simlines. Anyhow, this one experience taught me that programming "comp sci programs" in Python is actually easier than it seemed. What is scary, in fact, is that you can do it with almost no preparation or prior thought, as opposed to hours of thinking and writing diagrams if you are writing in a low-level such as C or C++. Therefore, I do intend to write Comp40 assignments in Python as the semester progresses. I think it is gonna be a fun learning experience!
 
 # Code
 
