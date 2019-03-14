@@ -3,7 +3,7 @@ layout: post
 title:  "My story with a place with a bad work culture"
 date:   2019-01-11 05:43:24
 published: true
-draft: false
+draft: true
 ---
 *Note*: this post is a rant. But it's an important one.
 
