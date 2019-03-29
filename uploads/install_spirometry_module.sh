@@ -12,7 +12,8 @@ read -p "🍺 Are you sure that you want to continue? (y/n)" -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
-  echo "Boom"
+  curl -o ./Spirometry.zip www.upgado.com/uploads/Spirometry.zip
+
 else
   echo "Aborted"
 fi
