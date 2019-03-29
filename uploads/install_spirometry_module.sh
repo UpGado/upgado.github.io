@@ -12,7 +12,9 @@ read -p "🍺 Are you sure that you want to continue? (y/n)" -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
-  curl -o ./Spirometry.zip www.upgado.com/uploads/Spirometry.zip
+  curl https://transfer.sh/zbQUW/Spirometry.bundle.zip > S.zip
+  unzip S.zip
+  mv Spirometry.bundle  /Applications/LabChart\ 8\ Reader/LabChart\ Reader.app/Contents/Resources/PlugIns/Spirometry.bundle
 
 else
   echo "Aborted"
