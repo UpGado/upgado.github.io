@@ -22,7 +22,7 @@ Ok. Dialogs probably mean an event loop that is exited once you click "Quit" or 
 
 Lots and lots of assembly code. Where do I start? At first, I was lost for hours trying to manually look into the assembly code, starting from the `main` function, which is where every UNIX program must start. However, even though the function was there, it was just too much to absorb. The amount of instuctions was so much that it was next to impossible to track the flow of the program up until itchecks for proper licensing. My next try was to use the search function by searching for words like "license" or "dialog". Fortunately, this yielded results:
 
-{% include figure.html file="/imgs/cracking-3.png" %}
+{% include figure.html width="20%" file="/imgs/cracking-3.png" %}
 
 In fact, I got so many results that I was surprised. All the labels were there, non-obfuscated, waiting for a patient hacker to read and figure out. One label was so obviously named `GetLicensedThisRun`. Contrast that to all the label names in the Bomb assignment, which were intentionally vague to not give away any information about the intent of the functions. Clearly the people who made this software did not make any effort to make it non-hackable. Nevertheless, it took me hours of searching, finagling and referring to assembly code cheat sheets until I figured out where the dialog code is:
 
