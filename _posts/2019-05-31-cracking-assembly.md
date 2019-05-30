@@ -26,6 +26,15 @@ Lots and lots of assembly code. Where do I start? At first, I was lost for hours
 
 In fact, I got so many results that I was surprised. All the labels were there, non-obfuscated, waiting for a patient hacker to read and figure out. One label was so obviously named `GetLicensedThisRun`. Contrast that to all the label names in the Bomb assignment, which were intentionally vague to not give away any information about the intent of the functions. Clearly the people who made this software did not make any effort to make it non-hackable. Nevertheless, it took me hours of searching, finagling and referring to assembly code cheat sheets until I figured out where the dialog code is:
 
-{% include figure.html width="100%" file="/imgs/cracking-4.png" %}
+```assembly
+000adf25         call       __ZN3ADI17RunStandardDialogERKNS_6StringES2_S2_     ; ADI::RunStandardDialog(ADI::String const&, ADI::String const&, ADI::String const&)
+000adf2a         movl       0xffffffc8(%ebp), %eax
+000adf2d         addl       $0xfffffff4, %eax
+000adf30         movl       %eax, 0x4(%esp)                                     ; argument "theValue" for method imp___symbol_stub__OSAtomicAdd32Barrier
+000adf34         movl       $0xffffffff, (%esp)                                 ; argument "theAmount" for method imp___symbol_stub__OSAtomicAdd32Barrier
+000adf3b         call       imp___symbol_stub__OSAtomicAdd32Barrier
+000adf40         testl      %eax, %eax
+000adf42         jne        $__ZN14CAFApplication5StartEv+16747
+```
 
 {% include mailchimp.html source="cracking1" %}
