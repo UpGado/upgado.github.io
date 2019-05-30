@@ -12,9 +12,18 @@ Last semester, the night of a COMP160 exam, instead of studying, I decided to ta
 
 The first step was choosing which software to crack. Personally, I would love to crack some super-famous software like Adobe Photoshop or Microsoft Word. However, these software were *probably* made to be hard to crack. I cannot expect myself to be able to crack them; I am just starting my career as a software cracker! I chose a more low-key yet useful software. I should not disclose its name, since it is *probably* illegal, and I don't want to go to jail yet. However, in this post, I will show everything about how I cracked it without showing any identifying information. In the following text, I will refer to the software as "X".
 
-The next step was to find the executable associated with the software. Since I own a Mac, the structure of any application is more or less standard: the executable usually hides in `/Applications/X/X.app/Conents/MacOS/X`. This was exactly where I found the executable. Next, I ran the executable and took notes of its behaviour, looking for cues on how the software might have been written. When you first run the software, it shows the following dialog:
+The next step was to find the executable associated with the software. Since I own a Mac, the structure of any application is more or less standard: the executable usually hides in `/Applications/X/X.app/Contents/MacOS/X`. This was exactly where I found the executable. Next, I ran the executable and took notes of its behaviour, looking for cues on how the software might have been written. When you first run the software, it shows the following dialog:
 
 {% include figure.html file="/imgs/cracking-1.png" %}
 
+Ok. Dialogs probably mean an event loop that is exited once you click "Quit" or "OK". Let's disassemble the executable and try and find the code for this dialog. I spent a couple of hours trying to find a good disassembler for MacOS. I tried Cutter mainly because it is open-source and community driven, but unfortunately it did not cut it. The executable was too big and the software was too laggy. I ended up using Hopper. Once I loaded the executable in Hopper, and let it run its analysis, I was faced with this:
+
+{% include figure.html file="/imgs/cracking-2.png" %}
+
+Lots and lots of assembly code. Where do I start? At first, I was lost for hours trying to manually look into the assembly code, starting from the `main` function, which is where every UNIX program must start. However, even though the function was there, it was just too much to absorb. The amount of instuctions was so much that it was next to impossible to track the flow of the program up until itchecks for proper licensing. My next try was to use the search function by searching for words like "license" or "dialog". Fortunately, this yielded results:
+
+{% include figure.html file="/imgs/cracking-2.png" %}
+
+In fact, I got so many results that I was surprised. All the labels were there, non-obfuscated, waiting for a patient hacker to read and figure out. One label was so obviously named `GetLicensedThisRun`. Contrast that to all the labels in the Bomb assignment, which were intentionally vague to not give away any information about the intent of the functions.Clearly the people who made this software did not make any effort to make it non-hackable. All it took me is some finagling
 
 {% include mailchimp.html source="cracking1" %}
