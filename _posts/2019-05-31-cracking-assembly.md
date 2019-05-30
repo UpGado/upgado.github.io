@@ -3,7 +3,7 @@ layout: post
 title:  "Cracking software through Assembly code"
 date:   2019-05-31 11:43:17
 published: true
-draft: true
+draft: false
 ---
 
 *TLDR: I cracked a software by messing with its assembly code. Here is a story -including technical details- of how I did it.*
