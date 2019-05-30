@@ -24,6 +24,6 @@ Lots and lots of assembly code. Where do I start? At first, I was lost for hours
 
 {% include figure.html file="/imgs/cracking-3.png" %}
 
-In fact, I got so many results that I was surprised. All the labels were there, non-obfuscated, waiting for a patient hacker to read and figure out. One label was so obviously named `GetLicensedThisRun`. Contrast that to all the labels in the Bomb assignment, which were intentionally vague to not give away any information about the intent of the functions. Clearly the people who made this software did not make any effort to make it non-hackable. Nevertheless, it took me hours of searching, finagling and referring to assembly code cheat sheets until I figured out where the dialog code is. This is the starting point for cracking the program. 
+In fact, I got so many results that I was surprised. All the labels were there, non-obfuscated, waiting for a patient hacker to read and figure out. One label was so obviously named `GetLicensedThisRun`. Contrast that to all the label names in the Bomb assignment, which were intentionally vague to not give away any information about the intent of the functions. Clearly the people who made this software did not make any effort to make it non-hackable. Nevertheless, it took me hours of searching, finagling and referring to assembly code cheat sheets until I figured out where the dialog code is. This is the starting point for cracking the program. 
 
 {% include mailchimp.html source="cracking1" %}
