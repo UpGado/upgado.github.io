@@ -16,7 +16,7 @@ When people talk about passion, they almost always mentioned "that one thing" th
 
 Ask yourself: under what circumstances are you willing to happily and joyfully keep doing that you deem as your passion? I have come to learn recently that circumstances do matter. As your environment, boss, resources, etc. change, the activities that bring you to flow will change as well. So, it is important not to fixate on one or really any set of "passions" that you might think you have.
 
-## Well G, what is the alternative?
+## Well Gee, what is the alternative?
 
 I propose that switch to a more tangible realm: the theory of triggers. Triggers are simply the things that get you going. Look back to a time when you were so focused on the task at hand that nothing else seemed to matter except for achieving your goal. Now think about the elements that together formed this experience. What was there that kept you going, other than the nature of the task itself? For some people, it might be something as simple as being challenged by their manager and wanting to prove themselves. For others, it could be a mixture of interest, monetary motivation, or the prospect of a promotion. These triggers, however simple or complex they might be, are what keep you in the state of flow. You should always seek to replicate them if you want to live a productive life.
 
