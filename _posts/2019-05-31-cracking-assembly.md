@@ -12,9 +12,7 @@ Last semester, the night of a COMP160 exam, instead of studying, I decided to ta
 
 The first step was choosing which software to crack. Personally, I would love to crack some super-famous software like Adobe Photoshop or Microsoft Word. However, these software were *probably* made to be hard to crack. I cannot expect myself to be able to crack them; I am just starting my career as a software cracker! I chose a more low-key yet useful software. I should not disclose its name, since it is *probably* illegal, and I don't want to go to jail yet. However, in this post, I will show everything about how I cracked it without showing any identifying information. In the following text, I will refer to the software as "X".
 
-The first step was to find the executable associated with the software. Since I own a Mac, the structure of any application is kinda standard: the executable usually hides inside
-
-`/Applications/X/X.app/Conents/MacOS/X`
+The first step was to find the executable associated with the software. Since I own a Mac, the structure of any application is kinda standard: the executable usually hides in `/Applications/X/X.app/Conents/MacOS/X`
 
 
 
