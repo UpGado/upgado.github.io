@@ -18,7 +18,7 @@ The next step was to find the executable associated with the software. Since I o
 
 Ok. Dialogs probably mean an event loop that is exited once you click "Quit" or "OK". Let's disassemble the executable and try and find the code for this dialog. I spent a couple of hours trying to find a good disassembler for MacOS. I tried Cutter mainly because it is open-source and community driven, but unfortunately it did not cut it. The executable was too big and the software was too laggy. I ended up using Hopper. Once I loaded the executable in Hopper, and let it run its analysis, I was faced with this:
 
-{% include figure.html file="/imgs/cracking-2.png" %}
+{% include figure.html width="100%" file="/imgs/cracking-2.png" %}
 
 Lots and lots of assembly code. Where do I start? At first, I was lost for hours trying to manually look into the assembly code, starting from the `main` function, which is where every UNIX program must start. However, even though the function was there, it was just too much to absorb. The amount of instuctions was so much that it was next to impossible to track the flow of the program up until itchecks for proper licensing. My next try was to use the search function by searching for words like "license" or "dialog". Fortunately, this yielded results:
 
