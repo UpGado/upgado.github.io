@@ -12,7 +12,7 @@ The first step was choosing which software to crack. Personally, I would love to
 
 The next step was to find the executable associated with the software. Since I own a Mac, the structure of any application is more or less standard: the executable usually hides in `/Applications/X/X.app/Contents/MacOS/X`. This was exactly where I found the executable. Next, I ran the executable and took notes of its behavior, looking for cues on how the software might have been written. When you first run the software, it shows the following dialog:
 
-{% include figure.html width="30%" file="/imgs/cracking-1.png" %}
+{% include figure.html width='30%' file="/imgs/cracking-1.png" %}
 
 Ok. Dialogs probably mean an event loop that is exited once you click "Quit" or "OK". For example, after clicking "Quit", the code flows in the direction of exiting the program. Therefore, the other direction must be to continue the program (or at least that is what I would expect). Let's disassemble the executable and try and find if this hypothesis is true. I spent a couple of hours trying to find a good disassembler for MacOS. I tried Cutter mainly because it is open-source and community driven, but unfortunately it did not cut it. The executable was too big and the software was too laggy. I ended up using Hopper. Once I loaded the executable in Hopper, and let it run its analysis, I was faced with this:
 
