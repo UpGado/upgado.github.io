@@ -10,6 +10,6 @@ I just finished reading the book "Outliers", which was sitting in my books folde
 
 ## 10,000 Hours Rule
 
-The first point in the book was that it takes about ten thousand hours for anyone to really become a world-class expert at it. Nothing less or more. It is just about practice. This applies to sports, music, programming.. you name it. In fact, Gladwell magnificiently showed that big names in the computer industry, such as Bill Gates or Bill Joy, were exteremely luck to have been born in *just the right year*, and had *just the right opportunities* to accomplish ten thousand hours of programming before the personal computer industry exploded.
+The first major point in the book was that it takes about ten thousand hours for anyone to really become a world-class expert at something: not less, not more. It is just about practice. This applies to sports, music, programming.. you name it. In fact, Gladwell magnificiently showed that big names in the computer industry, such as Bill Gates or Bill Joy, were exteremely lucky for the most part to have been born in *just the right year*, and had *just the right opportunities* to accomplish ten thousand hours of programming before the personal computer (PC) industry exploded, and PCs became much more available and affordable than the big, old mainframe computers.
 
 {% include mailchimp.html source="cracking1" %}
