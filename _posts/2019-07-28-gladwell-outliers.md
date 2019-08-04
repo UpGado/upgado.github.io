@@ -24,6 +24,6 @@ I have no problem with my roots. I am proud of my native language and how beauti
 
 ## Opportunities!
 
-This is the most important, actionable lesson I learned from the book: *grab opportunities*. Extraordinary success was only possible because people capitalized on opportunities. 
+This is the most important, immediately-actionable lesson that could be learned from the book: *grab opportunities*. Extraordinary success was possible not only because people had great skill or worked hard, but also because they were given extraordinary opportunities that they managed to capitalize on. This applies to Bill Gates, who
 
 {% include mailchimp.html source="cracking1" %}
