@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Malcolm Gladwell's Outliers: a reflection"
+title:  "Malcolm Gladwell's Outliers: a summary and reflection"
 date:   2019-07-28 11:28:25
 published: true
 draft: false
