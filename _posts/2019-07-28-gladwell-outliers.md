@@ -24,6 +24,8 @@ I have no problem with my roots. I am proud of my native language and how beauti
 
 ## Opportunities!
 
-This is the most important, immediately-actionable lesson that could be learned from the book: *grab opportunities*. Extraordinary success was possible not only because people had great skill or worked hard, but also because they were given extraordinary opportunities that they managed to capitalize on. That's how it was for Bill Gates, who was given the opportunity to apply his newly-learned programming skills in a real company at a young age. It also applies to Steve Jobs who managed to collect "computer spare parts" by linking up with one of Hewlett-Packard's founders.
+This is the most important, immediately-actionable lesson that could be learned from the book: *grab opportunities*. Extraordinary success was possible not only because people had great skill or worked hard, but also because they were given extraordinary opportunities that they managed to capitalize on. That's how it was for Bill Gates, who was given the opportunity to apply his newly-learned programming skills in a real company at a young age. It also applies to Steve Jobs who managed to collect "computer spare parts" by linking up with one of Hewlett-Packard's founders and ended up securing a summer job there.
 
-{% include mailchimp.html source="cracking1" %}
+There are two important lessons here that come to mind. The first is that you should grab opportunities and make the most out of them. The second is that you should *seek opportunities*. Put yourself in settings where you can latch on interesting opportunities. Invest time and effort in building relationships with interesting people who know people. Be a person who creates opportunities for oneself and for others. Sitting in office, or doing classwork is great and all, but adding a element of randomness and spontaneity is likely to bring you to opportunities you could not otherwise reach.
+
+{% include mailchimp.html source="gladwell1" %}
