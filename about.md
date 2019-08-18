@@ -4,14 +4,19 @@ title: About
 permalink: /about/
 ---
 
-### Life Manifesto
-I strive to be the best person I can be, which means I have to make the best decisions, waste the least time, and learn the most. I believe in rationality and utilitarianism as the optimal means to approach life. As all rational beings, I try to maximize utility and minimize expenditure. I believe that open-mindedness is key to human survival. I do listen and engage with all opinions, however unpopular they might be. I am not perfect nor am I a perfectionist, but I do constantly optimize.
+Hi! I am Ahmed. Welcome to my blog. I write about whatever comes to mind and I think I have something useful to say about.
 
-### Academic Interests
-* Artificial Intelligence: It might very well be the next milestone in Human history. Why would I not want to be a part of this amazing field? I have experience with programming many robots. I self-taught Deep Learning using free online resources, keeping up with new innovations, and having fun with independent projects. As of the Summer of 2018, I am working towards a publication at the Autonomous Intelligent Robotics (AIR) lab at Tufts University.
-* Biomedical Engineering: which is an amazing, interdisciplinary field that can benefit immensely from recent advances in Computer Science! People who combine programming experience (let alone AI experience) with BME are scarce. There is a gap there that will be filled with smart people and I will be one of them. Currently, I am learning so much about optics by working as a research assistant at the [Georgakoudi lab](http://engineering.tufts.edu/bme/georgakoudi/).
+## Interests
 
-I am also interested in Psychology and Economics, but those are just time-fillers for now.
+- Programming: especially Python, the most amazing, elegant and time-efficient programming language ever made.
+- Computers
+- Anything that has to do with computing
+- Scientific research: bonus if it's about biomedical engineering.
+- Data analysis
+- Automation
+- Enterpreneurship and business
+- Management and leadership
 
-### Hobbys
-I have lots of fun. I like to drink coffee, meet interesting people, or both. I like mountain biking and got bruises that can attest to that. If you live near me, you might be lucky to hear me singing in mostly high-pitched voices. I play video games sometimes. I go on dates a lot..
+If you share any of those interests (or would like to learn about any of them), I would like to connect with you! Add me on [LinkedIn](https://www.linkedin.com/in/gadoahmed/). If you're in the Boston area, let's go for coffee!
+
+That's it. My email address is ahmedehabg@gmail.com
