@@ -15,7 +15,7 @@ I am graduating soon and am looking for a job offer.
 - Anything that has to do with computing
 - Scientific research (bonus if it's about biomedical engineering)
 - Data analysis
-- Automation
+- Automation (***there is nothing more satisfying that automating a boring task***)
 - Enterpreneurship and business
 - Management and leadership
 - Video games: League and Minecraft
