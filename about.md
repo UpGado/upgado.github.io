@@ -6,11 +6,11 @@ permalink: /about/
 
 Hi! I am Ahmed. Welcome to my blog. I write about whatever comes to mind and I think I have something useful to say about.
 
-I am graduating soon and am looking for a job offer
+I am graduating soon and am looking for a job offer.
 
 ## Interests
 
-- Python ❤️,the most amazing, elegant, and time-efficient programming language ever made. Ask me about my favorite PyCon talk.
+- Python ❤️, the most amazing, elegant, and time-efficient programming language ever made. Ask me about my favorite PyCon talk.
 - Computers
 - Anything that has to do with computing
 - Scientific research (bonus if it's about biomedical engineering)
