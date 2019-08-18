@@ -8,7 +8,7 @@ Hi! I am Ahmed. Welcome to my blog. I write about whatever comes to mind and I t
 
 ## Interests
 
-- Programming: especially Python, the most amazing, elegant and time-efficient programming language ever made.
+- Python, the most amazing, elegant and time-efficient programming language ever made.
 - Computers
 - Anything that has to do with computing
 - Scientific research: bonus if it's about biomedical engineering.
@@ -16,6 +16,7 @@ Hi! I am Ahmed. Welcome to my blog. I write about whatever comes to mind and I t
 - Automation
 - Enterpreneurship and business
 - Management and leadership
+- Video games: League and Minecraft
 
 If you share any of those interests (or would like to learn about any of them), I would like to connect with you! Add me on [LinkedIn](https://www.linkedin.com/in/gadoahmed/). If you're in the Boston area, let's go for coffee!
 
