@@ -10,7 +10,7 @@ I am graduating soon and am looking for a job offer
 
 ## Interests
 
-- Python ❤️,the most amazing, elegant and time-efficient programming language ever made. Ask me about my favorite PyCon talk.
+- Python ❤️,the most amazing, elegant, and time-efficient programming language ever made. Ask me about my favorite PyCon talk.
 - Computers
 - Anything that has to do with computing
 - Scientific research (bonus if it's about biomedical engineering)
