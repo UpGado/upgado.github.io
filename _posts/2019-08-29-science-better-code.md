@@ -52,4 +52,6 @@ This happens in almost *all* MATLAB code that I have seen. Many programs that ar
 
 ## Let's use Python instead
 
+This will be the topic of a future post, where I'll explain how switching to Python in my data analysis helped me be a whole lot more productive than when using MATLAB. Stay tuned!
+
 {% include mailchimp.html source="scienceusepython1" %}
