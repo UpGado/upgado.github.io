@@ -32,7 +32,7 @@ x++ % increments x
 ```
 3) Magic Numbers
 ```matlab
- = [1, 2, 3]
+x = [1, 2, 3]
 x = x.*50
 ```
 
