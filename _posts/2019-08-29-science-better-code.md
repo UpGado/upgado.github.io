@@ -5,34 +5,37 @@ date:   2019-08-29 11:29:19
 published: true
 draft: true
 ---
-For the past 2 years now, I have been working at an academic research lab at Tufts University. Since my lab specializes, among other things, in microscopic biomedical imaging, we generate *many* images. Those images are then analyzed to conclude some medically-relevant information. Of course, data analysis of microscopic images is impossible to do by hand, so it is all programmed (yay!). What is not so yay, however, is that the code used for this analysis is very badly written. It is very much what you would describe as "spaghetti code", except it's more of a spaghetti-meatball-dish-smushed-and-splattered-on-the-floor. Moreover, the problem of bad code does not just affect my lab, it actually plagues the whole scientific community.
+For the past 2 years now, I have worked at an academic research lab at Tufts University. Since my lab specializes, among other things, in microscopic biomedical imaging, we generate *many* images. Those images are then analyzed to conclude some medically relevant information. Of course, data analysis of microscopic images is impossible to do by hand, so it is all programmed (yay!). What is not so yay, however, is that the code used for this analysis is very badly written. It is very much what you would describe as "spaghetti code", except it's more of a spaghetti-meatball-dish-smushed-and-splattered-on-the-floor. Moreover, the problem of bad code does not just affect my lab, it actually plagues the whole scientific community.
 
-Who cares? you might ask. After all, the focus of the scientific community should be to advance the actual science, not the quality of the code that they write. In other words, the data analysis code is just a means to an end. As long as you correctly analyze the data, does it matter what pile of code you accumulate to achieve that?
+Who cares? you might ask. After all, the focus of the scientific community is to advance the actual science, not the quality of the code that they write. In other words, the data analysis code is just a means to an end. As long as you correctly analyze the data, does it matter what kind of code you accumulate to achieve that?
 
 The answer is a bold **YES**. After all, let's not forget that the main reason programmers try to write good code is simply to improve productivity. Of course, scientists care about their productivity too (results, results, results!). However, since they are so focused on the science, they don't realize the benefits they could get if they invest in writing good code for their data analysis. The benefits that I promise include the traditional benefits that affect any programmer: a code base that is more pleasing to the eye, and a clear code behaviour that does not make you want to pull your hair. It also includes saving literal tens of hundreds of hours of human time: time that could be spent on something more productive that a computer couldn't do by itself, such as advancing science!
 
 ## The scientist's mindset
-Scientists are busy people: they already have to deal with literature search, designing their experiments in order to obtain sound results and figuring out why the cells they have been culturing for weeks are suddenly dying. To them, they go through all that trouble just to obtain some measurements, which are colloquality called results. Results are the holy grail of science. Once you have acquired the results, a scientist rushes through the data analysis and hope that it tell them what they wish to hear, the sought-after conclusion. To the scientist, data analysis might in fact be the least important piece of the puzzle.
+Scientists are busy people: they already have to deal with literature search, designing their experiments in order to obtain sound results and figuring out why the cells they have been culturing for weeks are suddenly dying. To them, they go through all that trouble just to obtain some measurements, which are colloquially called results. Results are the holy grail of science. Once you have acquired the results, a scientist rushes through the data analysis and hope that it tell them what they wish to hear, the sought-after conclusion. To the scientist, data analysis might in fact be the least important piece of the puzzle.
 
-However, in my experience, scientists spend *a lot* of their time just trying to get the data analysis to work. This time could in fact be longer than the time it takes to complete all the other steps combined. It is also associated with a lot of frustration and shoutings such as "this is not working!", "aaargh", and "i should get an undergrad to do this for me". The reason the scientists don't have a good time writing code is that they often shoot themselves in the foot doing all sorts of bad coding habits. Since they are so focused on the science, they don't realize that, spending a little bit of time writing good, reusable code *will* save them hours in the future. This is my rule of thumb: write good code often enough that it becomes a habit, and soon enough, it will be harder to write bad code than to write good one. If some code is giving you trouble, sit back and rethink how you might write it in a better way. This little and incremental investment will compound over time, and soon enough you will be much quicker at writing good code than if you did not stop and rethink your bad code.
+However, in my experience, scientists spend *a lot* of their time just trying to get the data analysis to work. This time could in fact be longer than the time it takes to complete all the other steps combined. It is also associated with a lot of frustration and shouts such as "this is not working!", "aaargh", and "I should get an undergrad to do this for me". The reason the scientists don't have a good time writing code is that they often shoot themselves in the foot doing all sorts of bad coding habits. Since they are so focused on the science, they don't realize that, spending a little bit of time writing good, reusable code *will* save them hours in the future. This is my rule of thumb: write good code often enough that it becomes a habit, and soon enough, it will be harder to write bad code than to write good one. If some code is giving you trouble, sit back and rethink how you might write it in a better way. This little and incremental investment will compound over time, and soon enough you will be much quicker at writing good code than if you did not stop and rethink your bad code.
 
 ## How exactly might we improve code
 
-So far, we have been broad and theoritical. Now, let's get technical and get our hands dirty with some code tips. The following is MATLAB code samples that I wrote in order to show some common bad habits that I usually come across.
+So far, we have been broad and theoretical. Now, let's get technical and get our hands dirty with some code tips. The following is MATLAB code samples that I wrote in order to show some common bad habits that I usually come across.
 
-1) No untelling variable names
+1) No vague or redundant variable names
 ```matlab
 array = [1, 2, 3]
 array1 = array*3
 array2 = array*2
 ```
+
+We can already see that `array` is an array. A better variable name would be something that tells about the content of that array. Also, `array1` and `array2` are names do not tell anything about their purpose. This pattern is common because many programmers fall into the trap of being afraid to overwrite their original variables, thinking it is a code smell. However, there is nothing wrong with overwriting variables if you're not going to use them later. It leaves the workspace uncluttered and makes for fewer variables to worry about for the human reading the code.
+
 2) No redundant comments
 ```matlab
 x++ % increments x
 ```
 3) No magic Numbers
 ```matlab
-x = [1, 2, 3]i
+x = [1, 2, 3]
 x = x.*50
 ```
 
@@ -40,7 +43,7 @@ Why is `x` multiplied by 50? You might know, but another person reading your cod
 
 4) Write functions
 
-Functions are neat because they promise to give you the output without including you in the implementation details. This means that you have less to worry about! You can also use functions to avoid repeating your code. Write once, execute as many times as you want. This is alsi important because if you find out about a bug, you will have to only change the code inside the function, instead of changing code in multiple places. Use functions in your code. Unfortunately, MATLAB is restrictive in that every function has to be defined in its own separate file. This pushes people away from creating functions because it's simply a lot of work, and sometimes people want to keep everything contained in one file, which is okay for some cases. This is one reason I don't like MATLAB.
+Functions are neat because they promise to give you the output without including you in the implementation details. This means that you have less to worry about! You can also use functions to avoid repeating your code. Write once, execute as many times as you want. This is also important because if you find out about a bug, you will have to only change the code inside the function, instead of changing code in multiple places. Use functions in your code. Unfortunately, MATLAB is restrictive in that every function has to be defined in its own separate file. This pushes people away from creating functions because it's simply a lot of work, and sometimes people want to keep everything contained in one file, which is okay for some cases. This is one reason I don't like MATLAB.
 
 5) Scripts that are 25+ lines long
 
