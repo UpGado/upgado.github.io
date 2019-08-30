@@ -20,17 +20,17 @@ However, in my experience, scientists spend *a lot* of their time just trying to
 
 So far, we have been broad and theoritical. Now, let's get technical and get our hands dirty with some code tips. The following is MATLAB code samples that I wrote in order to show some common bad habits that I usually come across.
 
-1) Untelling variable names
+1) No untelling variable names
 ```matlab
 array = [1, 2, 3]
 array1 = array*3
 array2 = array*2
 ```
-2) Redundant comments
+2) No redundant comments
 ```matlab
 x++ % increments x
 ```
-3) Magic Numbers
+3) No magic Numbers
 ```matlab
 x = [1, 2, 3]i
 x = x.*50
@@ -43,6 +43,8 @@ Why is `x` multiplied by 50? You might know, but another person reading your cod
 Functions are neat because they promise to give you the output without including you in the implementation details. This means that you have less to worry about! You can also use functions to avoid repeating your code. Write once, execute as many times as you want. This is alsi important because if you find out about a bug, you will have to only change the code inside the function, instead of changing code in multiple places. Use functions in your code. Unfortunately, MATLAB is restrictive in that every function has to be defined in its own separate file. This pushes people away from creating functions because it's simply a lot of work, and sometimes people want to keep everything contained in one file, which is okay for some cases. This is one reason I don't like MATLAB.
 
 5) Scripts that are 25+ lines long
+
+This might seem crazy or demanding. After all, the size of the code you write corresponds to the complexity of the data analysis being applied. If your analysis is comprised of many steps, the code will be longer. That is definitely true. But there is no rule that says that all the code has to fit in one script. I have seen scripts that are 400+ lines of code, making them impossible to read "at a glance". It would be a lot better to take parts of this code and put them in separate functions.
 
 ## Let's use Python instead
 
