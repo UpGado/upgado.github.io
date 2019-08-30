@@ -32,9 +32,11 @@ x++ % increments x
 ```
 3) Magic Numbers
 ```matlab
-x = [1, 2, 3]
+x = [1, 2, 3]i
 x = x.*50
 ```
+
+Why is `x` multiplied by 50? You might know, but another person reading your code won't. You also *will* forget why you had it there at some point. When you go back and look at your code, the 50 will look like some magic number that makes your code works. Instead,  it is better to define the `50` as a separate variable with a name that tells its purpose.
 
 4) Write functions
 
