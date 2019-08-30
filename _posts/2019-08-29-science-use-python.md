@@ -22,11 +22,13 @@ So far, we have been broad and theoritical. Now, let's get technical and get our
 
 1) Untelling variable names
 ```matlab
-x = [1, 2, 3]
+v = [1, 2, 3]
+vf = v*3
+vi = vf*2
 ```
-2) Useless comments
+2) Redundant comments
 ```matlab
-x++
+x++ % increments x
 ```
 3) Magic Numbers
 ```matlab
