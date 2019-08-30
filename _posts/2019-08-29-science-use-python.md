@@ -24,6 +24,11 @@ So far, we have been broad and theoritical. Now, let's get technical and get our
 ```matlab
 x = [1, 2, 3]
 ```
+2) Useless comments
+```matlab
+x = [1, 2, 3]
+```
+
 ## Let's use Python instead
 
 {% include mailchimp.html source="scienceusepython1" %}
