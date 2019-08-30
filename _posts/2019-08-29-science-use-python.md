@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why science people should switch to Python"
+title:  "Why the science community should switch to Python"
 date:   2019-08-29 11:29:19
 published: true
 draft: true
