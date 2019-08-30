@@ -22,9 +22,9 @@ So far, we have been broad and theoritical. Now, let's get technical and get our
 
 1) Untelling variable names
 ```matlab
-v = [1, 2, 3]
-vf = v*3
-vi = vf*2
+array = [1, 2, 3]
+array1 = array*3
+array2 = array*2
 ```
 2) Redundant comments
 ```matlab
@@ -32,8 +32,10 @@ x++ % increments x
 ```
 3) Magic Numbers
 ```matlab
-x = [1, 2, 3]
+ = [1, 2, 3]
+x = x.*50
 ```
+
 4) Write functions
 
 Functions are neat because they promise to give you the output without including you in the implementation details. This means that you have less to worry about! You can also use functions to avoid repeating your code. Write once, execute as many times as you want. This is alsi important because if you find out about a bug, you will have to only change the code inside the function, instead of changing code in multiple places. Use functions in your code. Unfortunately, MATLAB is restrictive in that every function has to be defined in its own separate file. This pushes people away from creating functions because it's simply a lot of work, and sometimes people want to keep everything contained in one file, which is okay for some cases. This is one reason I don't like MATLAB.
