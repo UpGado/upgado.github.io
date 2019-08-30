@@ -32,6 +32,8 @@ x = [1, 2, 3]
 ```matlab
 x = [1, 2, 3]
 ```
+4) Use functions
+
 ## Let's use Python instead
 
 {% include mailchimp.html source="scienceusepython1" %}
