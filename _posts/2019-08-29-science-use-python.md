@@ -14,7 +14,7 @@ The answer is a bold **YES**. After all, let's not forget that the main reason p
 ## The scientist's mindset
 Scientists are busy people: they already have to deal with literature search, designing their experiments in order to obtain sound results and figuring out why the cells they have been culturing for weeks are suddenly dying. To them, they go through all that trouble just to obtain some measurements, which are colloquality called results. Results are the holy grail of science. Once you have acquired the results, a scientist rushes through the data analysis and hope that it tell them what they wish to hear, the sought-after conclusion. To the scientist, data analysis might in fact be the least important piece of the puzzle.
 
-However, in my experience, scientists spend *a lot* of their time just trying to get the data analysis to work.
+However, in my experience, scientists spend *a lot* of their time just trying to get the data analysis to work. This time could in fact be longer than the time it takes to complete all the other steps combined.
 ## The problem with MATLAB code
 ## Let's use Python instead
 
