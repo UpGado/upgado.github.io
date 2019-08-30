@@ -19,6 +19,10 @@ However, in my experience, scientists spend *a lot* of their time just trying to
 ## How exactly might we improve code
 
 So far, we have been broad and theoritical. Now, let's get technical and get our hands dirty with some code tips. The following is MATLAB code samples that I wrote in order to show some common bad habits that I usually come across.
+
+```matlab
+x = [1, 2, 3]
+```
 ## Let's use Python instead
 
 {% include mailchimp.html source="scienceusepython1" %}
