@@ -44,7 +44,11 @@ Functions are neat because they promise to give you the output without including
 
 5) Scripts that are 25+ lines long
 
-This might seem crazy or demanding. After all, the size of the code you write corresponds to the complexity of the data analysis being applied. If your analysis is comprised of many steps, the code will be longer. That is definitely true. But there is no rule that says that all the code has to fit in one script. I have seen scripts that are 400+ lines of code, making them impossible to read "at a glance". It would be a lot better to take parts of this code and put them in separate functions.
+This might seem crazy or demanding. After all, the size of the code you write corresponds to the complexity of the data analysis being applied. If your analysis is comprised of many steps, the code will be longer. That is definitely true. But there is no rule that says that all the code has to fit in one script. I have seen scripts that are 400+ lines of code, making them impossible to read "at a glance", which should be possible. It would be a lot better to take parts of this code and put them in separate functions.
+
+6) Scripts that live forever
+
+This happens in almost *all* MATLAB code that I have seen. Many programs that are written don't have a clear start, where they take input, and an end, where they release output. Instead, those programs depend on some undocumented variables that should exist in the workspace beforehand, perhaps loaded manually by dragging-and-dropping some files into the MATLAB command prompt. Moreover, many programmers abuse the code section feature of MATLAB as a way to stop in the middle of a program and get some output before it continues running. Stopping in the middle to load some more data or change the code as its being developed, without running the whole script again. This is okay during development, but it shouldn't be the final state of the code. It would be a lot better to have the analysis done at once, with no need for user interaction beyond providing the input data as the very first step. This saves time because the user can move on to other tasks, instead of having to baby-sit the analysis and tell it to proceed, section by section.
 
 ## Let's use Python instead
 
