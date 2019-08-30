@@ -20,6 +20,7 @@ However, in my experience, scientists spend *a lot* of their time just trying to
 
 So far, we have been broad and theoritical. Now, let's get technical and get our hands dirty with some code tips. The following is MATLAB code samples that I wrote in order to show some common bad habits that I usually come across.
 
+1) Variable names
 ```matlab
 x = [1, 2, 3]
 ```
