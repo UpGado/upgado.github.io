@@ -12,8 +12,7 @@ Who cares? you might ask. After all, the focus of the scientific community shoul
 The answer is a bold **YES**. After all, let's not forget that the main reason programmers try to write good code is simply to improve productivity. Of course, scientists care about their productivity too (results, results, results!). However, since they are so focused on the science, they don't realize the benefits they could get if they invest in writing good code for their data analysis. The benefits that I promise include the traditional benefits that affect any programmer: a code base that is more pleasing to the eye, and a clear code behaviour that does not make you want to pull your hair. It also includes saving literal tens of hundreds of hours of human time: time that could be spent on something more productive that a computer couldn't do by itself, such as advancing science!
 
 ## The scientist's mindset
-Scientists are busy people: they already have to deal with literature search, designing their experiments to obtain sound results and figuring out why the cells they have been culturing for weeks are suddenly dying.
-
+Scientists are busy people: they already have to deal with literature search, designing their experiments to obtain sound results and figuring out why the cells they have been culturing for weeks are suddenly dying. To them, results are the holy grail. Once you have acquired results, you rush through the data analysis and hope that they tell you what you wish to hear.
 ## The problem with MATLAB code
 ## Let's use Python instead
 
