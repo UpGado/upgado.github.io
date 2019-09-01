@@ -20,7 +20,7 @@ And so I decided to go for it. The game was to be called "ASCII Racer". Its desi
 
 Except that ASCII Racer was a lot, a lot simpler. It was still a lot of interesting, fun work, and it evolved into something that I didn't quite expect. It turned into a game where you drive in a your sports car and collect various alcoholic drinks and Martini glasses:
 
-I wrote the whole thing in Python, with no external dependencies. Every drawing in the game was made from scratch.
+I wrote the whole thing in Python, with no external dependencies. Everything about the game was made from scratch, and I was very proud.
 
 
 {% include mailchimp.html source="ascii1" %}
