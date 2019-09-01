@@ -16,7 +16,7 @@ You can't even show an image in terminal, and you can't draw anything. You can o
 
 And so I decided to go for it. The game was to be called "ASCII Racer". Its design was inspired by some early Atari racing game that I vaguely remember from my childhood:
 
-{% include figure.html file="/imgs/ascii-2.jpg" description="Figure 2: A high-tech game compared to what I am gonna make." width="60%"%}
+{% include figure.html file="/imgs/ascii-3.jpg" description="Figure 2: A high-tech game compared to what I am gonna make." width="60%"%}
 
 Except that I made it simpler.
 
