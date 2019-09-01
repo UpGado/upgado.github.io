@@ -20,7 +20,7 @@ And so I decided to go for it. The game was to be called "ASCII Racer". Its desi
 
 Except that ASCII Racer was a lot, a lot simpler. It was still a lot of interesting, fun work, and it evolved into something that I didn't quite expect. It turned into a game where you drive in a your sports car and collect various alcoholic drinks and Martini glasses:
 
-{% include figure.html file="/imgs/ascii-4.gif" description="Figure 3: ASCII Racer gameplay" width="60%"%}
+{% include figure.html file="/imgs/ascii-4.gif" description="Figure 3: ASCII Racer gameplay" width="100%"%}
 
 I wrote the whole thing in Python, with no external dependencies. Everything about the game was made from scratch, and I was very proud. My expectations for the game was just that it's gonna be something cool that I could maybe show to my coworkers.
 
@@ -34,7 +34,7 @@ I quickly accepted the challenge and read up on best practices for maintaining a
 
 Currently, ASCII Racer has 77 stars on [Github](https://github.com/UpGado/ascii_racer), one of which is mine (sssshh). It truely was an awesome learning experience, and I am thankful to everyone who made it happen.
 
-Shoutout to Chris Reik for implementing Budlights cans and dollar bills!
+Shoutout to Chris Reik for implementing Budlight cans and dollar bills!
 
 
 ```bash
