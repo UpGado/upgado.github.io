@@ -10,7 +10,7 @@ Run!
 
 This summer, bored at work, and refusing to study properly for the GRE, I decided to embark on a new coding adventure. I wanted to make a racing game that runs in the terminal. For those who don't know, this is what a terminal looks like:
 
-{% include figure.html file="/imgs/ascii-1.png" description="Figure 1: Terminals don't come with video games" width="60%"%}
+{% include figure.html file="/imgs/ascii-1.png" description="Figure 1: Terminals don't come with video games" width="90%"%}
 
 You can't even show an image in terminal, and you can't draw anything. You can only show fixed-size characters, and if you're lucky, you can show text in at most 256 colors. However, even with those limitation, people who are into it can still make some beautiful [ASCII art](https://www.asciiart.eu)
 
