@@ -28,7 +28,7 @@ But then, one night, my friend and coworker Chris suggested that I put the game 
 
 The next morning, I thought I would check on the post. To my utter surprise, my [post](https://www.reddit.com/r/Python/comments/cpmll6/made_a_racing_game_that_runs_in_terminal_100/) has reached 1.5K upvotes (reddit talk for likes). People liked the game and a lot of the comments were very supportive. Not quite what I expected, but it's a happy surprise.
 
-Soon enough, I found people who found the source code on GitHub. Soon enough, people were reporting bugs and suggesting improvements. In fact, some person even made and submitted an improvement to the game! I suddently found myself not anymore a rookie programmer. I am a *maintainer* of an open source project that people are interested.
+Soon enough, people who found the source code on GitHub. Soon enough, they were reporting bugs and suggesting improvements. In fact, some person even made and submitted an improvement to the game! I suddently found myself not anymore a rookie programmer carelessly working on a fun project. I am a *maintainer* of an open source project that people are interested in. There was a sense of responsibility towards the people who liked the game. I can't fuck up anymore or introduce a bug to the game. I quickly accepted the challenge and read up on maintaining open source projects. I was mainly intirigued by responding to people's code suggestions (pull requests); I didn't want to come across as an asshole who thinks that everybody's code was bad.
 
 
 {% include mailchimp.html source="ascii1" %}
