@@ -24,7 +24,9 @@ Except that ASCII Racer was a lot, a lot simpler. It was still a lot of interest
 
 I wrote the whole thing in Python, with no external dependencies. Everything about the game was made from scratch, and I was very proud. My expectations for the game was just that it's gonna be something cool that I could maybe show to my coworkers.
 
-But then, one night, my friend and coworker Chris suggested that I put the game up on the [r/python](https://reddit.com/r/python/), the Python subreddit with 410K members. I thought about it, and I thought what is the worst that could happen? People on reddit tend to be negative. If I post the game, some people are probably going to think that it sucks. But that's fine. I can take that. I posted it and went to bed that night.
+But then, one night, my friend and coworker Chris suggested that I put the game up on the [r/python](https://reddit.com/r/python/), the subreddit for Python with 410K members. I thought about it, and I thought what is the worst that could happen? People on reddit tend to be negative. If I post the game, some people are probably going to think that it sucks. But that's fine. I can take that. I posted it and went to bed that night.
+
+The next morning, I thought I would check on the post
 
 
 {% include mailchimp.html source="ascii1" %}
