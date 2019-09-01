@@ -12,6 +12,6 @@ This summer, bored at work, and refusing to study properly for the GRE, I decide
 
 {% include figure.html file="/imgs/ascii-1.png" description="Figure 1: Terminals don't come with video games." width="60%"%}
 
-You can't show an image in terminal. You can only show fixed-size characters. However, even with that limitation, you can still make some beautiful ASCII art
+You can't show an image in terminal. You can only show fixed-size characters, and if you're lucky, you can show text in at most 256 colors. However, even with those limitation, people who are into it can still make some beautiful [ASCII art](https://www.asciiart.eu)
 
 {% include mailchimp.html source="ascii1" %}
