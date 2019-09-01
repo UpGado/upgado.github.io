@@ -37,8 +37,10 @@ Currently, ASCII Racer has 77 stars on [Github](https://github.com/UpGado/ascii_
 Shoutout to Chris Reik for implementing Budlight cans and dollar bills!
 
 
+If you want to play ASCII Racer, run:
+
 ```bash
-$ pip install asciiracer
+$ pip3 install asciiracer
 ```
 
 {% include mailchimp.html source="ascii1" %}
