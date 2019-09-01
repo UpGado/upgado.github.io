@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Tale of ASCII Racer"
+title:  "The Tale of ASCII Racer"
 date:   2019-08-31 07:44:35
 published: true
 draft: true
