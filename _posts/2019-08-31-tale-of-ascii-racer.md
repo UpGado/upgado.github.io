@@ -1,12 +1,16 @@
 ---
 layout: post
-title:  "The Tale of ASCII Racer"
+title:  "The tale of ASCII Racer"
 date:   2019-08-31 07:44:35
 published: true
 draft: true
 ---
 
+Run!
 
-{% include figure.html file="/imgs/simulink-5.png" description="Figure 4: Graph of water volume vs time. X-axis is time in seconds. Y-axis is percentage of bathtub filled." width="40%"%}
+This summer, bored at work, and refusing to study properly for the GRE, I decided to embark on a new coding adventure. I wanted to make a racing game that runs in the terminal. For those who don't know, this is what a terminal looks like:
 
-{% include mailchimp.html source="simulink1" %}
+
+{% include figure.html file="/imgs/ascii-1.png" description="Figure 1: Terminals don't come with video games." width="80%"%}
+
+{% include mailchimp.html source="ascii1" %}
