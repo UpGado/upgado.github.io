@@ -16,11 +16,11 @@ You can't even show an image in terminal, and you can't draw anything. You can o
 
 And so I decided to go for it. The game was to be called "ASCII Racer". Its design was inspired by this Atari racing game that I remember vaguely from my childhood:
 
-{% include figure.html file="/imgs/ascii-3.jpg" description="Figure 2: A very high-tech, futuristic game compared to what I was gonna make." width="60%"%}
+{% include figure.html file="/imgs/ascii-3.jpg" description="Figure 2: A very high-tech, futuristic game compared to what I was ever gonna make happen in Terminal." width="60%"%}
 
 Except that ASCII Racer was a lot, a lot simpler. It was still a lot of interesting, fun work, and it evolved into something that I didn't quite expect. It turned into a game where you drive in a your sports car and collect various alcoholic drinks and Martini glasses:
 
-I wrote the whole thing in Python, with no external dependencies. Everything about the game was made from scratch, and I was very proud.
+I wrote the whole thing in Python, with no external dependencies. Everything about the game was made from scratch, and I was very proud. My expectations for the game was just that it's gonna be something cool that maybe I could show to my coworkers.
 
 
 {% include mailchimp.html source="ascii1" %}
