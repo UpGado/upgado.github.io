@@ -12,8 +12,11 @@ This summer, bored at work, and refusing to study properly for the GRE, I decide
 
 {% include figure.html file="/imgs/ascii-1.png" description="Figure 1: Terminals don't come with video games." width="60%"%}
 
-You can't show an image in terminal. You can only show fixed-size characters, and if you're lucky, you can show text in at most 256 colors. However, even with those limitation, people who are into it can still make some beautiful [ASCII art](https://www.asciiart.eu)
+You can't even show an image in terminal, and you can't draw anything. You can only show fixed-size characters, and if you're lucky, you can show text in at most 256 colors. However, even with those limitation, people who are into it can still make some beautiful [ASCII art](https://www.asciiart.eu)
 
-And so I decided to go for it. I had a certain design in mind. Drawn on paper, it looks like this:
+And so I decided to go for it. The scene of the game was inspired by some early Atari racing game that I vaguely remember from my childhood:
+
+{% include figure.html file="/imgs/ascii-2.png" description="Figure 2: A high-tech game compared to what I am gonna make." width="60%"%}
+
 
 {% include mailchimp.html source="ascii1" %}
