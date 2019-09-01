@@ -32,7 +32,7 @@ Soon enough, people who found the source code on GitHub. Soon enough, they were 
 
 I quickly accepted the challenge and read up on best practices for maintaining an open source project. One issue that intrigued me was how to respond to people's code suggestions (pull requests). There was one person who wrote a new feature that the game needed. Clearly, this person spent time writing code to improve my game, I should thank them and show gratitude. However, I also had my thoughts about what the code should look like on a high-level, and I thought that this person's changes did not adhere to my *undocumented* code architecture. I didn't want to come across as an asshole, but I did request changes to their code before I include it into the game. I did my best to try and hit a balance, and I thought that it's okay to sacrifice some code quality in favor of making the contributors feel that their code is being appreciated. I don't want them to come back to look at the project and find that their code has been completely rewritten. I think I did well there.
 
-Currently, ASCII Racer has 77 stars on [Github](https://github.com/UpGado/ascii_racer), one of which is mine (sssshh). It truely was an awesome learning experience, and I am thankful to everyone who made it happen.
+Currently, ASCII Racer has 77 stars on [Github](https://github.com/UpGado/ascii_racer), one of which is mine (sssshh). It truely was an awesome learning experience, and I am thankful to everyone who made it happen, and everyone who contributed (shout out to Chris Reik for including Budlights)
 
 
 ```bash
