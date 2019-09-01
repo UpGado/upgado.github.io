@@ -34,7 +34,7 @@ I quickly accepted the challenge and read up on best practices for maintaining a
 
 Currently, ASCII Racer has 77 stars on [Github](https://github.com/UpGado/ascii_racer), one of which is mine (sssshh). It truely was an awesome learning experience, and I am thankful to everyone who made it happen.
 
-Shoutout to Chris Reik for implementing Budlights!
+Shoutout to Chris Reik for implementing Budlights cans and dollar bills!
 
 
 ```bash
