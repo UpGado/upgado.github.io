@@ -2,8 +2,16 @@
 # Just to customize without duplicating style files
 ---
 
-$content-width: 75%;
+// $content-width: 75%;
 
-$on-laptop: 75%;
+
+// Width of the content area
+$content-width:    75% !default;
+
+$on-palm:          600px !default;
+$on-laptop:        800px !default;
+
+$on-medium:        $on-palm !default;
+$on-large:         $on-laptop !default;
 
 @import "minima";
