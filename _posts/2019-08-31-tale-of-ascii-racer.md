@@ -22,7 +22,7 @@ Except that ASCII Racer was a lot, a lot simpler. It was still a lot of interest
 
 {% include figure.html file="/imgs/ascii-4.gif" description="Figure 3: ASCII Racer gameplay" width="90%"%}
 
-I wrote the whole thing in Python, with no external dependencies. Everything about the game was made from scratch, and I was very proud. My expectations for the game was just that it's going to be something cool that I could maybe show to my coworkers and get a few laughs about.
+I wrote the whole thing in Python, with no external dependencies. Everything about the game was made from scratch, and I was very proud. My expectations for the game was just that it's going to be something cool that I could maybe show to my coworkers and have a few laughs about.
 
 But then, one night, my friend and coworker Chris suggested that I put the game up on the [r/python](https://reddit.com/r/python/), the subreddit for Python with 410K members. I thought about it, and I thought to myself: what is the worst that could happen? People on reddit tend to be negative. If I post the game, they are probably going to think that it sucks. But that's fine. I can take that. I posted it and went to bed that night.
 
