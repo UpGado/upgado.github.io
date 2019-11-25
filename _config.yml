@@ -16,6 +16,5 @@ plugins:
     - jekyll-sitemap
     - jekyll-time-to-read
 
-remote_theme: jekyll/minima
-theme: jekyll/minima
+theme: minima
 baseurl: "upgado.github.io"
