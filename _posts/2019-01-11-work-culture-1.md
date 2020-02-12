@@ -13,7 +13,7 @@ First was me: very excited to begin work in a computer science lab, and very hyp
 
 ### First encounter with Jim
 
-So I meet Jim. He is an old, bearded dude who talks and acts in a socially awkward way. I was happy. That is *actually* fine: I like spending time with "weird people", partially because I think they are funny and cute, and also because, around them, I don't feel pressure to act in any certain way. I was thinking: Jim probably has problems interacting with many people, but not with me, because I just know how to interact with socially-awkaward people, and it takes a lot more weirdness than normal to "throw me off".
+So I meet Jim. He is an old, bearded dude who talks and acts in a socially awkward way. I was happy. That is *actually* fine: I like spending time with "weird people", partially because I think they are funny and cute, and also because, around them, I don't feel pressure to act in any certain way. I was thinking: Jim probably has problems interacting with many people, but not with me, because I just know how to interact with socially-awkaward people, and it takes a lot more weirdness than normal to throw me off.
 
 But I was wrong. Jim is actually *so* bad that I can't deal with him. It is not just that we don't have chemistry and should limit unnecessary contact; he actually goes out of his way to make matters worse. Like mean, condescending responses is his thing. But we all met those kinds of people. I actually want to talk about other behaviour that are more subtle yet very toxic for performance.
 
