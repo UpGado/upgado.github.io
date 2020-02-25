@@ -8,6 +8,8 @@ draft: true
 
 This year, I started reading Douglas Adam's masterpiece, The Hitchhiker's Guide to the Galaxy. There is no question about how funny, witty, and smart the story is. The whole thing is hilarious, and I absolutely recommend it for some amazing comedy content. But I can't help but wonder: is there more to it? What can we learn about the world from this book? and what lessons, if any, can we draw to improve our lives. Read on.
 
+## Which character would I rather be?
+
 
 
 {% include mailchimp.html source="hitchhiker1" %}
