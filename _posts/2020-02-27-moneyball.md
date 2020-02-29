@@ -57,6 +57,6 @@ The movie makes it seem like this is just a random song. But in fact, this song 
 
 Here is a little confession that I am not too sure should be shared in public: I am just like Billy. I need to prove my worth to myself all the time. I do it sometimes through intellectual challenges, and sometimes by stepping outside of my comfort zone and pushing my limits. I pride myself on "being able to do anything if I want to" It might seem like a bad or even a good thing, and who knows? But it's certainly who I am, and it is an element that I need in order to be happy. It is a part of methat I have lost track of recently, and I am happy that now I have found it.
 
-To everyone reading this and to S (you know who you are), watch the movie.
+To everyone reading this and to S (you know who you are), wish you lots of happiness.
 
 {% include mailchimp.html source="moneyball1" %}
