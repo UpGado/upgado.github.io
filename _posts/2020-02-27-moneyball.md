@@ -15,7 +15,7 @@ Well, I wasn't feeling good because of a lot of factors, but here is one of them
 Once I saw this movie on the airplane tablet thingy, I jumped at it. I realized that I need to watch it because I need to restore in me the spirit of the hard-working fighter that I *know* I am at heart. As I write this, I am halfway through the movie, and I can't help but realize the sheer excitement of the opportunities that I have right now. I am about to graduate, and I have many marketable skills. Gosh. My life can be anything that I want. This is the time to make things happen. This is the time to be like Billy and try to change the game. I needed a reminder of who I am, and the movie provided it.
 
 
-Interestingly though, as I watch the movie right now, I realize that Billy is not just a 100% hardcore guy who just wants success. His dense of drive and purpose is not just for no reason. Billy has subtle yet very clear vulnerabilities, and they are his source of motivation and sense of purpose. There is a [scene](https://youtu.be/YTnIHnawJeI?t=36) where Billy's daughter sings to him, about himself. The song goes:
+Interestingly though, as I watch the movie right now, I realize that Billy is not just a 100% hardcore guy who just wants success. His sense of drive and purpose is not just there for no reason. Billy has subtle yet very clear vulnerabilities, and they are his source of motivation and sense of purpose. There is a [scene](https://youtu.be/YTnIHnawJeI?t=36) where Billy's daughter sings:
 
 >   "
 >
@@ -53,10 +53,10 @@ Interestingly though, as I watch the movie right now, I realize that Billy is no
 >
 >   "
 
-The movie makes it seem like this is just a random song. But in fact, this song is about Billy himself. As tough as he acts and sounds, deep inside, he is the little girl who is lost and scared, and does not show it. He is trying to achieve the impossible because he is trying hard to fill a need and prove something about himself to himself. As the movie says it, Billy wants a high salary not for money itself, but for "what the money says". And the money says: I am a big shot. I am smart. I mean something. I can now feel good about myself.
+The movie makes it seem like this is just a random song. But in fact, this song is about Billy himself. As tough as he acts and sounds, deep inside, he is the little girl who is lost and scared and does not show it. He is trying to achieve the impossible because he is trying hard to fill a need and prove something about himself to himself. That really is his main drive, and the movie shows it multiple times. For example, Billy wants a high salary not for money itself, but for "what the money says". And the money says: I am a big shot. I am smart. I mean something. I can now feel good about myself.
 
-Here is a little confession that I am not too sure should be shared in public: I am just like Billy. I need to prove my worth to myself all the time. I do it sometimes through intellectual challenges, and sometimes by stepping outside of my comfort zone and pushing my limits. I pride myself on "being able to do anything if I want to" It might seem like a bad or even a good thing, and who knows? But it's certainly who I am, and it is an element that I need in order to be happy. It is a part of methat I have lost track of recently, and I am happy that now I have found it.
+Here is a little personal confession: I am just like Billy. I need to prove my worth to myself all the time. I do it sometimes through intellectual challenges, and sometimes by stepping outside of my comfort zone and pushing my limits. I pride myself on "being able to do anything if I want to" It might seem like a bad or even a good thing, and who knows? But it's certainly who I am, and it is an element that I need in order to be happy. It is a part of methat I have lost track of recently, and I am happy that now I have found it.
 
-To everyone reading this and to S (you know who you are), wish you lots of happiness.
+Cheers to everyone reading this and to S (you know who you are).
 
 {% include mailchimp.html source="moneyball1" %}
