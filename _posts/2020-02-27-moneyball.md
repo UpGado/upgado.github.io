@@ -3,7 +3,7 @@ layout: post
 title:  "A soft spot for Moneyball"
 date:   2020-02-27 12:50:00
 published: true
-draft: false
+draft: true
 ---
 
 I have always had a spot spot for the movie Moneyball. The first time I watched it was in high school, and I remember falling in love with the main character, Billy. who is a GM for a small-budget baseball team, and is trying to win the championship, competing against teams with huge budgets (like the Red Sox) who can grab any star player they want. Billy is a cut throat personality. He wants success and will try to achieve it at any cost. He is a ruthless, assertive person, who does not waste his time explaining himself to people. I fell in love with his personality, and aspired to acquire some of his good qualities.
