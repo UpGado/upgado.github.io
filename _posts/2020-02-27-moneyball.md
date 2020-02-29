@@ -53,9 +53,9 @@ Interestingly though, as I watch the movie right now, I realize that Billy is no
 >
 >   "
 
-The movie makes it seem like this is just a song about his daughter. But in fact, this song is about Billy himself. As tough as he acts and sounds, deep inside, he is the little girl who is lost and scared, and does not show it. He is trying to achieve the impossible because he is trying hard to fill a need and prove something about himself to himself. As the movie says it, Billy wants a high salary not for money itself, but for "what the money says". And the money says: I am a big shot. I am smart. I mean something.
+The movie makes it seem like this is just a random song. But in fact, this song is about Billy himself. As tough as he acts and sounds, deep inside, he is the little girl who is lost and scared, and does not show it. He is trying to achieve the impossible because he is trying hard to fill a need and prove something about himself to himself. As the movie says it, Billy wants a high salary not for money itself, but for "what the money says". And the money says: I am a big shot. I am smart. I mean something. I can now feel good about myself.
 
-Here is a little confession that I am not too sure should be shared in public: I am just like Billy. I need to prove my worth to myself all the time. I do it sometimes through intellectual challenges, and sometimes by stepping outside of my comfort zone. I pride myself on being "able to do anything if I want to" It might seem like a bad or even a good thing, and who knows? But it's certainly who I am, and it is an element that I need in order to be happy. It is just a part of me, and I am happy that I now realize it.
+Here is a little confession that I am not too sure should be shared in public: I am just like Billy. I need to prove my worth to myself all the time. I do it sometimes through intellectual challenges, and sometimes by stepping outside of my comfort zone and pushing my limits. I pride myself on "being able to do anything if I want to" It might seem like a bad or even a good thing, and who knows? But it's certainly who I am, and it is an element that I need in order to be happy. It is a part of methat I have lost track of recently, and I am happy that now I have found it.
 
 To everyone reading this and to S (you know who you are), watch the movie.
 
