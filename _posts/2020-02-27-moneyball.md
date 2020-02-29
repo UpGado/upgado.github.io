@@ -17,23 +17,39 @@ Once I saw this movie on the airplane tablet thingy, I jumped at it. I realized 
 Interestingly, though, the movie shows some sides of Billy that do not quite fit the image of a "big-dick high-achiever get-out-of-my-way guy", which is the image that I fell in love with during high school. There is a [scene](https://youtu.be/YTnIHnawJeI?t=36) where Billy meets his daughter and asks her to play a sing something on the guitar. The song, sang in her beautiful voice, says:
 
 >   "
+>
 >   I'm just a little bit
+>
 >   Caught in the middle
+>
 >   Life is a maze
+>
 >   And love is a riddle
+>
 >   I don't know where to go
+>
 >   Can't do it alone, I've tried
+>
 >   And I don't know why
+>
 >   I'm just a little girl
+>
 >   Lost in the moment
+>
 >   I'm so scared
+>
 >   But I don't show it
+>
 >   I can't figure it out
+>
 >   It's bringing me down
+>
 >   I know I've got to let it go
+>
 >   And just enjoy the show
+>
 >   and just enjoy the show"
->   ...
+>
 >   "
 
 
