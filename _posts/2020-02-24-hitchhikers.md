@@ -10,6 +10,6 @@ This year, I started reading Douglas Adam's masterpiece, The Hitchhiker's Guide 
 
 ## Which character would I rather be?
 
-
+Zaphod is a hell of a guy! Talk about self-confidence and having fun.
 
 {% include mailchimp.html source="hitchhiker1" %}
