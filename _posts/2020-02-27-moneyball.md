@@ -59,6 +59,4 @@ Here is a little personal confession: I am just like Billy. I need to prove my w
 
 
 
-Cheers to everyone reading this and esp. to one person (you know who you are).
-
 {% include mailchimp.html source="moneyball1" %}
