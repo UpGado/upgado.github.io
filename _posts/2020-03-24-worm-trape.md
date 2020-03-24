@@ -14,6 +14,6 @@ So, we've established that this matter is worthy of discussion, and possible hun
 Electric tapes are also cool creatures. They are pretty quiet and come in all colors. We have never seen them spread gossip or hurt each other's feelings, whether they mean it or not. The question that matters here is: if electric tapes are cool creatures, is it then okay for worms (or humans) to eat them? Yes. Eating electric tape is *good*.
 
 
-What is good? Well I don't know. I don't even know what humans are. What does it mean to be truly human? I don't know. Until we can answer that question, we cannot even begin to think we can make rules about the lives of worms or electric tape. How can we, when we don't even know what, or who, we are?
+What is good? Well I don't know. I don't even know what humans are. What does it truly mean to be human? I don't know. Until we can answer that question, we cannot even begin to think we can make rules about the lives of worms or electric tape. How can we, when we don't even know what, or who, we are?
 
 In conclusion, life is great and pretty awesome, wonderful, and a fun activity to do on a daily basis. We don't necessarily need to answer the ultimate question of worms and electric tapes, and we are also not qualified to. We should just chill and let worms do what they want to do. They know better for themselves. Thanks.
