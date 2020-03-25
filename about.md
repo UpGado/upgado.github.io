@@ -18,7 +18,7 @@ I am graduating soon and am looking for an academic lab to join for PhD.
 - Automation (***there is nothing more satisfying than automating a boring task***)
 - Enterpreneurship and business
 - Management and leadership
-- Video games: League and Minecraft
+- Video games: League, Minecraft, Zelda
 
 If you share any of those interests (or would like to learn about any of them), I would love to connect with you! Add me on [LinkedIn](https://www.linkedin.com/in/gadoahmed/) and, if you're in the Boston area, let's go for coffee!
 
