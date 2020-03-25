@@ -18,4 +18,4 @@ What is good? Well I don't know. I don't even know what humans are. What does it
 
 In conclusion, life is great and pretty awesome, wonderful, and a fun activity to do on a daily basis. We don't necessarily need to answer the ultimate question of worms and electric tapes, and we are also not qualified to. We should just chill and let worms do what they want to do. They know better for themselves. Thanks.
 
-ǝʞoM ʎɐʇS
+pǝsɐq ʎɐʇS
