@@ -23,7 +23,7 @@ I am graduating soon and am looking for an academic lab to join for PhD.
 If you share any of those interests (or would like to learn about any of them), I would love to connect with you! Add me on [LinkedIn](https://www.linkedin.com/in/gadoahmed/) and, if you're in the Boston area, let's go for coffee!
 
 
-That's it. My email address is ahmedehabg[at]gmail[dot]com
+That's it. My email address is ɯoɔ˙lᴉɐɯƃ@ƃqɐɥǝpǝɯɥɐ
 
 ```
  _________________________________________
