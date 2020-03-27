@@ -3,7 +3,7 @@ layout: post
 title:  "Worms should eat electric tape"
 date:   2020-03-24 12:32:50
 published: true
-draft: false
+draft: true
 ---
 
 Let's pretend that worms eating electric tape is a matter worthy of discussion and debate, because it is. If we spend hours and countless calories debating whether humans should eat animals or not, so why not discuss matters of worms? Are we, humans, more important than other animals? No. Is electric tape alive or not? Who knows! Who knows if this question is as important as the questions that we spend our lives thinking about? For all we know, worms and electric tapes might be the species that truly matter in this world. We don't know for sure that it is *us* who matter, and therefore how can we decide that only humans matters are matters that matter?
