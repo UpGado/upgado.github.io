@@ -17,4 +17,7 @@ The next step is to look at how the community likes to use the language and what
 Now, you can start writing your own projects in the new language. I highly recommend being suspicious of any code you write at first, and always trying to find code online (in the language documentation or Stackoverflow) that is trying to do something similar to what you are doing. You are likely to find new ways of doing things, and the whole experience will be more fun, because you are actually learning to think in new ways. You can also refer to the general philosophy of the language and keep it in mind both when you are designing the high-level or low-evel aspects of your code. If something doesn't feel right and you feel that you are straining the language (and your brain) too much, this is a sign that there must be a better way. Learn it!
 
 
+The final tip is to stay in the loop about the programming language. It helps to be aware of the dialogue about the language's development, because it keeps your knowledge in check and up to date. Watching talks is a great way to do that. Joining local (or virtual) meetups for the language is another great way.
+
+
 {% include mailchimp.html source="rust1" %}
