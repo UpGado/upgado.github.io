@@ -19,5 +19,6 @@ Now, you can start writing your own projects in the new language. I highly recom
 
 The final tip is to stay in the loop about the programming language. It helps to be aware of the dialogue about the language's development, because it keeps your knowledge in check and up to date. Watching talks is a great way to do that. Joining local (or virtual) meetups for the language is another great way.
 
+Happy learning.
 
 {% include mailchimp.html source="rust1" %}
