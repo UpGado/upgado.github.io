@@ -6,7 +6,7 @@ permalink: /about/
 
 Hi! I am Ahmed. Welcome to my blog. I write about whatever comes to mind and I think I have something useful to say about.
 
-I am graduating soon and am looking for an academic lab to join for PhD.
+I am graduating from college soon.
 
 ## Interests
 
