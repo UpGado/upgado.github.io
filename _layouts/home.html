@@ -21,11 +21,7 @@ layout: default
             <a class="post-link" href="{{ post.url | relative_url }}">
               {{ post.title | escape }}
             </a>
-
           </h3>
-          {%- if post.tags is defined -%}
-              <h4>has tags</h4>
-          {%- endif -%}
           {%- if site.show_excerpts -%}
             {{ post.excerpt }}
           {%- endif -%}
