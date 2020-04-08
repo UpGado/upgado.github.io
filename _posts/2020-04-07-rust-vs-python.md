@@ -6,7 +6,7 @@ published: true
 draft: true
 ---
 
-Recently I finally got to give Rust a shot. My previous, naive approach to learning new programming languages was to just read the syntax and mimic it. After all, all programming languages are the same thing. They all have variables.. However, I learned that this is just a terrible way to learn a language, and I wanted to share in this post some tips for how to better adopt a new language.
+Recently I finally got to give Rust a shot. My previous, naive approach to learning new programming languages was to just read the syntax and mimic it. After all, all programming languages are the same thing. They all have variables and just manipulate them.. However, I learned that this is just a terrible way to learn a language, and I wanted to share in this post some tips for how to better adopt a new language.
 
 If you jump syntax-deep into the new language, you are most likely to learn nothing new. You are likely to use the new language in the wrong way, although your code might compile and run. Instead, learning a new language is akin to adopting a new philosophy, or even following a new religion! 😄 . For example, here is how I would approach learning Rust: the first step is to understand the philosophy of the language. What is it trying to do differently? What makes Rust Rusty? These concepts might be hard to grasp at first, but they are most important to know. Learning a new language is not just learning new syntax, it is learning new ways to think and formulate solutions to any given problem. I watched tens of talks about Rust. Thankfully, since it is a relatively new language, many recent talks are given by the very people who wrote the language and have the best understanding of what Rust is all about.
 
