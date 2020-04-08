@@ -4,6 +4,7 @@ title:  "I am going to my first academic conference ever"
 date:   2018-09-30 20:00:00
 published: true
 draft: false
+tags: [note to self]
 ---
 
 At the time of writing this, I stand two weeks away from travelling to attend my first academic conference ever. One month ago, I was dying to get accepted. I didn't think I stood a chance, yet my conference submission got accepted. I still think it was a miracle: a miracle of hard-work, resilience, and determination. Here is the story!
