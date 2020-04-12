@@ -26,7 +26,7 @@ In addition to offering the same level of control as C, Rust also offers some *r
 
 The only downside I noticed for Rust is the lack of online questions and answers. We all know that programmers like to search questions and find ready-to-copy code on Stackoverflow, or at least to find some hits that lead them in the right direction. In my experience, Rust's online QA is far from, say, Python's, or C's. However, that is to be expected, and will only get better with time. On the other hand, Rust's documentation is perfect. Sometimes, you just have to work a little hard to find the right page to read.
 
-To conclude, I really do not see anymore why I would pick C over Rust for systems programming use cases. C just feels very ancient compared to Rust. If you like to use a language that has type inference, a great package manger, and a great compiler that offers native speed runtime, give Rust as shot.
+To conclude, I really do not see anymore why I would pick C over Rust for systems programming use cases. C just feels very ancient compared to Rust. If you like to use a language that has type inference, a great package manger, and a great compiler that offers native speed runtime, give Rust a shot.
 
 
 Cheers.
