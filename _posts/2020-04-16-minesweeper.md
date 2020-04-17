@@ -18,8 +18,8 @@ This concept of programs playing games and learning on their own is called reinf
 
 ## Problem formulation
 
-(I am sure there are many algorithms out there that you can plug-and-chug into this game. But again, that would not be fun)
+(I am sure there are many RL algorithms out there that you can plug-and-chug into this game. But again, that would not be fun)
 
-Let's make our own reinforcement learning algorithm.
+Let's make our own reinforcement learning method.
 
 {% include mailchimp.html source="minesweeper1" %}
