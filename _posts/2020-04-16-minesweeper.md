@@ -8,7 +8,7 @@ draft: true
 
 Remember the legendary Minesweeper?
 
-{% include figure.html file="/imgs/minesweeper-1.png" description="A classic" %}
+{% include figure.html file="/imgs/minesweeper-1.jpg" description="A classic" %}
 
 Remember minesweeper?
 
