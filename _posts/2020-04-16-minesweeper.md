@@ -57,7 +57,7 @@ Not just that, it is also on par with other fancy, manual solvers that I found o
 ---
 **Note on Julia vs Python**
 
-I originally wrote all of the code in Python, but I switched to Julia because I was looking for better performance, which I got - an episode of learnign was 10-30x faster in Julia.
+I originally wrote all of the code in Python, but I switched to Julia because I was looking for better performance. An episode of learning was 10-30x faster in Julia than in Python.
 
 ---
 
