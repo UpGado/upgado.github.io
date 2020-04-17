@@ -36,7 +36,7 @@ Now let's make a simple reinforcement leaning method. Our method works by consid
 
 Since the square under consideration (marked S) is right next to a square with the value "0", it cannot be a bomb. Our method won't know that at first, but as it encounters this neighbourhood over and over, it will realize that it consistently gives a reward of +10, and thus will have an expected reward value of +10.
 
-Now consider the same method on this neighbourhood:
+Now contrast that with this neighbourhood:
 
 ```
 ? ? ?
@@ -44,6 +44,6 @@ Now consider the same method on this neighbourhood:
 ? 6 ?
 ```
 
-This square is right next to one that has a "6". This means that as our method encounters this neighbourhood, depending on its luck, it might or might now contains a bomb. This means that the expected reward value for this neighbourhood will be lower than +10. By the same logic, if a neighbourhood *always* contains a bomb, it will have an expected reward value of -10 and so will always avoided.
+This square is right next to one that has a "6". This means that as our method encounters this neighbourhood, depending on its luck, it might or might not contain a bomb. This means that the expected reward value for this neighbourhood will be lower than +10. By the same logic, if a neighbourhood *always* contains a bomb, it will have an expected reward value of -10 and so will always avoided.
 
 {% include mailchimp.html source="minesweeper1" %}
