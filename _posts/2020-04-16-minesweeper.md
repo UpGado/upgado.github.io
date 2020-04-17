@@ -3,7 +3,7 @@ layout: post
 title:  "Minesweeper reinforcement learning"
 date:   2020-04-16 20:03:50
 published: true
-draft: true
+draft: false
 ---
 
 Remember the legendary Minesweeper?
