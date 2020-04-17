@@ -61,4 +61,6 @@ I originally wrote all of the code in Python, but I switched to Julia because I 
 
 ---
 
+
+
 {% include mailchimp.html source="minesweeper1" %}
