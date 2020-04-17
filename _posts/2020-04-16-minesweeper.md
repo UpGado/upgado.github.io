@@ -44,6 +44,6 @@ Now contrast that with this neighbourhood:
 ? 6 ?
 ```
 
-This square is right next to one that has a "6". This means that as our method encounters this neighbourhood, depending on its luck, it might or might not contain a bomb. This means that the expected reward value for this neighbourhood will be lower than +10. By the same logic, if a neighbourhood *always* contains a bomb, it will have an expected reward value of -10 and so will always avoided.
+This square is right next to one that has a "6". This means that as our method encounters this neighbourhood, depending on its luck, it might or might not contain a bomb. This means that the expected reward value for this neighbourhood will be lower than +10. By the same logic, if a neighbourhood *always* contains a bomb, it will have an expected reward value of -10. Essentially, our method calculates the (statistical) expected reward for each neighbourhood it encounters, and it clicks the best ones it can find.
 
 {% include mailchimp.html source="minesweeper1" %}
