@@ -28,21 +28,21 @@ Note that if a bomb is clicked, the player receives reward of -10 points and the
 
 Now let's make a simple reinforcement leaning method. Our method works by considering every square in the game and considering its neighbourhood (a window of a certain size centered around that square). It then clicks the one that it thinks is least likely to have a bomb. At first, nothing is known about the squares and their neighbourhood, and so it acts purely randomly. However, over time, it starts to calcualted an expected reward value for each kind of window. To demonstrate this, let's consider the following neighbourhood:
 
-`
+```
 ? ? ?
 ? S ?
 ? 0 ?
-`
+```
 
 Since the square under consideration (marked S) is right next to a square with the value "0", it cannot be a bomb. Our method won't know that at first, but as it encounters this neighbourhood over and over, it will realize that is consistently gives a reward of +10, and thus will have an expected reward value of +10.
 
 Now consider the same method on this neighbourhood:
 
-`
+```
 ? ? ?
 ? S ?
 ? 6 ?
-`
+```
 
 This square is right next to one that has a "6". This means that as our method encounters this neighbourhood, depending on its luck, it might or might now contains a bomb. This means that the expected reward value for this neighbourhood will be lower than +10. By the same logic, if a neighbourhood *always* contains a bomb, it will have an expected reward value of -10 and so will always avoided.
 
