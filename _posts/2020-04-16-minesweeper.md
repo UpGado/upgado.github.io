@@ -54,10 +54,10 @@ Surprisingly, this method seems to work. The next chart goes that over time, our
 
 Not just that, for our game map size and difficulty level, 60% win rate is pretty on par with fancy solvers that I found on the internet.
 
-That is it, fam.
+Later, fam.
 
 ---
-**Note on Julia vs Python**
+**Note on Python vs Julia**
 
 I originally wrote all of the code in Python, but I switched to [Julia](https://julialang.org/) because I was looking for better performance. An episode of learning was 10-30x faster in Julia than in Python. If you haven't given Julia a shot before, try it!
 
