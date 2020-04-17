@@ -50,7 +50,7 @@ This square is right next to one that has a "6". This means that as our method e
 
 ## And it works!
 
-Surprisingly, this method seems to work. The next chart says that over time, our solver gets better and better. It also discovers new configurations of windows over time, which is the expected behaviour.
+Surprisingly, this method seems to work. The next shows that over time, our solver gets better and better. It also discovers new configurations of windows over time, which is the expected behaviour.
 
 {% include figure.html file="/imgs/minesweeper-2.svg" description="Percentage of games won increases over time" width="90%" %}
 
