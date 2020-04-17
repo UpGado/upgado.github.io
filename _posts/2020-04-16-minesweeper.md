@@ -52,4 +52,10 @@ Surprisingly, this method seems to work. Here are some charts that demonstrate:
 
 Not just that, it is also on par with other fancy, manual solvers that I found on the internet.
 
+---
+**NOTE**
+
+Sheesh
+
+---
 {% include mailchimp.html source="minesweeper1" %}
