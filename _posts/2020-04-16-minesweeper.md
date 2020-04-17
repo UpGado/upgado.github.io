@@ -20,7 +20,7 @@ This concept of programs playing games and learning on their own is called reinf
 
 Implementing a Minesweeper game is fairly simple. My implementation uses a few arrays, simple logic, and a Pandas dataframe to make it look nice. You can give it a shot right below here!
 
-[insert]
+[insert interactive thingy]
 
 Note that if a bomb is clicked, the player receives reward of -10 points and the game ends. If a non-bomb is clicked, the reward is +10 and the game continues.
 
