@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Minesweeper reinforcement learning written in Julia"
+title:  "Minesweeper reinforcement learning"
 date:   2020-04-16 20:03:50
 published: true
 draft: true
