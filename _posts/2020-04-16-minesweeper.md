@@ -20,7 +20,7 @@ This concept of programs playing games and learning on their own is called reinf
 
 Implementing a Minesweeper game is fairly simple. My implementation uses a few arrays, simple logic, and a Pandas dataframe to make it look nice. You can see in an action in the GIF below:
 
-{% include figure.html file="/imgs/minesweeper-3.jpg" description="A classic" width="60%" %}
+{% include figure.html file="/imgs/minesweeper-3.gif" description="A classic" width="60%" %}
 
 You can see, edit, and play the the game by running the Jupyter notebook on Binder [here](https://mybinder.org/v2/gist/UpGado/c878fa4a7453021d5cfa33335bb57745/fcb211a409ce90cdd819c956832d2459a295140a)
 
