@@ -23,6 +23,7 @@ Implementing a Minesweeper game is fairly simple. My implementation uses a few a
 {% include figure.html file="/imgs/minesweeper-3.jpg" description="A classic" width="60%" %}
 
 You can see, edit, and play the the game by running the Jupyter notebook on Binder [here](https://mybinder.org/v2/gist/UpGado/c878fa4a7453021d5cfa33335bb57745/fcb211a409ce90cdd819c956832d2459a295140a)
+
 Note that if a bomb is clicked, the player receives reward of -10 points and the game ends. If a non-bomb is clicked, the reward is +10 and the game continues.
 
 ## Problem formulation
