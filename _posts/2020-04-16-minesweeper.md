@@ -53,9 +53,10 @@ Surprisingly, this method seems to work. Here are some charts that demonstrate:
 Not just that, it is also on par with other fancy, manual solvers that I found on the internet.
 
 ---
-**NOTE**
+**Note on Julia vs Python**
 
-Sheesh
+I originally wrote all of the code in Python, but I switched to Julia because I was looking for better performance, which I got - an episode of learnign was 10-30x faster in Julia.
 
 ---
+
 {% include mailchimp.html source="minesweeper1" %}
