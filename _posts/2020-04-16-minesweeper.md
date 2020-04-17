@@ -26,7 +26,7 @@ Note that if a bomb is clicked, the player receives reward of -10 points and the
 
 ## Problem formulation
 
-Now let's make a simple reinforcement leaning method. Our method works by considering every square in the game and considering its neighbourhood (a window of a certain size centered around that square). It then clicks the one that it thinks is least likely to have a bomb. At first, nothing is known about the squares and their neighbourhood, and so it acts purely randomly. However, over time, it starts to calculate an expected reward value for each kind of window. To demonstrate this, let's consider the following neighbourhood:
+Now let's make a simple reinforcement leaning method. Our method works by considering every square in the game and considering its neighbourhood (a window of a certain size centered around that square). It then clicks the one that it thinks is least likely to have a bomb. At first, nothing is known about the squares and their neighbourhood, and so it acts purely randomly. However, over time, it starts to calculate an expected reward value for each possible window. To demonstrate this, let's consider the following neighbourhood:
 
 ```
 ? ? ?
