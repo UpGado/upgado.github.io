@@ -57,7 +57,7 @@ Not just that, for our game configuratio and difficulty level, 60% win rate is a
 ---
 **Note on Julia vs Python**
 
-I originally wrote all of the code in Python, but I switched to [Julia](https://julialang.org/) because I was looking for better performance. An episode of learning was 10-30x faster in Julia than in Python.
+I originally wrote all of the code in Python, but I switched to [Julia](https://julialang.org/) because I was looking for better performance. An episode of learning was 10-30x faster in Julia than in Python. If you haven't given Julia a shot before, try it!
 
 ---
 
