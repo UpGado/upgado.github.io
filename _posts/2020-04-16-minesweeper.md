@@ -50,6 +50,8 @@ This square is right next to one that has a "6". This means that as our method e
 
 Surprisingly, this method seems to work. Here are some charts that demonstrate:
 
+{% include figure.html file="/imgs/minesweeper-2.svg" description="Percentage of games won increases over time" width="60%" %}
+
 Not just that, it is also on par with other fancy, manual solvers that I found on the internet.
 
 ---
