@@ -18,7 +18,11 @@ This concept of programs playing games and learning on their own is called reinf
 
 ## First, let's make a Minesweeper game
 
-Implementing a Minesweeper game is fairly simple and can be done with a few arrays and simple logic.
+Implementing a Minesweeper game is fairly simple. My implementation uses a few arrays, simple logic, and a Pandas dataframe to make it look nice. Give it a shot!
+
+
+
+All source code is published here
 
 ## Problem formulation
 
