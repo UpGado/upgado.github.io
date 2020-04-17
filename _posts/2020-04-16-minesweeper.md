@@ -44,6 +44,12 @@ Now contrast that with this neighbourhood:
 ? 6 ?
 ```
 
-This square is right next to one that has a "6". This means that as our method encounters this neighbourhood, depending on its luck, it might or might not contain a bomb. This means that the expected reward value for this neighbourhood will be lower than +10. By the same logic, if a neighbourhood *always* contains a bomb, it will have an expected reward value of -10. Essentially, our method calculates the (statistical) expected reward for each neighbourhood it encounters, and it clicks the best ones it can find.
+This square is right next to one that has a "6". This means that as our method encounters this neighbourhood, depending on its luck, it might or might not contain a bomb. This means that the expected reward value for this neighbourhood will be lower than +10. By the same logic, if a neighbourhood *always* contains a bomb, it will have an expected reward value of -10. Essentially, over time, our method calculates the true statistical expected value for the reward for each neighbourhood, and then it uses that information to click the best one it can find.
+
+## And it works!
+
+Surprisingly, this method seems to work. Here are some charts that demonstrate:
+
+Not just that, it is also on par with other fancy, manual solvers that I found on the internet.
 
 {% include mailchimp.html source="minesweeper1" %}
