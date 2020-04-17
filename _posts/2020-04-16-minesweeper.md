@@ -6,5 +6,10 @@ published: true
 draft: true
 ---
 
-Sheesh
+Remember the legendary Minesweeper?
+
+{% include figure.html file="/imgs/minesweeper-1.png" description="A classic" %}
+
+Remember minesweeper?
+
 {% include mailchimp.html source="minesweeper1" %}
