@@ -52,12 +52,12 @@ Surprisingly, this method seems to work. The next chart goes that over time, our
 
 {% include figure.html file="/imgs/minesweeper-2.svg" description="Percentage of games won increases over time" width="90%" %}
 
-Not just that, it is also on par with other fancy, manual solvers that I found on the internet.
+Not just that, for our game configuratio and difficulty level, 60% win rate is also on par with other fancy, manual solvers that I found on the internet.
 
 ---
 **Note on Julia vs Python**
 
-I originally wrote all of the code in Python, but I switched to Julia because I was looking for better performance. An episode of learning was 10-30x faster in Julia than in Python.
+I originally wrote all of the code in Python, but I switched to [Julia](https://julialang.org/) because I was looking for better performance. An episode of learning was 10-30x faster in Julia than in Python.
 
 ---
 
