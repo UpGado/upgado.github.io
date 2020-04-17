@@ -59,7 +59,7 @@ Later, fam.
 ---
 **Note on Python vs Julia**
 
-I originally wrote all of the code in Python, but I switched to [Julia](https://julialang.org/) because I was looking for better performance. An episode of learning was 10-30x faster in Julia than in Python. If you haven't given Julia a shot before, try it!
+I originally wrote all of the code in Python, but I switched to [Julia](https://julialang.org/) because I was looking for better performance. An episode of learning was 10-30x faster in Julia than in Python! If you haven't given Julia a shot before, try it!
 
 ---
 
