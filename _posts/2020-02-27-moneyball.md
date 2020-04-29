@@ -2,8 +2,8 @@
 layout: post
 title:  "A soft spot for Moneyball"
 date:   2020-02-27 12:50:00
-published: true
-draft: false
+published: false
+draft: true
 tag: [note to self]
 ---
 
