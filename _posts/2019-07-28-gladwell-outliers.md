@@ -2,7 +2,7 @@
 layout: post
 title:  "Malcolm Gladwell's Outliers: a reflection"
 date:   2019-07-28 11:28:25
-published: true
+published: false
 draft: false
 tags: [note to self]
 ---
