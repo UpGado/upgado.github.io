@@ -4,9 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi! I am Ahmed. Welcome to my blog. I write about whatever comes to mind and I think I have something useful to say about.
-
-I am graduating from college soon.
+Hi! I am Dio. Welcome to my blog. I write about whatever comes to mind and I think I have something useful to say about.
 
 ## Interests
 
@@ -23,7 +21,7 @@ I am graduating from college soon.
 If you share any of those interests (or would like to learn about any of them), I would love to connect with you! Add me on [LinkedIn](https://www.linkedin.com/in/gadoahmed/) and, if you're in the Boston area, let's go for coffee!
 
 
-That's it. My email address is ɯoɔ˙lᴉɐɯƃ@ƃqɐɥǝpǝɯɥɐ
+That's it. My email address is dio@upgado.com
 
 ```
  _________________________________________
