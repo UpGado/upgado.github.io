@@ -2,7 +2,7 @@
 layout: post
 title:  "Finding the best deal on food using data science"
 date:   2018-06-22 23:00:00
-published: true
+published: false
 ---
 
 Everybody has their own preferences when it comes to the food they eat. Yet, we (at least broke college students) agree that the food you eat daily shouldn't break the bank. Well.. If you eat nothing, you do a great job saving but not so-great one at staying alive. To stay healthy, you also have to get the nutrients you need in the optimal proportions or at least be close enough (aka you can't rely on just food X as the source of calories). I am no nutritionist but I can tell that **buying food is an optimization problem**: a problem that you, aware or not, engage with everytime you choose what to eat. So why not optimize your choice?

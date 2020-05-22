@@ -2,7 +2,7 @@
 layout: post
 title:  "I am going to my first academic conference ever"
 date:   2018-09-30 20:00:00
-published: true
+published: false
 draft: false
 tags: [note to self]
 ---

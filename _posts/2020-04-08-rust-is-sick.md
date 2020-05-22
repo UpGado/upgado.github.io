@@ -2,7 +2,7 @@
 layout: post
 title:  "Taking a look at Rust"
 date:   2020-04-08 02:21:10
-published: true
+published: false
 draft: false
 ---
 
