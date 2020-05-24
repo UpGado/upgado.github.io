@@ -6,7 +6,7 @@ github_username: upgado
 twitter_username: upgado
 linkedin_username: gado
 
-show_excerpts: true
+show_excerpts: false
 
 plugins:
     - jekyll-remote-theme
