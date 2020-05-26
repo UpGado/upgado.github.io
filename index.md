@@ -7,5 +7,4 @@
 #
 layout: home
 ---
-#  
-Hi!
+Hi
