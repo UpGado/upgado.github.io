@@ -3,7 +3,7 @@ layout: default
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  {% if post.arabic %}
+  {%- if post.arabic -%}
   <div dir="rtl">
   {%- endif -%}
     <header class="post-header">
@@ -26,7 +26,7 @@ layout: default
     {%- if site.disqus.shortname -%}
       {%- include disqus_comments.html -%}
     {%- endif -%}
-  {% if post.arabic %}
+  {%- if post.arabic -%}
   </div>
   {%- endif -%}
 
