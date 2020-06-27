@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Abstractions **sigh**.."
+title:  "Abstractions may not be so good"
 date:   2020-06-27 03:10:00
 published: true
 draft: true
