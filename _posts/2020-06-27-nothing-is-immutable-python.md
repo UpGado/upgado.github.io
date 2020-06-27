@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Nothing is impossible. Nothing is immutable"
+title:  "Abstractions **sigh**.."
 date:   2020-06-27 03:10:00
 published: true
 draft: true
