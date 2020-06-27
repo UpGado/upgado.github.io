@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Nothing is immutable in Python"
-date:   2020-04-16 20:03:50
+date:   2020-06-27 03:10:00
 published: true
 draft: true
 ---
