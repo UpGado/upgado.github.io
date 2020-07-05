@@ -18,7 +18,8 @@ layout: default
 
     <div class="post-content e-content" itemprop="articleBody" style="text-align: justify">
        <h4> test </h4>
-       {{ post.arabic|pprint }}
+       {{ post.arabic }}
+       {{ post.published }}
        {% if post.arabic %}
          <h2> ARABIC </h2>
        {%- endif -%}
