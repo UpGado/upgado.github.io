@@ -18,9 +18,12 @@ layout: default
 
     <div class="post-content e-content" itemprop="articleBody" style="text-align: justify">
         {%- if page.arabic -%}
-          • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.arabic }}</span></span>
+            <div dir="rtl">
         {%- endif -%}</p>
         {{ content }}
+        {%- if page.arabic -%}
+            </div>
+        {%- endif -%}</p>
     </div>
 
     {%- if site.disqus.shortname -%}
