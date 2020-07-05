@@ -17,12 +17,9 @@ layout: default
     </header>
 
     <div class="post-content e-content" itemprop="articleBody" style="text-align: justify">
-       <h4> test </h4>
-       {{ post.arabic }}
-       {{ post.published }}
-       {% if post.arabic %}
-         <h2> ARABIC </h2>
-       {%- endif -%}
+        {%- if page.arabic -%}
+          • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.arabic }}</span></span>
+        {%- endif -%}</p>
         {{ content }}
     </div>
 
