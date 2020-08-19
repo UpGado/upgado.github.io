@@ -21,3 +21,6 @@ I find it strange. At the end of the day, all programming languages, high-level 
 We all heard the joke that "in computer science, all problems are solved by adding another layer of abstraction". Indeed, one big part of my CS education was to get students to think about writing good abstractions. Abstractions are powerful, because with good abstractions, solving complex problems can become a piece of cake. But the truth is abstractions only help us humans, not the machine. We are too stupid to keep hundreds of thousands of lines of code in mind simultaneously and thus we need abstractions in order to make anything useful. The machine does not care. Can we get the machine to tear down abstractions and just sort its way through a mush of code?
 
 If only there was a magical way to confer universality and interoperability on all existing languages. In theory, it is possible. In practice, it may be too late.
+
+
+{% include mailchimp.html source="abstractions1" %}
