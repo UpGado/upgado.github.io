@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "What is a function in Python and can we mess with it?"
+date:   2020-10-03 10:44:00
+published: true
+draft: true
+---
+
+I was talking with a friend who is new to programming. He asked me a simple, innocent question. The kind of question that a father would hear from his daughter or son and make him feel a certain kind of happy feeling.
+
+Thq question is: why if I `print` a function in Python, it shows me where it lives in memory, instead of its contents?
+
+This is a beautiful question that I am going to answer in a long way. Along our way, we are going to cover some of the most misunderstood things about Python. We are also going to do some bad things that are for the general good.
+
+A function in Python is simply a variable that you can call. Well, what is a variable? It's actually not exactly obvious what a Python variable is. For instance, take a look at this code and what it outputs:
+
+```python
+>>> x = 'chad'
+>>> y =  x
+>>> x = 'virgin'
+>>> y
+'chad'
+```
+
+{% include mailchimp.html source="shenanigans1" %}
