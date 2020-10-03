@@ -15,11 +15,33 @@ This is a beautiful question that I am going to answer in a long way. Along our 
 A function in Python is simply a variable that you can call. Well, what is a variable? It's actually not exactly obvious what a Python variable is. For instance, take a look at this code and what it outputs:
 
 ```python
+>>> x = ['chad']
+>>> y =  x
+>>> x.append('virgin')
+>>> y
+['chad', 'virgin']
+```
+
+however:
+
+```python
 >>> x = 'chad'
 >>> y =  x
 >>> x = 'virgin'
 >>> y
 'chad'
 ```
+
+Hmm, why the difference? Why did changing `x` change `y` in the first case but not in the second case?
+
+The answer lies in the idea of `value mutability`, which is tied to what a variable is. In Python a variable is a *pointer* to a value that lives somewhere in memory. Updating a variable in Python could mean two things: either the value that the variable points to is updated, OR a new value is created somewhere in memory and the variable is updated to point at the new value. So what decides which way it is going to be? The answer is in the mutability of that value. Immutable values cannot changed, while any other value can be changed.
+
+Immutable values includes things like integers, strings, and tuples. That is right. Integer values cannot be changed in Python. That means that in a simple for loop like the following:
+```python
+for i in range(3):
+   print(i)
+```
+
+A new value containing the numbers 0, 1, or 2 is created during each loop interation and then the variable `i` is updated to point at the new value.
 
 {% include mailchimp.html source="shenanigans1" %}
