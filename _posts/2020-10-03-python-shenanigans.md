@@ -3,7 +3,7 @@ layout: post
 title:  "What is a function in Python and can we mess with it?"
 date:   2020-10-03 10:44:00
 published: true
-draft: false
+draft: true
 ---
 
 I was talking with a friend who is new to programming. He asked me a simple, innocent question. The kind of question that a father would hear from his daughter or son and make him feel a certain kind of happy feeling.
