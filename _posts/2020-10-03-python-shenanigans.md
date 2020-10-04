@@ -8,7 +8,7 @@ draft: true
 
 I was talking to a friend who is new to programming. He asked me a simple, innocent question. I was very amused by his question that I decided to make a blogpost to answer it.
 
-Thq question is: why if I `print` a function in Python, it shows me the memory address of the function, instead of the contents of the function?
+The question is: why if I `print` a function in Python, it shows me the memory address of the function, instead of the contents of the function?
 
 This is a beautiful question that I am going to answer in a long way. Along our way, we are going to cover some of the most misunderstood things about Python. We are also going to do some bad things that are for the general good.
 
