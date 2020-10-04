@@ -1,18 +1,20 @@
 ---
 layout: post
-title:  "What is a function in Python and can we mess with it?"
+title:  "What is a function in Python?"
 date:   2020-10-03 10:44:00
 published: true
 draft: true
 ---
 
-I was talking with a friend who is new to programming. He asked me a simple, innocent question. The kind of question that a father would hear from his daughter or son and make him feel a certain kind of happy feeling.
+I was talking to a friend who is new to programming. He asked me a simple, innocent question. I was very amused by his question that I decided to make a blogpost to answer it.
 
-Thq question is: why if I `print` a function in Python, it shows me where it lives in memory, instead of its contents?
+Thq question is: why if I `print` a function in Python, it shows me the memory address of the function, instead of the contents of the function?
 
 This is a beautiful question that I am going to answer in a long way. Along our way, we are going to cover some of the most misunderstood things about Python. We are also going to do some bad things that are for the general good.
 
-A function in Python is simply a variable that you can call. Well, what is a variable? It's actually not exactly obvious what a Python variable is. For instance, take a look at this code and what it outputs:
+First, let's ask a question. What is a function?
+
+A function in Python is simply a variable that you can call. Well, what is a variable? Believe it or not, for most people, It's actually not exactly obvious what a Python variable is. For instance, take a look at this code and what it outputs:
 
 ```python
 >>> x = ['chad']
@@ -34,7 +36,7 @@ however:
 
 Hmm, why the difference? Why did changing `x` change `y` in the first case but not in the second case?
 
-The answer lies in the idea of `value mutability`, which is tied to what a variable is. In Python a variable is a *pointer* to a value that lives somewhere in memory. Updating a variable in Python could mean two things: either the value that the variable points to is updated, OR a new value is created somewhere in memory and the variable is updated to point at the new value. So what decides which way it is going to be? The answer is in the mutability of that value. Immutable values are values that once created in memory, that cannot be changed
+The answer lies in the idea of *mutability*, which is tied to what a variable is. In Python a variable is a *pointer* to a value that lives somewhere in memory. Updating a variable in Python could mean two things: either the value that the variable points to is updated, OR a new value is created somewhere in memory and the variable is updated to point at the new value. So what decides which way it is going to be? The answer is in the mutability of that value. Immutable values are values that once created in memory, that cannot be changed
 
 Immutable values includes things like integers, booleans, strings, and tuples. That is right. Integer values cannot be changed in Python. That means that in a simple for loop like the following:
 ```python
@@ -42,7 +44,7 @@ for i in range(3):
    print(i)
 ```
 
-A new value containing the numbers 0, 1, or 2 is created during each loop interation and then the variable `i` is updated to point at the new value. If you don't believe it, you can get and print the memory address of the value of `i` using the `id` function:
+A new value containing the numbers 0, 1, or 2 is created during each loop interation and then the variable `i` is updated to point at the new value. If you don't believe it, you can get and print the memory address of the value of `i` using the `id` function. You will see that the memory address of the variable changes on every iteration:
 
 ```python
 >>> for i in range(3):
@@ -53,7 +55,7 @@ A new value containing the numbers 0, 1, or 2 is created during each loop intera
 4522253072 -> 2
 ```
 
-So, a variable in Python is a pointer to a value. Functions are no exception. The value of a function is an object that contains information about the function's arguments and the instructions that are followed to execute it. Can we mess with that object? Of course.
+So, a variable in Python is a pointer to a value. Functions are variables.  The value of a function is an object that contains information about the function's arguments and the instructions that are followed to execute it. Can we mess with that object? Of course.
 
 We define a function called `add_one`:
 
@@ -81,7 +83,7 @@ Let's `dir` it:
 ...     print(f"{attribute_name}: {attribute_value}")
 ```
 
-Usually by trial and erroe, you can quickly investigate how those attributes affect the behaviour that you are trying to change. In this case, I found that by changing `__qualname__`, I can get the function to print any string I want, instead of its name:
+Usually by trial and error, you can quickly investigate how those attributes affect the behaviour that you are trying to change. In this case, I found that by changing `__qualname__`, I can get the function to print any string I want instead of its name:
 
 ```python
 >>> add_one.__qualname__ = 'HEY I WAS MESSED WITH':
@@ -89,7 +91,7 @@ Usually by trial and erroe, you can quickly investigate how those attributes aff
 <function HEY I WAS MESSED WITH at 0x10db26af0>
 ```
 
-Interesting. The last step is to change the printed into something useful, the source code of that function. Python makes it possible to get the source code of any function using the `getsource` function in the `inspect` module:
+Interesting. The last step is to change the printed into something useful, the source code of that function. Python is so cool that it makes it possible to get the source code of any function. This is done using the `getsource` function in the `inspect` module:
 
 ```python
 >>> import inspect
