@@ -25,7 +25,7 @@ These are all questions that have nothing to do with code, computer science, or 
 
 During my Computer Science classes in college, all project requirements were very clear. We had "specs" that completely described everything to be expected from the program, including even how it reacts to bad or unexpected input. During a job, you will never receive a project that is as clear. In fact, in my job, the requirements being asked were very, very vague. This was great for me, because it gave me lots of freedom and space to apply my creative process and design things the way I want. Being comfortable with a vague requirement is something that takes time, but is necessary if you are to grow as an engineer and assume higher, more impactful positions. A good work environment will provide you with varying degrees of vagueness in the problems you work on. Strict requirements were also helpful because they allowed me to write pedantic software that adhere to a standard. But if I have to choose, I would always take vague, exciting problems over mundane, clear ones.
 
- ### There is no substitute for writing good tests
+### There is no substitute for writing good tests
 
  I have to admit: I wasn't exactly passionate about writing tests. I always thought they were a distraction from the "fun stuff". Well, it is fine to think that way because that's the naive thinking. In reality, once something you wrote breaks, you will understand that test are **essential**! To understand why that is, here are a few lessons I learned:
  
