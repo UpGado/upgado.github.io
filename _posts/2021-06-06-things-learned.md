@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What I learned after 1 year as a software engineer"
-date:   2021-06-06 12:39:59
+date:   2021-08-21 22:18:25
 published: true
 draft: false
 ---
