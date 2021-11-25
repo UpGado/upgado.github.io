@@ -27,7 +27,7 @@ During my Computer Science classes in college, all project requirements were ver
 
 ### There is no substitute for writing good tests
 
- I have to admit: I wasn't exactly passionate about writing tests. I always thought they were a distraction from the "fun stuff". Well, it is okay to think that way because that's the naive thinking. In reality, once something you wrote breaks, you will understand that test are **essential**! To understand why that is, here are a few lessons I learned:
+ I have to admit: I wasn't exactly passionate about writing tests. I always thought they were a distraction from the "fun stuff". Well, it is okay to think that way at first because that's the naive thinking. In reality, once something you wrote breaks, you will understand that test are **essential**! To understand why that is, here are a few lessons I learned:
  
 * If you are making a new feature, tests are literally the proof that the feature works. Without that proof, you will leave it to your customers to find out if the feature works or not, which is not what you want.
 
